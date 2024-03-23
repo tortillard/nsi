@@ -30,7 +30,7 @@ SORTIE : La liste d'entiers L triée
 POUR i allant de 0 à longueur(L-1)
     
     indice_minimum = selectionne_indice_minimum(L, i)    # Récupère l'indice de l'élement minimum à partir de l'indice i  
-    echange_valeur(L, L[i], L[indice_minimum])       # Echange de place les éléments situés aux indices i et indice_minimum dans L
+    echange_valeur(L, L[i], L[indice_minimum])   # Permutte les éléments situés aux indices i et indice_minimum de L
 
 RENVOIE L 
 
