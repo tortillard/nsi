@@ -29,12 +29,15 @@ SORTIE : La liste d'entiers L triée
 
 POUR i allant de 0 à longueur(L-1)
     
-    indice_minimum = selectionne_indice_minimum(L, i)     # Récupère l'indice de l'élement minimum à partir de l'indice i  
-    echange_valeur(L[i], L[indice_minimum])               # Echange de place les éléments situés aux indices i et indice_minimum
+    indice_minimum = selectionne_indice_minimum(L, i)    # Récupère l'indice de l'élement minimum à partir de l'indice i  
+    echange_valeur(L, L[i], L[indice_minimum])       # Echange de place les éléments situés aux indices i et indice_minimum dans L
 
 RENVOIE L 
 
 ```
+
+### Activité 
+Programmer le tri sélection en python. 
 
 
 ## Tri insertion  
@@ -60,18 +63,32 @@ POUR i allant de 0 à longueur(L-1)
 RENVOIE L 
 
 ```
+### Activité 
+Programmer le tri insertion en python. 
+
+
 
 
 ## Complexité 
 
-La complexité d'un algorithme est une mesure permettant d'indiquer la quantité de ressource nécessaire d'un algorithme.  
+La complexité(ou coût) d'un algorithme est une mesure permettant d'indiquer la quantité de ressource nécessaire d'un algorithme.  
 Par ressource on entends principalement soit le _temps_ d'éxécution d'un algorithme ou la place _mémoire_ qu'il occupe. 
 
 - La complexité en __espace__ va compter l'espace mémoire utilisé par un algorithme
 - La complexité en __temps__ va compter le temps d'exécution d'un algorithme, relativement aux opérations élémentaires. 
 
-Dans notre cas on supposera que calculer la complexité d'un algorithme sera toujours en temps. 
+> On se contentera uniquement de calculer la complexité en temps. 
+
+Afin d'exprimer la complexité en temps, on compte le nombre d'opérations élémentaire d'un algorithme.  
+Les __opérations de comparaison__ (`==`,`!=`,`<`,`<=`,`>`,`>=`) sont les plus significative c'est donc celles ci qui nous intéresserons pour déterminer le coût d'un algorithme. 
+
+
+
+### Activité   
+1. Calculer la complexité du tri sélection  
+2. Calculer la complexité du tri insertion  
 
 
 
 ## Tri fusion  
+
