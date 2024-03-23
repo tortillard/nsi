@@ -77,11 +77,21 @@ Par ressource on entends principalement soit le _temps_ d'éxécution d'un algor
 - La complexité en __espace__ va compter l'espace mémoire utilisé par un algorithme
 - La complexité en __temps__ va compter le temps d'exécution d'un algorithme, relativement aux opérations élémentaires. 
 
-> On se contentera uniquement de calculer la complexité en temps. 
+On se contentera uniquement de calculer la complexité en temps. 
 
 Afin d'exprimer la complexité en temps, on compte le nombre d'opérations élémentaire d'un algorithme.  
 Les __opérations de comparaison__ (`==`,`!=`,`<`,`<=`,`>`,`>=`) sont les plus significative c'est donc celles ci qui nous intéresserons pour déterminer le coût d'un algorithme. 
 
+### Notations 
+La complexité d'un algorithme s'exprime en fonction __de la taille des données d'éntrées__. 
+Dans notre cas la donnée d'entrée est la liste. Généralement on utilise `n` pour désigner la taille d'un objet.
+
+Lorsque l'on compte le nombre d'opération, on simplifie la notation en admettant comme complexité __le plus gros exposant__ compté.
+
+Par exemple :
+    - Si on effectue une comparaison pour chaque donnée de la liste, on compte `n`comparaisons on notera : `O(n)` 
+    - Si on effectue deux comparaison pour chaque donnée de la liste, on compte `2n`comparaisons on notera : `O(n)` 
+    - Si on effectue 2n comparaison pour chaque donnée de la liste, on compte `2n²`comparaisons on notera : `O(n²)` 
 
 
 ### Activité   
