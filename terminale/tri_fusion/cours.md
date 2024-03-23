@@ -89,9 +89,9 @@ Dans notre cas la donnée d'entrée est la liste. Généralement on utilise `n` 
 Lorsque l'on compte le nombre d'opération, on simplifie la notation en admettant comme complexité __le plus gros exposant__ compté.  
 
 Par exemple :  
-    - Si on effectue une comparaison pour chaque donnée de la liste, on compte `n`comparaisons on notera : `O(n)`   
-    - Si on effectue deux comparaison pour chaque donnée de la liste, on compte `2n`comparaisons on notera : `O(n)`   
-    - Si on effectue 2n comparaison pour chaque donnée de la liste, on compte `2n²`comparaisons on notera : `O(n²)`   
+- Si on effectue une comparaison pour chaque donnée de la liste, on compte `n`comparaisons on notera : `O(n)`   
+- Si on effectue deux comparaison pour chaque donnée de la liste, on compte `2n`comparaisons on notera : `O(n)`   
+- Si on effectue 2n comparaison pour chaque donnée de la liste, on compte `2n²`comparaisons on notera : `O(n²)`   
 
 
 ### Activité   
