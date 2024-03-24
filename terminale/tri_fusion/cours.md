@@ -1,4 +1,4 @@
-# Les tris  
+# Complexité algorithmique - Tri fusion
 
 ## Généralités  
 Trier une collection d'objet signifie, les rangées dans un certain ordre selon une fonction de comparaison. 
@@ -102,9 +102,9 @@ Voici un graphique des différentes complexités algorithmique les plus rencontr
 
 
 ### Activité   
-
-1. En étudiant l'algorithme du tri sélection donné sa complexité.
-2. En étudiant l'algorithme du tri insertion donné sa complexité.
+1. Programmer une fonction `recherche(tab : list[int], x : int)` qui renvoie l'indice de la première occurence de `x` dans `tab` ou  `-1` si `x` n'est pas dans `tab`. En étudiant votre programme donné sa complexité.
+2. En étudiant l'algorithme du tri sélection donné sa complexité.
+3. En étudiant l'algorithme du tri insertion donné sa complexité.
 
 
 
@@ -122,6 +122,10 @@ Principe : On découpe la liste en 2 afin de séparer le problème et triée des
 - On fusionne chaque sous-liste en les triant 
 
 
+
+
+
+
 > Exemple avec la liste `[3,1,4,5,2]` 
 
 
@@ -134,13 +138,12 @@ SI len(L) <= 1:
     return L
 
 SINON:
-    L_g, L_d = separe(L)
+    L_g, L_d = Separe(L)
     L_g_trie = TRI FUSION(L_g)
     L_d_trie = TRI FUSION(L_d)
-    res = Fusionne(L_g_trie, L_d_trie)
-    return res
+    L_trie = Fusionne(L_g_trie, L_d_trie)
     
-RENVOIE L 
+RENVOIE L_trie
 
 ```
 
