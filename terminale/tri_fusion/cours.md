@@ -1,5 +1,9 @@
 # Complexité algorithmique - Tri fusion
 
+## A télécharger  
+Script élève à compléter pendant le cours : ![ici](eleve.py)
+
+
 ## Généralités  
 Trier une collection d'objet signifie, les rangées dans un certain ordre selon une fonction de comparaison. 
 
