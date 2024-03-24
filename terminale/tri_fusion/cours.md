@@ -94,11 +94,61 @@ Par exemple :
 - Si on effectue 2n comparaison pour chaque donnée de la liste, on compte `2n²`comparaisons on notera : `O(n²)`   
 
 
+Voici un graphique des différentes complexités algorithmique les plus rencontrées 
+
+![](img/graphique_complexite.png) 
+
+
+
+
 ### Activité   
-1. Calculer la complexité du tri sélection  
-2. Calculer la complexité du tri insertion  
+
+1. En étudiant l'algorithme du tri sélection donné sa complexité.
+2. En étudiant l'algorithme du tri insertion donné sa complexité.
 
 
 
 ## Tri fusion  
 
+Méthode utilisée : Diviser pour régner
+Principe : On découpe la liste en 2 afin de séparer le problème et triée des tranches plus petites
+
+1. Première étape : __on découpe__
+- Si la liste est de taille inférieur ou égal à 1:
+    - On renvoie la liste
+- Sinon on coupe la liste en deux sous-listes
+
+2. Deuxième étape : __on fusionne__
+- On fusionne chaque sous-liste en les triant 
+
+
+> Exemple avec la liste `[3,1,4,5,2]` 
+
+
+```Pseudo
+TRI FUSION 
+ENTREE : L, Une liste d'entiers
+SORTIE : La liste d'entiers L triée 
+
+SI len(L) <= 1:
+    return L
+
+SINON:
+    L_g, L_d = separe(L)
+    L_g_trie = TRI FUSION(L_g)
+    L_d_trie = TRI FUSION(L_d)
+    res = Fusionne(L_g_trie, L_d_trie)
+    return res
+    
+RENVOIE L 
+
+```
+
+
+
+
+### Activité   
+Prenons la liste `[4, 2, 7, 5, 1, 9, 8, 3, 6]`
+1. Compter le nombre de comparaisons effectuée avec le tri sélection appliqué sur cette liste
+2. Compter le nombre de comparaisons effectuée avec le tri insertion appliqué sur cette liste
+3. Compter le nombre de comparaisons effectuée avec le tri fusion appliqué sur cette liste
