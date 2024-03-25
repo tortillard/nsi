@@ -35,26 +35,26 @@ Enfin il existe une route de Gavrelle à Arras et de Croisilles à Gavrelle.
 2. Donner le nom de 2 villes adjacentes dans ce graphe  
 3. Est-il possible d'aller d'Arras à Eterpigny ? De Duisans à Croisilles ? De Croisilles à Gavrelle ? Pour chaque réponse donné la liste des villes empruntées si c'est possible
 
-     ______________!      
-    G -> A -> B -> C
-            |_> D <- F
-            |_> E____^
+
+## Exercice 5
+Programmer la fonction `nb_sommets(g)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le nombre de sommet de g. 
 
 
-## Exercice  
-Programmer la fonction `nb_sommets(g)` prenant en paramètre un graphe sous forme de dictionnaire avec des listes d'adjacences et qui renvoie le nombre de sommet de g. 
+## Exercice 6
+Programmer la fonction `nb_aretes(g)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le nombre d'arêtes de g. 
 
 
-## Exercice  
-Programmer la fonction `nb_arcs(g)` prenant en paramètre un graphe sous forme de dictionnaire avec des listes d'adjacences et qui renvoie le nombre de sommet de g. 
+## Exercice 7
+Programmer la fonction `degre(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le degré du sommet `s`
 
 
-
-## Exercice
-Programmer la fonction `degre(g, s)` prenant en paramètre un graphe sous forme de dictionnaire avec des listes d'adjacences et qui renvoie le degré du sommet `s`
+## Exercice 8
+Programmer la fonction `adjacences_to_matrice(g)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le graphe représenté sous forme de matrice d'adjacence constituée de 0 et de 1.
 
 
 
-## Exercice 
-Programmer la fonction `adjacences_to_matrice(g)` prenant en paramètre un graphe sous forme de dictionnaire avec des listes d'adjacences et qui renvoie le graphe représentés sous forme de matrice d'adjacence.  
+## Exercice 9 
+Programmer la fonction `parcours_profondeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en profondeur des sommets de `g` à partir de `s`
 
+## Exercice 10 
+Programmer la fonction `parcours_largeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en largeur des sommets de `g` à partir de `s`

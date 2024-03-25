@@ -3,19 +3,19 @@
 ## Vocabulaire  
 
 Un __graphe__ est une structure de donnée relationnel comportant :  
-- un ensemble __d'arrêtes__, généralement noté $E$ (Edges en anglais)  
+- un ensemble __d'arêtes__, généralement noté $E$ (Edges en anglais)  
 - un ensemble __de sommets__, généralement noté $V$ (Vertices en anglais)  
 
 
-Un graphe __non orienté__ est représenté par des arrêtes. 
-L'ensemble des __arrêtes__ est constitué de couple symétrique, c'est à dire que pour chaque couple (sommet_1, sommet_2) il existe également le couple (sommet_2, sommet_1)
+Un graphe __non orienté__ est représenté par des arêtes. 
+L'ensemble des __arêtes__ est constitué de couple symétrique, c'est à dire que pour chaque couple (sommet_1, sommet_2) il existe également le couple (sommet_2, sommet_1)
 > Cette situation peut être représentée par le graphe des relations dans un réseau social à liens "d'amitié". (Exemple : Facebook) 
 
 
 ![](img/exemple_graphe_non_oriente.png)   
 
 
-Un graphe __orienté__ est représenté par des arrêtes fléchées nommé __arcs__.  
+Un graphe __orienté__ est représenté par des arêtes fléchées nommé __arcs__.  
 L'ensemble des __arcs__ est constitué de couple (sommet_1, sommet_2)  
 > Cette situation peut être représentée par le graphe des relations dans un réseau social à liens "d'abonnement". (Exemple : X(anciennement Twitter), Youtube)
 
@@ -24,11 +24,11 @@ L'ensemble des __arcs__ est constitué de couple (sommet_1, sommet_2)
 
 
 Dans un graphe non orienté :  
-- on dit que deux sommets sont __adjacents__(ou voisins) si une arrête relie ces deux sommets.    
+- on dit que deux sommets sont __adjacents__(ou voisins) si une arête relie ces deux sommets.    
 - Le nombre de sommets adjacents à un sommet est appelé le __degré__.    
 
 Dans un graphe orienté :  
-- si une arrête relie (sommet_1, sommet_2) on dit que:  
+- si une arête relie (sommet_1, sommet_2) on dit que:  
     - sommet_2 est un __successeur__ de sommet_1   
     - sommet_1 est un __prédecesseur__ de sommet_2   
 
@@ -45,12 +45,12 @@ Un graphe est dit __connexe__ si pour chaque sommet $s$ du graphe, il existe un 
 
 
 ## Représentation d'un graphe en programmation  
-On peut représenter les graphes de différentes manières en programmation, il suffit de trouver une structure de donnée adéquat pour représenter l'ensemble des sommets et des arrêtes. 
+On peut représenter les graphes de différentes manières en programmation, il suffit de trouver une structure de donnée adéquat pour représenter l'ensemble des sommets et des arêtes. 
 
 ### Matrice d'adjacence  
 Une première méthode est d'utiliser une matrice d'adjacence.   
 La matrice est de la taille du nombre de sommet du graphe.  
-On rempli cette matrice en mettant des `1`(ou `True`) à la i-ème ligne et j-ième colonne s'il existe une arrête entre les sommets i et j, sinon on mets des `0`(ou `False`). 
+On rempli cette matrice en mettant des `1`(ou `True`) à la i-ème ligne et j-ième colonne s'il existe une arête entre les sommets i et j, sinon on mets des `0`(ou `False`). 
 Si les sommets i et j sont des lettres on leur associe un indice, généralement dans l'ordre alphabétique. 
 En python on représentera les matrices sous forme de liste de listes.
 
@@ -91,11 +91,11 @@ graphe = {
 ### Parcours en profondeur d'abord  
 Comme pour le parcours des arbres, on parcours un graphe en profondeur d'abord à partir d'un sommet s.
 
-- On visite v (s'il existe v est le premier voisin de s non visité)
-- Puis v_v (s'il existe v_v est le premier voisin de v non visité)  
+- On visite v (s'il existe v est un voisin de s non visité)
+- Puis v_v (s'il existe v_v est un voisin de v non visité)  
 - ...
   
-Et ça tant que tout les sommets n'ont pas étaient visités. 
+Et ça tant que __tout__ les sommets n'ont pas étaient visités. 
 
 Exemple du parcours en profondeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacence précédente.    
 `1 -> 0 -> 2 -> 4 -> 3`
@@ -105,11 +105,11 @@ Exemple du parcours en profondeur d'abord à partir du sommet 1 en considérant 
 ### Parcours en largeur d'abord  
 Comme pour le parcours des arbres, on parcours un graphe en largeur d'abord à partir d'un sommet s.
 
-- On visite v_1 le premier sommet de s (si il existe)
-- Puis on visite v_2 le second sommet de s (si il existe)
+- On visite v_1 un voisin de s (si il existe)
+- Puis on visite v_2 un autre voisin de s (si il existe)
 - ...
-- Puis on visite v_1_1 le premier sommet de v_1 (si il existe)
-- Puis on visite v_1_2 le second sommet de v_1 (si il existe)
+- Puis on visite v_1_1 un voisin de v_1 (si il existe)
+- Puis on visite v_1_2 un autre voisin de v_1 (si il existe)
 - ...
 
 Exemple du parcours en largeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacence précédente.    
