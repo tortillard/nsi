@@ -54,35 +54,29 @@ On peut représenter les graphes de différentes manières en programmation, il 
 ### Matrice d'adjacence  
 Une première méthode est d'utiliser une matrice d'adjacence.   
 La matrice est de la taille du nombre de sommet du graphe.  
-On rempli cette matrice en mettant des `1`(ou `True`) à la i-ème ligne et j-ième colonne s'il existe une arrête entre les sommets i et j, sinon on mets des `0`(ou `False`) 
+On rempli cette matrice en mettant des `1`(ou `True`) à la i-ème ligne et j-ième colonne s'il existe une arrête entre les sommets i et j, sinon on mets des `0`(ou `False`). 
+Si les sommets i et j sont des lettres on leur associe un indice, généralement dans l'ordre alphabétique. 
+
 
 Exemple avec le graphe non orienté :
-| 0   | 1   | 2   | 3   | 4   |
-| --- | --- | --- | --- | --- |
-| 0   | 1   | 1   | 1   | 0   |
-| 1   | 0   | 0   | 0   | 1   |
-| 1   | 0   | 0   | 0   | 1   |
-| 1   | 0   | 0   | 0   | 0   |
-| 0   | 1   | 1   | 0   | 0   |
+```Python
+[
+    [0 ,   1 ,   1,   1 ,   0],
+    [1 ,   0 ,   0,   0 ,   1],
+    [1 ,   0 ,   0,   0 ,   1],
+    [1 ,   0 ,   0,   0 ,   0],
+    [0 ,   1 ,   1,   0 ,   0]  ]
+```
 
 <img src="img/exemple_graphe_non_oriente.png" alt="exemple_gno" width="200"/>   
 
 
 
+### Liste d'adjacence
+
+
 Exemple avec le graphe orienté :
 
-| 0   | 1   | 2   | 3   | 4   |
-| --- | --- | --- | --- | --- |
-| 0   | 1   | 0   | 1   | 0   |
-| 0   | 0   | 0   | 0   | 1   |
-| 1   | 0   | 0   | 0   | 1   |
-| 0   | 0   | 0   | 0   | 0   |
-| 0   | 0   | 0   | 0   | 0   |
-
-
-<img src="img/exemple_graphe_oriente.png" alt="exemple_go" width="200"/>   
-
-### Liste d'adjacence
 
 
 ## Algorithmique sur les graphes    
