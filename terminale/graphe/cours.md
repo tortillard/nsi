@@ -44,10 +44,6 @@ Un graphe est dit __connexe__ si pour chaque sommet $s$ du graphe, il existe un 
 
 
 
-
-
-
-
 ## Représentation d'un graphe en programmation  
 On peut représenter les graphes de différentes manières en programmation, il suffit de trouver une structure de donnée adéquat pour représenter l'ensemble des sommets et des arrêtes. 
 
