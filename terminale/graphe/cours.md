@@ -65,6 +65,8 @@ Exemple avec le graphe non orienté :
 | 1   | 0   | 0   | 0   | 0   |
 | 0   | 1   | 1   | 0   | 0   |
 
+![](img/exemple_graphe_non_oriente.png)
+<img src="img/exemple_graphe_non_oriente.png" alt="exemple_gno" width="200"/>   
 
 Exemple avec le graphe orienté :
 
