@@ -56,11 +56,13 @@ Une première méthode est d'utiliser une matrice d'adjacence.
 La matrice est de la taille du nombre de sommet du graphe.  
 On rempli cette matrice en mettant des `1`(ou `True`) à la i-ème ligne et j-ième colonne s'il existe une arrête entre les sommets i et j, sinon on mets des `0`(ou `False`). 
 Si les sommets i et j sont des lettres on leur associe un indice, généralement dans l'ordre alphabétique. 
+En python on représentera les matrices sous forme de liste de listes.
 
+Exemple :   
+<img src="img/exemple_graphe_non_oriente.png" alt="exemple_gno" width="200"/>   
 
-Exemple avec le graphe non orienté :
 ```Python
-[
+graphe = [
     [0 ,   1 ,   1,   1 ,   0],
     [1 ,   0 ,   0,   0 ,   1],
     [1 ,   0 ,   0,   0 ,   1],
@@ -68,24 +70,58 @@ Exemple avec le graphe non orienté :
     [0 ,   1 ,   1,   0 ,   0]  ]
 ```
 
-<img src="img/exemple_graphe_non_oriente.png" alt="exemple_gno" width="200"/>   
 
 
 
-### Liste d'adjacence
+
+### Listes d'adjacences
+On représente un graphe sous forme de liste d'adjacence en associant à chaque sommet une liste constituée des noms des sommets qui lui sont adjacents.  
+En python on représentera les listes d'adjacence sous forme de dictionnaire.
 
 
-Exemple avec le graphe orienté :
-
+```Python
+graphe = {
+    0 : [1,2,3],
+    1 : [0,4],
+    2 : [0,4],
+    3 : [0],
+    4 : [1,2],
+}
+```
 
 
 ## Algorithmique sur les graphes    
 
-### Parcours de graphe  
-1. En profondeur d'abord  
-2. En largeur d'abord   
+### Parcours en profondeur d'abord  
+Comme pour le parcours des arbres, on parcours un graphe en profondeur d'abord à partir d'un sommet s.
+
+- On visite v (s'il existe v est le premier voisin de s non visité)
+- Puis v_v (s'il existe v_v est le premier voisin de v non visité)  
+- ...
+  
+Et ça tant que tout les sommets n'ont pas étaient visités. 
+
+Exemple du parcours en profondeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacence précédente.    
+`1 -> 0 -> 2 -> 4 -> 3`
+
+
+
+### Parcours en largeur d'abord  
+Comme pour le parcours des arbres, on parcours un graphe en largeur d'abord à partir d'un sommet s.
+
+- On visite v_1 le premier sommet de s (si il existe)
+- Puis on visite v_2 le second sommet de s (si il existe)
+- ...
+- Puis on visite v_1_1 le premier sommet de v_1 (si il existe)
+- Puis on visite v_1_2 le second sommet de v_1 (si il existe)
+- ...
+
+Exemple du parcours en largeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacence précédente.    
+`1 -> 0 -> 4 -> 2 -> 3`
+
 
 ### Détection de cycle  
+
 
 
 ### Recherche d'un chemin dans un graphe    
