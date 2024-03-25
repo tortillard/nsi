@@ -1,7 +1,7 @@
 # Exercices  
 
 ## Exercice 1  
-1. Dessiner tout les graphes non orientés ayant exactement 3 sommets. 
+1. Dessiner tous les graphes non orientés ayant exactement 3 sommets. 
 2. Combien y a-t-il de graphe orientés ayant exactement trois sommets ?
 
 ## Exercice 2  
@@ -10,7 +10,7 @@ Donner pour ce graphe:
 1. Le nombre de sommets  
 2. Le degré du sommet A  
 3. 3 chemins différents allant de A à F   
-4. Un cycle commencant par le sommet F  
+4. Un cycle commençant  par le sommet F  
 5. Représenter ce graphe sous forme de matrice d'adjacence  
 
 ## Exercice 3  
@@ -25,15 +25,15 @@ Donner pour ce graphe:
 
 ## Exercice 4  
 On décide de représenter un réseau routier sous forme de graphe afin d'avoir une visualisation des routes entre les villes.  
-On considéres que chaque route ne peut être empruntée que dans 1 sens.   
+On considères que chaque route ne peut être empruntée que dans 1 sens.   
 Il existe une route entre Arras et Beaurains et une route allant de Duisans à Beaurains.
-Depuis Beaurains 3 autres routes sont disponible, une pour aller à Croisilles, une autre à Duisans et enfin une à Eterpigny.  
+Depuis Beaurains, 3 autres routes sont disponibles, une pour aller à Croisilles, une autre à Duisans et enfin une à Eterpigny.  
 On peut aller de Fampoux à Duisans et d'Eterpigny à Fampoux.  
-Enfin il existe une route de Gavrelle à Arras et de Croisilles à Gavrelle.  
+Enfin, il existe une route de Gavrelle à Arras et de Croisilles à Gavrelle.  
 
 1. Dessiner le graphe correspondant à cette description  
 2. Donner le nom de 2 villes adjacentes dans ce graphe  
-3. Est-il possible d'aller d'Arras à Eterpigny ? De Duisans à Croisilles ? De Croisilles à Gavrelle ? Pour chaque réponse donné la liste des villes empruntées si c'est possible
+3. Est-il possible d'aller d'Arras à Eterpigny ? De Duisans à Croisilles ? De Croisilles à Gavrelle ? Pour chaque réponse donnée la liste des villes empruntées si c'est possible
 
 
 ## Exercice 5

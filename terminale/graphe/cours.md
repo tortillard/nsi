@@ -2,13 +2,13 @@
 
 ## Vocabulaire  
 
-Un __graphe__ est une structure de donnée relationnel comportant :  
+Un __graphe__ est une structure de donnée relationnelle comportant :  
 - un ensemble __d'arêtes__, généralement noté $E$ (Edges en anglais)  
 - un ensemble __de sommets__, généralement noté $V$ (Vertices en anglais)  
 
 
 Un graphe __non orienté__ est représenté par des arêtes. 
-L'ensemble des __arêtes__ est constitué de couple symétrique, c'est à dire que pour chaque couple (sommet_1, sommet_2) il existe également le couple (sommet_2, sommet_1)
+L'ensemble des __arêtes__ est constitué de couples symétriques, c'est-à-dire que pour chaque couple (sommet_1, sommet_2) il existe également le couple (sommet_2, sommet_1)
 > Cette situation peut être représentée par le graphe des relations dans un réseau social à liens "d'amitié". (Exemple : Facebook) 
 
 
@@ -45,14 +45,14 @@ Un graphe est dit __connexe__ si pour chaque sommet $s$ du graphe, il existe un 
 
 
 ## Représentation d'un graphe en programmation  
-On peut représenter les graphes de différentes manières en programmation, il suffit de trouver une structure de donnée adéquat pour représenter l'ensemble des sommets et des arêtes. 
+On peut représenter les graphes de différentes manières en programmation, il suffit de trouver une structure de donnée adéquate pour représenter l'ensemble des sommets et des arêtes. 
 
 ### Matrice d'adjacence  
 Une première méthode est d'utiliser une matrice d'adjacence.   
-La matrice est de la taille du nombre de sommet du graphe.  
-On rempli cette matrice en mettant des `1`(ou `True`) à la i-ème ligne et j-ième colonne s'il existe une arête entre les sommets i et j, sinon on mets des `0`(ou `False`). 
-Si les sommets i et j sont des lettres on leur associe un indice, généralement dans l'ordre alphabétique. 
-En python on représentera les matrices sous forme de liste de listes.
+La matrice est de la taille du nombre de sommets du graphe.  
+On rempli cette matrice en mettant des `1`(ou `True`) à la i-ème ligne et j-ième colonne s'il existe une arête entre les sommets i et j, sinon on met des `0`(ou `False`). 
+Si les sommets i et j sont des lettres, on leur associe un indice, généralement dans l'ordre alphabétique. 
+En Python, on représentera les matrices sous forme de liste de listes.
 
 Exemple :   
 <img src="img/exemple_graphe_non_oriente.png" alt="exemple_gno" width="200"/>   
@@ -71,8 +71,8 @@ graphe = [
 
 
 ### Listes d'adjacences
-On représente un graphe sous forme de liste d'adjacence en associant à chaque sommet une liste constituée des noms des sommets qui lui sont adjacents.  
-En python on représentera les listes d'adjacence sous forme de dictionnaire.
+On représente un graphe sous forme de liste d'adjacences en associant à chaque sommet une liste constituée des noms des sommets qui lui sont adjacents.  
+En Python, on représentera les listes d'adjacences sous forme de dictionnaire.
 
 
 ```Python
@@ -89,7 +89,7 @@ graphe = {
 ## Algorithmique sur les graphes    
 
 ### Parcours en profondeur d'abord  
-Comme pour le parcours des arbres, on parcours un graphe en profondeur d'abord à partir d'un sommet s.
+Comme pour le parcours des arbres, on parcourt un graphe en profondeur d'abord à partir d'un sommet s.
 
 - On visite v (s'il existe v est un voisin de s non visité)
 - Puis v_v (s'il existe v_v est un voisin de v non visité)  
@@ -97,7 +97,7 @@ Comme pour le parcours des arbres, on parcours un graphe en profondeur d'abord �
   
 Et ça tant que __tout__ les sommets n'ont pas étaient visités. 
 
-Exemple du parcours en profondeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacence précédente.    
+Exemple du parcours en profondeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacences précédente.    
 `1 -> 0 -> 2 -> 4 -> 3`
 
 
@@ -112,7 +112,7 @@ Comme pour le parcours des arbres, on parcours un graphe en largeur d'abord à p
 - Puis on visite v_1_2 un autre voisin de v_1 (si il existe)
 - ...
 
-Exemple du parcours en largeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacence précédente.    
+Exemple du parcourt en largeur d'abord à partir du sommet 1 en considérant la représentation sous forme de liste d'adjacences précédente.    
 `1 -> 0 -> 4 -> 2 -> 3`
 
 
