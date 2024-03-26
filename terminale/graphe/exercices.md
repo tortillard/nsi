@@ -41,7 +41,7 @@ Programmer la fonction `nb_sommets(g)` prenant en paramètre un graphe sous form
 
 
 ## Exercice 6
-Programmer la fonction `nb_aretes(g)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le nombre d'arêtes de g. 
+Programmer la fonction `nb_aretes(g)` prenant en paramètre un graphe(orienté) sous forme de listes d'adjacences et qui renvoie le nombre d'arêtes de g. 
 
 
 ## Exercice 7
