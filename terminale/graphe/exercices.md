@@ -78,3 +78,15 @@ Programmer la fonction `possede_cycle(g, s)` qui renvoie True, si il existe un c
 
 
 ## Exercice 16  
+Avant de programmer cette fonction il est conseillé de réfléchir à un algorithme _à la main_.
+
+1. Programmer la fonction `recherche_chemin(g, s)` qui renvoi un dictionnaire tel que :
+- les clés `k` sont les sommets de `g`.
+- les valeurs sont les sommets permettant d'atteindre `k` à partir de `s`.  
+Dans le dictionnaire on mettra la valeur de la clé `s` à None. Comme `s` est le sommet de début il ne possède aucun sommet à partir du quel on peut atteindre `s`.  
+
+
+2. Programmer la fonction `chemin(g, debut, fin)` qui se sert de la fonction `recherche_chemin` et renvoie sous forme de liste les sommets à emprunter du chemin qui commence par le sommet `debut` et termine par le sommet `fin`. 
+
+
+## 
