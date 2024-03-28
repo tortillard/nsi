@@ -91,8 +91,8 @@ graphe = {
 ### Parcours en profondeur d'abord  
 Comme pour le parcours des arbres, on parcourt un graphe en profondeur d'abord à partir d'un sommet s.
 
-- On visite v (s'il existe v est un voisin de s non visité)
-- Puis v_v (s'il existe v_v est un voisin de v non visité)  
+- On visite v (si il existe, v est un voisin de s non visité)
+- Puis v_v (si il existe, v_v est un voisin de v non visité)  
 - ...
   
 Et ça tant que __tout__ les sommets n'ont pas étaient visités. 
@@ -116,8 +116,3 @@ Exemple du parcourt en largeur d'abord à partir du sommet 1 en considérant la 
 `1 -> 0 -> 4 -> 2 -> 3`
 
 
-### Détection de cycle  
-
-
-
-### Recherche d'un chemin dans un graphe    

@@ -49,13 +49,32 @@ Programmer la fonction `degre(g, s)` prenant en paramètre un graphe sous forme 
 
 
 ## Exercice 8
-Programmer la fonction `adjacences_to_matrice(g)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le graphe représenté sous forme de matrice d'adjacence constituée de 0 et de 1.
+Programmer la fonction `liste_to_matrice(g)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le graphe représenté sous forme de matrice d'adjacence constituée de 0 et de 1.
 
 
 ## Exercice 9 
-Programmer la fonction `parcours_profondeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en profondeur des sommets de `g` à partir de `s`
+Réecrivez les fonctions des exercices 5 à 7 prenant en paramètre un graphe sous forme de matrice d'adjacences.  
 
-## Exercice 10 
-Programmer la fonction `parcours_largeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en largeur des sommets de `g` à partir de `s`
+## Exercice 10  
+Programmer la fonction `matrice_to_liste(g)` prenant en paramètre un graphe sous forme de matrice d'adjacences constitué de 0 et de 1 et qui renvoie le graphe représenté sous forme de listes d'adjacence.  
+
+## Exercice 11 
+Programmer la fonction `est_adjacent(g, s1, s2)` prenant en paramètre un graphe représenté par des listes d'adjacences ainsi que 2 sommets du graphe et qui renvoie True si `s1` et `s2` sont adjacent dans le graphe `g`
+
+## Exercice 12  
+Programmer la fonction `est_chemin(g, c)` prenant en paramètre un graphe représenté par des listes d'adjacences et `c` un chemin représenté par une liste de sommet. Cette fonction renvoie True si `c` est un chemin de `g`.   
 
 
+## Exercice 13 
+Programmer la fonction `parcours_profondeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en profondeur des sommets de `g` à partir de `s`. Le parcours renvoyé sera sous forme de liste de noeuds parcourus.
+
+## Exercice 14 
+Programmer la fonction `parcours_largeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en largeur des sommets de `g` à partir de `s`. Le parcours renvoyé sera sous forme de liste de noeuds parcourus.  
+
+
+
+## Exercice 15  
+Programmer la fonction `possede_cycle(g, s)` qui renvoie True, si il existe un cycle dans `g` qui commence par le sommet `s`.  
+
+
+## Exercice 16  
