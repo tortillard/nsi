@@ -52,9 +52,10 @@ Programmer la fonction `degre(g, s)` prenant en paramètre un graphe sous forme 
 Programmer la fonction `adjacences_to_matrice(g)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie le graphe représenté sous forme de matrice d'adjacence constituée de 0 et de 1.
 
 
-
 ## Exercice 9 
 Programmer la fonction `parcours_profondeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en profondeur des sommets de `g` à partir de `s`
 
 ## Exercice 10 
 Programmer la fonction `parcours_largeur(g, s)` prenant en paramètre un graphe sous forme de listes d'adjacences et qui renvoie un parcours en largeur des sommets de `g` à partir de `s`
+
+
