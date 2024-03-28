@@ -89,4 +89,20 @@ Dans le dictionnaire on mettra la valeur de la clé `s` à None. Comme `s` est l
 2. Programmer la fonction `chemin(g, debut, fin)` qui se sert de la fonction `recherche_chemin` et renvoie sous forme de liste les sommets à emprunter du chemin qui commence par le sommet `debut` et termine par le sommet `fin`. 
 
 
-## 
+## Exercice 17  
+
+Écrire une classe `GrapheOP` permettant de représenter des graphes orientés pondérés. 
+Le constructeur de cette classe prendra en paramètre une liste d'arcs contenant des triplet `u,v,poids` tel que le sommet `u` est prédécesseur du sommet `v` et l'arc qui les relie porte la valeur `poids`. 
+Les sommets sont représentés par des chaines de caractères et le poids par un entier. 
+
+Votre classe devra contenir les attributs suivants :
+- Une liste des sommets 
+- Un dictionnaire représentant le graphe sous forme de liste d'adjacences
+- Un dictionnaire des poids tel que les clés sont les couples `u,v` formant un arc et les valeurs associés sont le poids `poids` 
+
+Votre classe devra contenir les méthode suivantes :
+- `ajoute_sommet(self, s : str)` ajoute un sommet au graphe. 
+- `ajoute_successeur(self, arc : tuple)` qui ajoute un successeur dans la liste d'adjacence
+- `get_poids(self, arc : tuple)` qui renvoie le poids portés par `arc`. `arc` étant constitué du couple `(u,v)` on considèrera que le poids renvoyé est infinie s'il n'existe pas d'arc entre `u` et `v`(cela signifie qu'il n'est pas possible d'atteindre `u` à partir de `v`). De plus si `u = v` alors le poids est de 0. 
+- `ajoute_arc(self, arc : tuple)` ajoute un arc au graphe. L'ajout d'un arc signifie potentiellement l'ajout des sommets formant cet arc et la mémorisation du poids porté par cet arc.  
+ 
