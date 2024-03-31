@@ -126,7 +126,7 @@ Cas d'utilisation :
 
 
 Exemple :   
-<img src="img/exemple_graphe_non_oriente.png" alt="exemple_gno" width="200"/>   
+<img src="img/exemple_graphe_oriente_pondere.png" alt="exemple_gno" width="200"/>   
 
 
 A partir de cette modélisation un problème apparait plutôt naturellement. Est-ce qu'il est possible de trouver un plus court chemin entre deux sommets.  
