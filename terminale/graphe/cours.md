@@ -126,7 +126,15 @@ Cas d'utilisation :
 
 
 Exemple :   
-<img src="img/exemple_graphe_oriente_pondere.png" alt="exemple_gno" width="200"/>   
+<img src="img/exemple_graphe_oriente_pondere.png" alt="exemple_gop" width="200"/>   
+
+
+Comment est-il possible de représenter un tel graphe sur une machine ?  
+- Matrice d'ajacence 
+- Liste d'adjacences dans un dictionnaire   
+
+
+
 
 
 A partir de cette modélisation un problème apparait plutôt naturellement. Est-ce qu'il est possible de trouver un plus court chemin entre deux sommets.  
@@ -140,3 +148,7 @@ Cet algorithme permet de trouver un plus court chemin dans un graphe à poids po
 
 
 
+## Exercices pratique  
+Voici le numéro des sujets pratique portant sur les graphes :
+- 48  
+- 21   
