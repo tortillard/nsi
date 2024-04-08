@@ -74,7 +74,7 @@ Programmer la fonction `parcours_largeur(g, s)` prenant en paramètre un graphe 
 
 
 ## Exercice 15  
-Programmer la fonction `possede_cycle(g, s)` qui renvoie True, si il existe un cycle dans `g` qui commence par le sommet `s`.  
+Programmer la fonction `possede_cycle(g, s)` qui renvoie True, si il existe un cycle dans `g` (représenté par un dictionnaire avec des listes d'adjacences) qui commence par le sommet `s`.  
 
 
 ## Exercice 16  
