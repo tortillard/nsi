@@ -118,33 +118,7 @@ Exemple du parcourt en largeur d'abord à partir du sommet 1 en considérant la 
 
 
 ## Graphe pondéré  
-Dans un graphe, il est possible d'attribué un poids aux arêtes. Cela permet de fournir une information supplémentaire dans le graphe, et donc de représenter des problèmes plus complexe.    
 
-Cas d'utilisation :
-- Un réseau routier, où chaque sommet représente une ville et chaque arrête est pondérée par la distance séparant deux villes
-- Un réseaux informatique où chaque sommet représente un équipement(ordinateur, serveur, routeur, ...) et chaque arrête est pondérée par le débit séparant deux équipement 
-
-
-Exemple :   
-<img src="img/exemple_graphe_oriente_pondere.png" alt="exemple_gop" width="200"/>   
-
-
-Comment est-il possible de représenter un tel graphe sur une machine ?  
-- Matrice d'ajacence 
-- Liste d'adjacences dans un dictionnaire   
-
-
-
-
-
-A partir de cette modélisation un problème apparait plutôt naturellement. Est-ce qu'il est possible de trouver un plus court chemin entre deux sommets.  
-
-
-
-### Algorithme de Dijkstra - (protocole OSPF)  
-
-L'algorithme de Dijkstra est un algorithme utilisé par le protocole de routage OSPF(cf. cours sur les réseaux et les protocoles de routages).  
-Cet algorithme permet de trouver un plus court chemin dans un graphe à poids positifs entre un sommet source et le reste des sommets du graphe.  
 
 
 
