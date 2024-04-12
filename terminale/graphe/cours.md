@@ -140,6 +140,17 @@ graphe_pondere_matrice = [
 ]
 ```
 
+- Listes d'adjacences
+```Python
+graphe_pondere_adjacences = {
+    "A" : [("B", 4), ("C", 2)],
+    "B" : [("A",1)],
+    "C" : [("B", 5), ("D", 7)],
+    "D" : [("A", 11), ("B", 3)]
+}
+
+```
+
 
 
 
