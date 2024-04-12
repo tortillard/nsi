@@ -117,7 +117,48 @@ Exemple du parcourt en largeur d'abord à partir du sommet 1 en considérant la 
 
 
 
-## Graphe pondéré  
+# Graphe pondéré  
+
+## Vocabulaire
+__Poids__ : Soit une arête entre le sommet $A$ et $B$. 
+Le poids d'une arête est un nombre informant l'état du lien entre le sommet $A$ et le sommet $B$.
+
+__Poids d'un chemin__ : La somme des poids des arêtes qui constituent le chemin
+
+__Chemin de poids minimum__ : Le chemin le plus court entre 2 sommets tel que parmi tout les chemins qui les relient, celui ci est de poids minimum
+
+
+## Représentation en machine  
+- Matrice d'adjacence
+  
+```Python 
+graphe_pondere_matrice = [
+    [0, 4, 2, 0],
+    [1, 0, 0, 0],
+    [0, 5, 0, 7],
+    [11, 3, 0, 0]
+]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
