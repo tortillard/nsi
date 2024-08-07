@@ -33,7 +33,10 @@ On peut symboliser la démarche gloutonne d'un algorithme par l'exemple suivant 
 
 ![](chemins_output.png)
 
-Ce schéma représente une forêt dans laquelle il y a plusieurs chemins. Chaque chemins de la forêt.  
+Ce schéma représente un bois dans laquelle il y a des chemins(les arêtes) et des croisements(les sommets). Chaque chemin possède un nombre de noisettes. 
+
+Question :
+Quel parcours doit effectuer un écureuil à travers le bois pour récupérer le plus de noisettes sur son passage ? 
 
 ## Exemples 
 
