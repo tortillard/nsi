@@ -2,68 +2,68 @@
 
 ## C'est quoi Python ?  
 
-Python est un langage de programmation inventé par Guido van Rossum. Sa première version date de 1991. 
+Python est un langage de programmation inventé par Guido van Rossum. Sa première version date de 1991.
 ![Guido van Rossum](img/Guido.jpg)  
 
-Le nom `Python` vient d'une émission télévisée nommée _Monty Python's Flying Circus_ pour laquelle Guido était passionnée.   
+Le nom `Python` vient d'une émission télévisée nommée Monty Python's Flying Circus, dont Guido était passionné.
 
 ![Logo Python](img/Python-logo.png)    
 
 
-## Quels outil faut-il pour programmer en Python ? 
+## Quels outils faut-il pour programmer en Python ? 
 
 ### Interpréteur  
 
-Pas grand chose ! Comme dans la plupart des langages de programmation il vous suffit de télécharger sur le site officiel de Python(https://www.python.org/downloads/) la dernière version pour pouvoir programmer.   
+Pas grand-chose ! Comme pour la plupart des langages de programmation, il vous suffit de télécharger la dernière version sur le site officiel de Python (https://www.python.org/downloads/) pour pouvoir programmer.
 
-Le téléchargement installe le langage de programmation ainsi qu'un interpréteur __Python__. Le rôle de l'interpréteur __Python__ est de _comprendre_ le code Python.  
+Le téléchargement installe le langage de programmation ainsi qu'un interpréteur Python. Le rôle de l'interpréteur Python est de comprendre le code Python.
 
-Par exemple la ligne `Vive l'informatique` ne sera pas comprise par l'interpréteur Python. C'est une ligne écrit en français et notre intepréteur n'est capable que de _comprendre_ du Python. Par contre la ligne `a = 2` sera comprise par l'interpréteur puisqu'elle est écrite en Python.  
+Par exemple, la ligne `Vive l'informatique` ne sera pas comprise par l'interpréteur __Python__. C'est une ligne écrite en français et notre interpréteur n'est capable que de comprendre du __Python__. En revanche, la ligne `a = 2` sera comprise par l'interpréteur puisqu'elle est écrite en Python.  
 
 
 ### Editeur de texte  
 
-L'interpréteur ne _comprend_ qu'une ligne à la fois. Il est possible d'écrire un programme en Python sur plusieurs ligne dans un __éditeur de texte__ puis de dire à l'interpréteur d'évaluer chaque ligne du programme.  
+L'interpréteur ne comprend qu'une ligne à la fois. Il est possible d'écrire un programme en Python sur plusieurs lignes dans un __éditeur de texte__ puis de demander à l'interpréteur d'évaluer chaque ligne du programme.
 
-N'importe quel éditeur de texte fait l'affaire pour programmer en Python. Vous pouvez très bien ouvrir l'application _Bloc-notes_  écrire un programme en Python et faire les étapes nécesaaires pour que l'interpréteur lise votre programme mais ce n'est pas la méthode la plus simple ni celle la plus utilisée.  
+N'importe quel éditeur de texte peut faire l'affaire pour programmer en Python. Vous pouvez très bien ouvrir l'application _Bloc-notes_, écrire un programme en Python, et suivre les étapes nécessaires pour que l'interpréteur lise votre programme, mais ce n'est pas la méthode la plus simple ni la plus utilisée.
 
-Il existe des IDE(Integrated Development Environment) ou environnement de développement intégré spécialisé pour le langage Python. 
-Les IDE contiennent un éditeur de texte, un terminal Python et un débogueur(outil permettant de corriger les bugs de notre programme).
+Il existe des IDE (Integrated Development Environment) ou environnements de développement intégré spécialisés pour le langage Python.
+Les IDE contiennent un éditeur de texte, un terminal Python, et un débogueur (outil permettant de corriger les bugs de notre programme).
 
-En bref, les IDE facilitent la vie des développeurs voici quelques noms d'IDE avec lesquels il est possible de programmer en Python : 
-    - Thonny (https://thonny.org/) 
-    - Pycharm (https://www.jetbrains.com/fr-fr/pycharm/) 
-    - Pyzo (https://pyzo.org/)  
-    - VSCodium (https://vscodium.com/)  
+En bref, les IDE facilitent la vie des développeurs. Voici quelques noms d'IDE avec lesquels il est possible de programmer en Python :
+
+    - Thonny (https://thonny.org/)
+    - PyCharm (https://www.jetbrains.com/fr-fr/pycharm/)
+    - Pyzo (https://pyzo.org/)
+    - VSCodium (https://vscodium.com/) 
 
 
 ## Le langage Python  
 
-Premièrement à quoi ça sert de programmer ? Si vous lisez ce texte sur une machine(ordinateur, téléphone, ...) il est très probable que ce dernier soit muni d'un __processeur__. Le processeur est un composant électronique capable d'éffectuer des opérations __TRES__ rapidement, on dit souvent que c'est le _cerveau_ de l'ordinateur. 
+Premièrement, à quoi ça sert de programmer ? Si vous lisez ce texte sur une machine (ordinateur, téléphone, ...), il est très probable que celle-ci soit munie d'un __processeur__. Le processeur est un composant électronique capable d'effectuer des opérations __TRÈS__ rapidement ; on dit souvent que c'est le cerveau de l'ordinateur.
 
-Ce que nous aimerions faire en tant qu'humain, c'est de tirer parti de la vitesse d'exécution du processeur pour lui demander de résoudre des problèmes, récupérer des données météo, simuler un jeu de cours automobile, etc... 
+Ce que nous aimerions faire, en tant qu'humains, c'est de tirer parti de la vitesse d'exécution du processeur pour lui demander de résoudre des problèmes, récupérer des données météo, simuler un jeu de course automobile, etc.
 
-Il nous faudrait donc un moyen en tant qu'humain de communiquer avec un processeur...
+Il nous faudrait donc un moyen de communiquer avec un processeur...
 
-Vous l'avez ? 
+Vous l'avez ?
 
-Oui ! c'est à ça que servent les langages de programmation. On utilise un langage de programmation pour écrire un programme "compréhensible" par le processeur. Ainsi on peut discuter avec notre machine.    
+Oui ! C'est à ça que servent les langages de programmation. On utilise un langage de programmation pour écrire un programme "compréhensible" par le processeur. Ainsi, on peut dialoguer avec notre machine.
 
-Parmis ces langages de programmation(il en existe un paquet), le langage Python est simple d'apprentissage et d'utilisation. Sa facilité d'appropriation ne veut pas dire que nous ne pouvons programmer que des choses "simples". Des applications comme Youtube ou Spotify sont écrite en partie en Python.  
-
+Parmi ces langages de programmation (il en existe beaucoup), le langage Python est simple à apprendre et à utiliser. Sa facilité d'appropriation ne signifie pas que nous ne pouvons programmer que des choses "simples". Des applications comme YouTube ou Spotify sont en partie écrites en Python.  
 
 ## Les variables  
 
-En programmation on à souvent besoin de déclarer des variables. 
-En Python une variable est liée à une valeur et porte un nom. On déclare une variable en lui attribuant un nom puis on utilise le symbole `=` pour l'affecter à une valeur.    
+En programmation, on a souvent besoin de déclarer des variables.
+En Python, une variable est liée à une valeur et porte un nom. On déclare une variable en lui attribuant un nom puis en utilisant le symbole `=` pour l'affecter à une valeur.    
 
 ```Python
-# Liste de nom de variable valide  
+# Liste de noms de variables valides  
 nom_de_variable = 7
 a = 3
 _score_du_joueur_11 = 23
 
-# Liste de nom de variable non valide
+# Liste de noms de variables non valides
 7nom_de_variable = 7
 -a = 3
 )score_du_joueur_11 = 23
@@ -74,21 +74,21 @@ _score_du_joueur_11 = 23
 
 ## Les types de bases 
 
-La programmation à pour objectif de représenter des problèmes informatiquement. Afin de représenter un quelconque problème les langages de programmation mettent à dispositions des types de bases.
+La programmation a pour objectif de représenter des problèmes informatiquement. Afin de représenter un quelconque problème, les langages de programmation mettent à disposition des types de base.
 
 |              Nom en français               |    Nom en Python    |          Exemple           |
 | :----------------------------------------: | :-----------------: | :------------------------: |
 |            Les nombres entiers             |  int (de integer)   |             4              |
 | Les nombres à virgule(ou nombre flottants) | float (de floating) |            4.3             |
-|         Les chaines de caractères          |   str (de string)   | "Bonjour !" ou 'Bonjour !' |
+|         Les chaînes de caractères          |   str (de string)   | "Bonjour !" ou 'Bonjour !' |
 |                Les booléens                |  bool (de boolean)  |       True ou False        |
 
- Il existe d'autre type appelé _types construits_ (vu en SNT mais surtout en 1re NSI). Enfin il est même possible de créer ses propres types (vu en Terminale NSI).
+Il existe d'autres types appelés types construits (vus en SNT mais surtout en 1re NSI). Enfin, il est même possible de créer ses propres types (vus en Terminale NSI).
 
 
 ### Les nombres entiers  
-Dans la section des opérateurs arithmétiques vous avez manipulé des nombres entiers. 
-En Python le type __int__ est associée aux nombres entiers. On représente un nombre entier tout simplement en notant le nombre souhaité.  
+Dans la section des opérateurs arithmétiques, vous avez manipulé des nombres entiers.
+En Python, le type __int__ est associé aux nombres entiers. On représente un nombre entier tout simplement en notant le nombre souhaité.  
 
 Exemples : 
 
@@ -102,7 +102,7 @@ temperature_chez_les_gaulois = -8000
 
 
 ### Les nombres à virgule(ou flottants)
-En Python le type __float__ est associée aux nombres à virgule. On représente un nombre flottant avec un __point ( . )__ à la place de la virgule. 
+En Python, le type float est associé aux nombres à virgule. On représente un nombre flottant avec un point __( . )__ à la place de la virgule. 
 
 Exemples : 
 
@@ -114,14 +114,13 @@ prix_baguette = 1.0
 
 ### Les opérateurs arithmétiques  
 
-Les opérateurs arithmétique élémentaire sont intégré dans le langage Python. On peut s'en servir pour effectuer les mêmes calculs que sur une calculatrice. 
-On peut les utilise aussi bien avec des _int_ que des _float_(tant que les opérations respectent les règles mathématique). 
-Comme en mathématique il est également possible d'écrire des expressions parenthésées.  
+Les opérateurs arithmétiques élémentaires sont intégrés dans le langage Python. On peut s'en servir pour effectuer les mêmes calculs que sur une calculatrice.
+On peut les utiliser aussi bien avec des int que des float (tant que les opérations respectent les règles mathématiques).
+Comme en mathématiques, il est également possible d'écrire des expressions parenthésées.  
 
-
-> _Note_ : 
-> - En Python le symbole `#` déclare le début d'un __commentaire__. Un commentaire est un morceau de texte que l'on peut retrouver dans les programmes généralement pour donner des précisions au code. Le commentaire n'est pas _lus_ par Python il est là à titre informatif. 
-> - Les 3 chevrons `>>>` ne sont pas compréhensible en Python. Cette notation est utilisé pour représenter l'instruction entré dans une console Python, la ligne qui suit est le résultat renvoyé.
+> Note :
+    > - En Python, le symbole `#` déclare le début d'un __commentaire__. Un commentaire est un morceau de texte que l'on peut retrouver dans les programmes, généralement pour donner des précisions sur le code. Le commentaire n'est pas lu par Python, il est là à titre informatif.
+    > - Les 3 chevrons `>>>` ne sont pas compréhensibles en Python. Cette notation est utilisée pour représenter l'instruction entrée dans une console Python ; la ligne qui suit est le résultat renvoyé.
 
 
 
@@ -160,9 +159,9 @@ Comme en mathématique il est également possible d'écrire des expressions pare
 
 
 ### Les chaines de caractères  
-Les chaines de caractères permettent de représenter des phrases, des mots, ...  
-En Python le type __str__ est associée aux chaines de caractères. Les chaines de caractères peuvent contenir n'importe quel caractère ou ne pas en contenir du tout(chaine de caractères vide).  
-En Python on représente une chaine de caractère par une suite de caractères entourés par des __guillemets simple ( ' )__ ou des __guillemets double ( " )__  
+Les chaînes de caractères permettent de représenter des phrases, des mots, etc.
+En Python, le type __str__ est associé aux chaînes de caractères. Les chaînes de caractères peuvent contenir n'importe quel caractère ou ne pas en contenir du tout (chaîne de caractères vide).
+En Python, on représente une chaîne de caractères par une suite de caractères entourés par des __guillemets simples ( ' )__ ou des __guillemets doubles ( " )__.  
 
 Exemples : 
 
@@ -172,10 +171,11 @@ mot_de_passe_complique = '78Rtvs_@)./*ko'
 premiere_phrase = "Bonjour tout le monde !"
 phrase_avec_apostrophe = "Il n'est pas parti toute suite"
 ```
-- __Expliquez ce qui se passe lorsque l'on décide de représenter la dernier chaine de caractère entouré de guillemet simple__
+- __Expliquez ce qui se passe lorsque l'on décide de représenter la dernière chaîne de caractères entourée de guillemets simples.__
 
 
-Il est possible de concaténer('coller') deux chaines de caractères à l'aide du symbole `+`. 
+Il est possible de concaténer ("coller") deux chaînes de caractères à l'aide du symbole `+`.
+
 Exemples : 
 
 ```Python
@@ -186,9 +186,8 @@ prenom_entier = debut_prenom + fin_prenom # prenom_entier à pour valeur "Timol�
 
 
 ### Les booléens 
-En Python le type __bool__ est associée aux booléens. Il n'y a qu deux valeurs possibles pour les booléens, soit la valeur `True` (vrai) ou `False` (faux).  
-
-Les valeurs de vérité booléennes nous permettent notamment de manipuler des conditions (voir suite du chapitre)
+En Python, le type __bool__ est associé aux booléens. Il n'existe que deux valeurs possibles : `True` (vrai) ou `False` (faux).
+Le type booléen est très utilisé en programmation (vous en verrez l'utilité par la suite).
 
 Exemples : 
 ```Python
@@ -196,28 +195,26 @@ lumiere_eteinte = True
 interrupteur_ferme = False
 ```
 
-### Opérateur booléens  
-George Boole est le créateur de l'algèbre de Boole, c'est une partie des mathématiques qui s'intéresse à la logique. 
-L'algèbre de Boole définit des opérateurs booléen suivant.  
+### Opérateurs booléens
 
-On illustre chaque opérateur booléen dans un tableau.  
-`a, b, ..` sont des variables et la colonne `S` et le résultat logique de l'opération illustré entre les variables.  
+George Boole est le créateur de l'algèbre de Boole, une branche des mathématiques qui s'intéresse à la logique. L'algèbre de Boole définit les opérateurs booléens suivants.
 
+Chaque opérateur booléen est illustré dans un tableau. Les colonnes `a, b, ...` représentent des variables, et la colonne `S` donne le résultat logique de l'opération effectuée entre ces variables.
 
-L'opérateur __NOT(NON)__ est un opérateur _unaire_(qui agit sur _une_ seule variable). Il à pour effet d'inverser la valeur logique de la variable sur laquelle il agit. 
-Voici sa table de vérité :
+#### L'opérateur __NOT (NON)__
+L'opérateur __NOT__ est un opérateur _unaire_ (qui agit sur _une seule_ variable). Il a pour effet d'inverser la valeur logique de la variable sur laquelle il agit. Voici sa table de vérité :
 
 |      a      |   S   |
 | :---------: | :---: |
 | 0 (ou Faux) |   1   |
 | 1 (ou Vrai) |   0   |
 
+En Python, l'opérateur logique __NOT__ s'écrit __not__.
 
-En Python l'opérateur logique __NOT__ s'écrit __not__. 
-Exemple : 
+Exemple :
 
 ```Python
-a = True 
+a = True
 
 >>> not a
 False
@@ -226,8 +223,7 @@ False
 True
 ```
 
-L'opérateur __AND(ET)__ est un opérateur _binaire_(qui agit sur deux variables). Il à la valeur logique __Vrai__ si et seulement si les deux variables sont __Vrai__. 
-Voici sa table de vérité 
+L'opérateur __AND(ET)__ est un opérateur binaire (qui agit sur deux variables). Il a la valeur logique __Vrai__ si et seulement si les deux variables sont __Vrai__. Voici sa table de vérité : 
 
 |   a   |   b   |   S   |
 | :---: | :---: | :---: |
@@ -235,6 +231,7 @@ Voici sa table de vérité
 |   0   |   1   |   0   |
 |   1   |   0   |   0   |
 | __1__ | __1__ | __1__ |
+
 
 En Python l'opérateur logique __AND__ s'écrit __and__.
 ```Python
@@ -251,7 +248,7 @@ False
 True
 ```
 
-L'opérateur __OR(OU)__ est un opérateur _binaire_(qui agit sur deux variables). Il à la valeur logique __Vrai__ si au moins une des deux variables à pour valeur __Vrai__. 
+L'opérateur __OR(OU)__ est un opérateur _binaire_(qui agit sur deux variables). Il a la valeur logique __Vrai__ si au moins une des deux variables a pour valeur __Vrai__. 
 Voici sa table de vérité 
 
 |   a   |   b   |   S   |
@@ -277,7 +274,7 @@ True
 False
 ```  
 
-L'opérateur __XOR(OU Exclusif)__ est un opérateur _binaire_(qui agit sur deux variables). Il à la valeur logique __Vrai__ si __strictement__ une des deux variables à pour valeur __Vrai__. 
+L'opérateur __XOR(OU Exclusif)__ est un opérateur _binaire_(qui agit sur deux variables). Il a la valeur logique __Vrai__ si __strictement__ une des deux variables a pour valeur __Vrai__. 
 Voici sa table de vérité 
 
 |   a   |   b   |   S   |
@@ -312,23 +309,21 @@ False
 - float(a) : permet de convertir a en type _float_  
 - str(a) : permet de convertir a en type _str_   
 
-Exemples : 
+Exemple : 
 
-On souhaite écrire un programme qui demande le nombre de pommes que possède un utilisateur, pour lui en donner 2 supplémentaire.  
-On affiche à la fin un message qui donne le nouveau nombre de pomme que possède notre utilisateur.  
+_On souhaite écrire un programme qui demande le nombre de pommes que possède un utilisateur, pour lui en donner 2 supplémentaires. On affiche à la fin un message qui donne le nouveau nombre de pommes que possède notre utilisateur._  
 
 ```Python
-nb_pomme_en_str = input("Combien de pomme possédez vous ?")
+nb_pomme_en_str = input("Combien de pommes possédez-vous ?")
 nb_pomme = int(nb_pomme_en_str)
 nouveau_nb_pomme = nb_pomme + 2
 nouveau_nb_pomme_en_str = str(nouveau_nb_pomme)
-print("Maintenant vous avez " + nouveau_nb_pomme_en_str + "!")
+print("Maintenant vous avez " + nouveau_nb_pomme_en_str + " pommes !")
 ```
 
 ## Les boucles  
 
-Une boucle est une structure de contrôle utiliser afin d'automatiser le traitement d'une ou plusieurs instruction répètitive. 
-Par exemple si un programme informatique doit récupérer le nom et la date de naissance des 1200 élèves d'un établissement scolaire au lieu d'écrire 1200 fois les mêmes instruction dans notre programme on aura plutôt quelque chose comme cela. 
+Une boucle est une structure de contrôle utilisée pour automatiser le traitement d'une ou plusieurs instructions répétitives. Par exemple, si un programme informatique doit récupérer le nom et la date de naissance des 1200 élèves d'un établissement scolaire, au lieu d'écrire 1200 fois les mêmes instructions dans notre programme, on aura plutôt quelque chose comme cela :
 
 ```
 pour identifiant_eleve allant de 0 à 1199 faire
