@@ -52,50 +52,6 @@ Oui ! c'est à ça que servent les langages de programmation. On utilise un lang
 Parmis ces langages de programmation(il en existe un paquet), le langage Python est simple d'apprentissage et d'utilisation. Sa facilité d'appropriation ne veut pas dire que nous ne pouvons programmer que des choses "simples". Des applications comme Youtube ou Spotify sont écrite en partie en Python.  
 
 
-## Les opérateurs arithmétiques  
-
-Les opérateurs arithmétique élémentaires sont compréhensible en Python. On peut s'en servir pour effectuer les mêmes calculs que sur une calculatrice. 
-
-
-> _Note_ : En Python le symbole `#` déclare le début d'un __commentaire__. Un commentaire est un morceau de texte que l'on peut retrouver dans les programmes généralement pour donner des précisions au code. Le commentaire n'est pas _lus_ par Python il est là à titre informatif. 
-
-
-
-
-```Python
-4 + 2  # Addition  
->>> 6
-
-
-7 - 3  # Soustraction  
->>> 4 
-
--7 - 3 # Le symbole - peut aussi être utilisé pour représenter un nombre négatif 
->>> -10
-
-
-3 * 7 # Multiplication  
->>> 21  
-
-
-4 ** 3 # Puissance d'exposant ici 4 puissance 3  
->>> 64
-
-7 / 2 # Division décimale(avec nombres à virgule)  
->>> 3.5
-
-# Il est également possible d'effectuer une division euclidienne en utilisant les symboles suivant.
-
-7 // 2 # partie entière de la division euclidienne 
->>> 3
-
-7 % 2 # reste de la division euclidienne 
->>> 1
-```
-
-- __Testez tout les opérateurs arithmétiques__
-
-
 ## Les variables  
 
 En programmation on à souvent besoin de déclarer des variables. 
@@ -156,6 +112,53 @@ poids_valise = 20.3
 prix_baguette = 1.0
 ```
 
+### Les opérateurs arithmétiques  
+
+Les opérateurs arithmétique élémentaire sont intégré dans le langage Python. On peut s'en servir pour effectuer les mêmes calculs que sur une calculatrice. 
+On peut les utilise aussi bien avec des _int_ que des _float_(tant que les opérations respectent les règles mathématique). 
+Comme en mathématique il est également possible d'écrire des expressions parenthésées.  
+
+
+> _Note_ : 
+> - En Python le symbole `#` déclare le début d'un __commentaire__. Un commentaire est un morceau de texte que l'on peut retrouver dans les programmes généralement pour donner des précisions au code. Le commentaire n'est pas _lus_ par Python il est là à titre informatif. 
+> - Les 3 chevrons `>>>` ne sont pas compréhensible en Python. Cette notation est utilisé pour représenter l'instruction entré dans une console Python, la ligne qui suit est le résultat renvoyé.
+
+
+
+```Python
+>>> 4 + 2  # Addition  
+6
+
+
+>>> 7 - 3  # Soustraction  
+4 
+
+>>> -7 - 3.4 # Le symbole - peut aussi être utilisé pour représenter un nombre négatif 
+-10.4
+
+
+>>> 3 * 7.8 # Multiplication  
+23.4  
+
+
+>>> 4 ** 3 # Puissance d'exposant ici 4 puissance 3  
+64
+
+>>> 7 / 2 # Division décimale(avec nombres à virgule)  
+3.5
+
+# Il est également possible d'effectuer une division euclidienne en utilisant les symboles suivant.
+
+>>> 7 // 2 # partie entière de la division euclidienne 
+3
+
+>>> 7 % 2 # reste de la division euclidienne 
+1
+```
+
+- __Testez tout les opérateurs arithmétiques__
+
+
 ### Les chaines de caractères  
 Les chaines de caractères permettent de représenter des phrases, des mots, ...  
 En Python le type __str__ est associée aux chaines de caractères. Les chaines de caractères peuvent contenir n'importe quel caractère ou ne pas en contenir du tout(chaine de caractères vide).  
@@ -193,7 +196,115 @@ lumiere_eteinte = True
 interrupteur_ferme = False
 ```
 
-## Fonctions pratique 
+### Opérateur booléens  
+George Boole est le créateur de l'algèbre de Boole, c'est une partie des mathématiques qui s'intéresse à la logique. 
+L'algèbre de Boole définit des opérateurs booléen suivant.  
+
+On illustre chaque opérateur booléen dans un tableau.  
+`a, b, ..` sont des variables et la colonne `S` et le résultat logique de l'opération illustré entre les variables.  
+
+
+L'opérateur __NOT(NON)__ est un opérateur _unaire_(qui agit sur _une_ seule variable). Il à pour effet d'inverser la valeur logique de la variable sur laquelle il agit. 
+Voici sa table de vérité :
+
+|      a      |   S   |
+| :---------: | :---: |
+| 0 (ou Faux) |   1   |
+| 1 (ou Vrai) |   0   |
+
+
+En Python l'opérateur logique __NOT__ s'écrit __not__. 
+Exemple : 
+
+```Python
+a = True 
+
+>>> not a
+False
+
+>>> not not a
+True
+```
+
+L'opérateur __AND(ET)__ est un opérateur _binaire_(qui agit sur deux variables). Il à la valeur logique __Vrai__ si et seulement si les deux variables sont __Vrai__. 
+Voici sa table de vérité 
+
+|   a   |   b   |   S   |
+| :---: | :---: | :---: |
+|   0   |   0   |   0   |
+|   0   |   1   |   0   |
+|   1   |   0   |   0   |
+| __1__ | __1__ | __1__ |
+
+En Python l'opérateur logique __AND__ s'écrit __and__.
+```Python
+a = True 
+b = False 
+
+>>> print(a and b)
+False
+
+>>> print((not a) and b)
+False
+
+>>> print(a and (not b))
+True
+```
+
+L'opérateur __OR(OU)__ est un opérateur _binaire_(qui agit sur deux variables). Il à la valeur logique __Vrai__ si au moins une des deux variables à pour valeur __Vrai__. 
+Voici sa table de vérité 
+
+|   a   |   b   |   S   |
+| :---: | :---: | :---: |
+|   0   |   0   |   0   |
+| __0__ | __1__ | __1__ |
+| __1__ | __0__ | __1__ |
+| __1__ | __1__ | __1__ |
+
+En Python l'opérateur logique __OR__ s'écrit __or__.
+
+```Python
+a = True 
+b = False 
+
+>>> print(a or b)
+True
+
+>>> print(a or (not b))
+True
+
+>>> print((not a) or b)
+False
+```  
+
+L'opérateur __XOR(OU Exclusif)__ est un opérateur _binaire_(qui agit sur deux variables). Il à la valeur logique __Vrai__ si __strictement__ une des deux variables à pour valeur __Vrai__. 
+Voici sa table de vérité 
+
+|   a   |   b   |   S   |
+| :---: | :---: | :---: |
+|   0   |   0   |   0   |
+| __0__ | __1__ | __1__ |
+| __1__ | __0__ | __1__ |
+|   1   |   1   |   0   |
+
+En Python l'opérateur logique __OR__ s'écrit __or__.
+
+```Python
+a = True 
+b = False 
+
+>>> print(a or b)
+True
+
+>>> print(a or (not b))
+True
+
+>>> print((not a) or b)
+False
+```
+
+
+### Fonctions pratique 
  
 - print(contenu) : permet d'afficher du contenu dans la console   
 - input(message_de_saisi) : permet de demander à l'utilisateur de saisir une chaine de caractère  
@@ -213,3 +324,17 @@ nouveau_nb_pomme = nb_pomme + 2
 nouveau_nb_pomme_en_str = str(nouveau_nb_pomme)
 print("Maintenant vous avez " + nouveau_nb_pomme_en_str + "!")
 ```
+
+## Les boucles  
+
+Une boucle est une structure de contrôle utiliser afin d'automatiser le traitement d'une ou plusieurs instruction répètitive. 
+Par exemple si un programme informatique doit récupérer le nom et la date de naissance des 1200 élèves d'un établissement scolaire au lieu d'écrire 1200 fois les mêmes instruction dans notre programme on aura plutôt quelque chose comme cela. 
+
+```
+pour identifiant_eleve allant de 0 à 1199 faire
+    nom_eleve = recupere_nom(identifiant_eleve)
+    date_naissance_eleve = recupere_date_naissance(identifiant_eleve)
+    identifiant_eleve = identifiant_eleve + 1
+```  
+
+En Python il existe deux types de boucle. 
