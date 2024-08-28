@@ -3,7 +3,7 @@
 ## C'est quoi Python ?  
 
 Python est un langage de programmation inventé par Guido van Rossum. Sa première version date de 1991.
-![Guido van Rossum](img/Guido.jpg =100x20)  
+<img src="img/Guido.jpg" alt="drawing" width="200"/>
 
 Le nom `Python` vient d'une émission télévisée nommée Monty Python's Flying Circus, dont Guido était passionné.
 
