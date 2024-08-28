@@ -1,56 +1,61 @@
-# Initiation à la programmation avec le langage Python  
+# Introduction à Python
 
-## C'est quoi Python ?  
+## Généralités  
 
-Python est un langage de programmation inventé par Guido van Rossum. Sa première version date de 1991.
-<img src="img/Guido.jpg" alt="drawing" width="200"/>
+> C'est quoi programmer ?  
 
-Le nom `Python` vient d'une émission télévisée nommée Monty Python's Flying Circus, dont Guido était passionné.
+Si vous lisez ce texte sur une machine (ordinateur, téléphone, ...), sachez que celle-ci est munie d'un __processeur__.
+Le __processeur__ est un composant électronique capable d'effectuer des opérations assez simple mais surtout __TRÈS__ rapidement. 
 
-![Logo Python](img/Python-logo.png)    
+Ce que nous aimerions faire, en tant qu'humains, c'est de tirer profit de la vitesse d'exécution du processeur pour lui demander de résoudre des problèmes, récupérer des données météo, simuler un jeu de course automobile, etc...
 
-
-## Quels outils faut-il pour programmer en Python ? 
-
-### Interpréteur  
-
-Pas grand-chose ! Comme pour la plupart des langages de programmation, il vous suffit de télécharger la dernière version sur le site officiel de Python (https://www.python.org/downloads/) pour pouvoir programmer.
-
-Le téléchargement installe le langage de programmation ainsi qu'un interpréteur Python.  
-
-Par exemple, la ligne `J'ai 4 points` ne sera pas comprise par l'interpréteur __Python__. C'est une ligne écrite en français et notre interpréteur n'est capable que de comprendre du __Python__. En revanche, la ligne `nb_points = 4` sera comprise par l'interpréteur puisqu'elle est écrite en Python.  
-
-
-### Editeur de texte  
-
-L'interpréteur ne comprend qu'une ligne à la fois. Il est possible d'écrire un programme en Python sur plusieurs lignes dans un __éditeur de texte__ puis de demander à l'interpréteur d'évaluer chaque ligne du programme.
-
-N'importe quel éditeur de texte peut faire l'affaire pour programmer en Python. Vous pouvez très bien ouvrir l'application _Bloc-notes_, écrire un programme en Python, et suivre les étapes nécessaires pour que l'interpréteur lise votre programme, mais ce n'est pas la méthode la plus simple ni la plus utilisée.
-
-Il existe des IDE (Integrated Development Environment) ou environnements de développement intégré spécialisés pour le langage Python.
-Les IDE contiennent un éditeur de texte, un terminal Python, et un débogueur (outil permettant de corriger les bugs de notre programme).
-
-En bref, les IDE facilitent la vie des développeurs. Voici quelques noms d'IDE avec lesquels il est possible de programmer en Python :
-
-    - Thonny (https://thonny.org/)
-    - PyCharm (https://www.jetbrains.com/fr-fr/pycharm/)
-    - Pyzo (https://pyzo.org/)
-    - VSCodium (https://vscodium.com/) 
-
-
-## Le langage Python  
-
-Premièrement, à quoi ça sert de programmer ? Si vous lisez ce texte sur une machine (ordinateur, téléphone, ...), il est très probable que celle-ci soit munie d'un __processeur__. Le processeur est un composant électronique capable d'effectuer des opérations __TRÈS__ rapidement ; on dit souvent que c'est le cerveau de l'ordinateur.
-
-Ce que nous aimerions faire, en tant qu'humains, c'est de tirer parti de la vitesse d'exécution du processeur pour lui demander de résoudre des problèmes, récupérer des données météo, simuler un jeu de course automobile, etc.
-
-Il nous faudrait donc un moyen de communiquer avec un processeur...
+Pour se faire il nous faudrait un moyen de communiquer avec le processeur de notre ordinateur... 
 
 Vous l'avez ?
 
-Oui ! C'est à ça que servent les langages de programmation. On utilise un langage de programmation pour écrire un programme "compréhensible" par le processeur. Ainsi, on peut dialoguer avec notre machine.
+Oui ! C'est à ça que servent __les langages de programmation__.   
+On utilise un langage de programmation pour écrire un programme "compréhensible" par le processeur.   
+C'est ainsi qu'on demande au processeur d'éffectuer tel ou tel calcul.   
 
-Parmi ces langages de programmation (il en existe beaucoup), le langage Python est simple à apprendre et à utiliser. Sa facilité d'appropriation ne signifie pas que nous ne pouvons programmer que des choses "simples". Des applications comme YouTube ou Spotify sont en partie écrites en Python.  
+Parmi ces langages de programmation (il en existe beaucoup), le langage Python est simple à apprendre et à utiliser.   
+Sa facilité d'appropriation ne signifie pas que nous ne pouvons programmer que des choses "simples".  
+Des applications comme YouTube ou Spotify sont en partie écrites en Python.  
+
+
+
+## Origine  
+
+Python est un langage de programmation inventé par Guido van Rossum. Sa première version date de 1991.
+<img src="img/Guido.jpg" alt="drawing" width="400"/>
+
+Le nom `Python` vient d'une émission télévisée nommée Monty Python's Flying Circus, dont Guido était passionné.
+
+<img src="img/Python-logo.png" alt="drawing" width="300"/>
+
+
+## De quoi a-t-on besoin pour programmer ?   
+
+La manière la plus simple d'avoir le nécessaire pour prorammer en Python est de télécharger un __environnement de développement intégré ou IDE__ qui intègre déja ce langage de programmation.    
+
+Parmis les IDE qui intègre déjà Python il y à :
+    - Thonny (https://thonny.org/)
+    - Pyzo (https://pyzo.org/)
+
+Il existe bien d'autres IDE (PyCharm, VsCodium, ...) certains ont leur particularité mais globalement chacun possède 
+- un éditeur de texte, qui permet d'écrire sont programme dans un fichier Python 
+- une console(ou Shell) Python qui permet d'évaluer du code Python   
+- un débogueur qui permet d'aider à la correction des bugs de notre programme
+
+> Note : N'importe quel éditeur de texte peut faire l'affaire pour programmer en Python. 
+> Vous pouvez très bien ouvrir l'application _Bloc-notes_, écrire un programme en Python, et suivre les étapes nécessaires pour que l'interpréteur évalue votre programme, mais ce n'est pas la méthode la plus simple ni la plus utilisée.
+
+
+
+
+
+
+
+
 
 ## Les variables  
 
@@ -199,12 +204,11 @@ interrupteur_ferme = False
 
 George Boole est le créateur de l'algèbre de Boole, une branche des mathématiques qui s'intéresse à la logique. L'algèbre de Boole définit les opérateurs booléens suivants.
 
-Chaque opérateur booléen est illustré dans un tableau. Les colonnes `a, b, ...` représentent des variables, et la colonne `S` donne le résultat logique de l'opération effectuée entre ces variables.
 
 #### L'opérateur __NOT (NON)__
 L'opérateur __NOT__ est un opérateur _unaire_ (qui agit sur _une seule_ variable). Il a pour effet d'inverser la valeur logique de la variable sur laquelle il agit. Voici sa table de vérité :
 
-|      a      |   S   |
+|      a      | NOT a |
 | :---------: | :---: |
 | 0 (ou Faux) |   1   |
 | 1 (ou Vrai) |   0   |
@@ -225,12 +229,12 @@ True
 
 L'opérateur __AND(ET)__ est un opérateur binaire (qui agit sur deux variables). Il a la valeur logique __Vrai__ si et seulement si les deux variables sont __Vrai__. Voici sa table de vérité : 
 
-|   a   |   b   |   S   |
-| :---: | :---: | :---: |
-|   0   |   0   |   0   |
-|   0   |   1   |   0   |
-|   1   |   0   |   0   |
-| __1__ | __1__ | __1__ |
+|   a   |   b   | a AND b |
+| :---: | :---: | :-----: |
+|   0   |   0   |    0    |
+|   0   |   1   |    0    |
+|   1   |   0   |    0    |
+| __1__ | __1__ |  __1__  |
 
 
 En Python l'opérateur logique __AND__ s'écrit __and__.
@@ -321,15 +325,3 @@ nouveau_nb_pomme_en_str = str(nouveau_nb_pomme)
 print("Maintenant vous avez " + nouveau_nb_pomme_en_str + " pommes !")
 ```
 
-## Les boucles  
-
-Une boucle est une structure de contrôle utilisée pour automatiser le traitement d'une ou plusieurs instructions répétitives. Par exemple, si un programme informatique doit récupérer le nom et la date de naissance des 1200 élèves d'un établissement scolaire, au lieu d'écrire 1200 fois les mêmes instructions dans notre programme, on aura plutôt quelque chose comme cela :
-
-```
-pour identifiant_eleve allant de 0 à 1199 faire
-    nom_eleve = recupere_nom(identifiant_eleve)
-    date_naissance_eleve = recupere_date_naissance(identifiant_eleve)
-    identifiant_eleve = identifiant_eleve + 1
-```  
-
-En Python il existe deux types de boucle. 
