@@ -3,7 +3,7 @@
 ## C'est quoi Python ?  
 
 Python est un langage de programmation inventé par Guido van Rossum. Sa première version date de 1991.
-![Guido van Rossum](img/Guido.jpg)  
+![Guido van Rossum](img/Guido_petit.jpg)  
 
 Le nom `Python` vient d'une émission télévisée nommée Monty Python's Flying Circus, dont Guido était passionné.
 
@@ -16,9 +16,9 @@ Le nom `Python` vient d'une émission télévisée nommée Monty Python's Flying
 
 Pas grand-chose ! Comme pour la plupart des langages de programmation, il vous suffit de télécharger la dernière version sur le site officiel de Python (https://www.python.org/downloads/) pour pouvoir programmer.
 
-Le téléchargement installe le langage de programmation ainsi qu'un interpréteur Python. Le rôle de l'interpréteur Python est de comprendre le code Python.
+Le téléchargement installe le langage de programmation ainsi qu'un interpréteur Python.  
 
-Par exemple, la ligne `Vive l'informatique` ne sera pas comprise par l'interpréteur __Python__. C'est une ligne écrite en français et notre interpréteur n'est capable que de comprendre du __Python__. En revanche, la ligne `a = 2` sera comprise par l'interpréteur puisqu'elle est écrite en Python.  
+Par exemple, la ligne `J'ai 4 points` ne sera pas comprise par l'interpréteur __Python__. C'est une ligne écrite en français et notre interpréteur n'est capable que de comprendre du __Python__. En revanche, la ligne `nb_points = 4` sera comprise par l'interpréteur puisqu'elle est écrite en Python.  
 
 
 ### Editeur de texte  
