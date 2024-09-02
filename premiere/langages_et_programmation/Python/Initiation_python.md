@@ -37,14 +37,16 @@ Le nom `Python` vient d'une émission télévisée nommée Monty Python's Flying
 
 La manière la plus simple d'avoir le nécessaire pour prorammer en Python est de télécharger un __environnement de développement intégré ou IDE__ qui intègre déja ce langage de programmation.    
 
-Parmis les IDE qui intègre déjà Python il y à :
-    - Thonny (https://thonny.org/)
-    - Pyzo (https://pyzo.org/)
+Parmis les IDE qui intègre déjà Python il y à :  
+    - Basthon (https://basthon.fr/)  
+    - Thonny (https://thonny.org/)  
+    - Pyzo (https://pyzo.org/)  
+  
 
-Il existe bien d'autres IDE (PyCharm, VsCodium, ...) certains ont leur particularité mais globalement chacun possède 
-- un éditeur de texte, qui permet d'écrire sont programme dans un fichier Python 
-- une console(ou Shell) Python qui permet d'évaluer du code Python   
-- un débogueur qui permet d'aider à la correction des bugs de notre programme
+Il existe bien d'autres IDE (PyCharm, VsCodium, ...) certains ont leur particularité mais globalement chacun possède :
+- un éditeur de texte, qui permet d'écrire sont programme dans un fichier Python   
+- une console(ou Shell) Python qui permet d'évaluer du code Python     
+- un débogueur qui permet d'aider à la correction des bugs de notre programme  
 
 > Note : N'importe quel éditeur de texte peut faire l'affaire pour programmer en Python. 
 > Vous pouvez très bien ouvrir l'application _Bloc-notes_, écrire un programme en Python, et suivre les étapes nécessaires pour que l'interpréteur évalue votre programme, mais ce n'est pas la méthode la plus simple ni la plus utilisée.

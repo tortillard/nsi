@@ -1,10 +1,9 @@
 # Exercices type de base  
-
-## Exercice 1  
+  
 
 __Q1__ : Sans utiliser l'ordinateur. Déterminez si les instructions suivantes renvoient une valeur ou une erreur. Si elle renvoient une valeur donnez le type de la valeur. 
 
-__Q2__ : Réecrivez les instructions précédentes  sur l'ordinateur pour vérifier vos réponses. Expliquez les erreurs que renvoie Python lorsqu'il y'en à une. 
+__Q2__ : Réecrivez chaque instruction sur l'ordinateur pour vérifier vos réponses. Expliquez les erreurs que renvoie Python lorsqu'il y'en à une. 
 
 1. `4+2`  
 2. `4 + 2.3`  
