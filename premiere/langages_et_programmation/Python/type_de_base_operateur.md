@@ -1,18 +1,18 @@
 # Type de base et opérateurs
 
 
-## Rappel : les types de bases 
+## Rappel : les types de base  
 
 |       Français        | Anglais  | Python  |    Exemples de valeurs     |
 | :-------------------: | :------: | :-----: | :------------------------: |
-|    Nombre entiers     | Integer  |  `int`  |        `4` ou `-7`         |
-|    Nombre décimaux    | Floatant | `float` |      `9.3` ou `-11.0`      |
+|    Nombres entiers    | Integer  |  `int`  |        `4` ou `-7`         |
+|    Nombre décimaux    | Floating | `float` |      `9.3` ou `-11.0`      |
 | Chaines de caractères |  String  |  `str`  | `"Hello"` ou `'@kwm78E-$'` |
 |        Booléen        | Boolean  | `bool`  |     `True` ou `False`      |
 
-> Il existe d'autres types qui seront vu plus tard en NSI. 
+> Il existe d'autres types qui seront vus plus tard en NSI. 
 
-## Opérateurs arithmétique
+## Opérateurs arithmétiques
 Ces opérateurs s'utilisent avec des `int` et des `float`  
 | Python |              Français               |
 | :----: | :---------------------------------: |
@@ -27,26 +27,18 @@ Ces opérateurs s'utilisent avec des `int` et des `float`
 
 
 
-## Opérateurs sur les chaines de caractères
+## Opérateur sur les chaînes de caractères
 | Python |   Français    |    Exemple     | Résultat  |
 | :----: | :-----------: | :------------: | :-------: |
 |  `+`   | Concaténation | "Bon" + "jour" | "Bonjour" |
 
 
 
-
-
-<!-- 
-// TO DO  
-Mettre 0 ou 1 ou mettre des Vrai et des Faux pcqe c'est un chapitre les booléens ? 
-Voir pour exo ou application à faire entre ## op arithmé ## op bool , ... 
-
--->
 ## Opérateurs booléens  
 
 ### Opérateur NOT 
 
-L'opérateur __NOT(NON)__ est un opérateur _unaire_ (qui agit sur _une seule_ variable). Il a pour effet d'inverser la valeur logique de la variable sur laquelle il agit. Voici sa table de vérité :
+L'opérateur __NOT(NON)__ est un opérateur _unaire_ (qui agit sur _une seule_ variable). Il a pour effet d'inverser la valeur logique de la variable sur laquelle il agit.
 
 |   a   | NOT a |
 | :---: | :---: |
@@ -57,7 +49,7 @@ En Python, l'opérateur logique __NOT__ s'écrit __not__.
 
 
 ### Opérateur AND
-L'opérateur __AND(ET)__ est un opérateur binaire (qui agit sur deux variables). Il a la valeur logique __Vrai__ si et seulement si les deux variables sont __Vrai__. Voici sa table de vérité : 
+L'opérateur __AND(ET)__ est un opérateur binaire (qui agit sur deux variables). Il a la valeur logique __Vrai__ si et seulement si les deux variables sont __Vrai__. 
 
 |    a     |    b     | a AND b  |
 | :------: | :------: | :------: |
@@ -67,13 +59,11 @@ L'opérateur __AND(ET)__ est un opérateur binaire (qui agit sur deux variables)
 | __Vrai__ | __Vrai__ | __Vrai__ |
 
 
-En Python l'opérateur logique __AND__ s'écrit __and__.
-
+En Python, l'opérateur logique __AND__ s'écrit __and__.
 
 
 ### Opérateur OR  
 L'opérateur __OR(OU)__ est un opérateur _binaire_(qui agit sur deux variables). Il a la valeur logique __Vrai__ si au moins une des deux variables a pour valeur __Vrai__. 
-Voici sa table de vérité 
 
 |    a     |    b     |    S     |
 | :------: | :------: | :------: |
@@ -82,12 +72,11 @@ Voici sa table de vérité
 | __Vrai__ | __Faux__ | __Vrai__ |
 | __Vrai__ | __Vrai__ | __Vrai__ |
 
-En Python l'opérateur logique __OR__ s'écrit __or__.
+En Python, l'opérateur logique __OR__ s'écrit __or__.
 
 
 ### BONUS - Opérateur XOR
-L'opérateur __XOR(OU Exclusif)__ est un opérateur _binaire_(qui agit sur deux variables). Il a la valeur logique __Vrai__ si __strictement__ une des deux variables a pour valeur __Vrai__. 
-Voici sa table de vérité 
+L'opérateur __XOR(OU Exclusif)__ est un opérateur _binaire_(qui agit sur deux variables). Il a la valeur logique __Vrai__ si __strictement__ une des deux variables a pour valeur __Vrai__.   
 
 |    a     |    b     |    S     |
 | :------: | :------: | :------: |
@@ -96,7 +85,7 @@ Voici sa table de vérité
 | __Vrai__ | __Faux__ | __Vrai__ |
 |   Vrai   |   Vrai   |   Faux   |
 
-En Python il n'existe pas d'opérateur __logique XOR__, il est possible de simuler son fonctionnement à partir des opérateurs `not` et `or` .
+En Python, il n'existe pas d'opérateur __logique XOR__ mais il est possible de simuler son fonctionnement à partir d'opérateur déjà connus.
 
 
 
