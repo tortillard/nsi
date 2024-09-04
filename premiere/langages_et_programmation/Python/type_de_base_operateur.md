@@ -14,15 +14,25 @@
 
 ## Opérateurs arithmétique
 Ces opérateurs s'utilisent avec des `int` et des `float`  
-| En Python |             En Français             |
-| :-------: | :---------------------------------: |
-|    `+`    |              Addition               |
-|    `-`    |            Soustraction             |
-|    `*`    |           Multiplication            |
-|   `**`    |              Puissance              |
-|    `/`    |              Division               |
-|   `//`    | Quotient de la division euclidienne |
-|    `%`    |  Reste de la division euclidienne   |
+| Python |              Français               |
+| :----: | :---------------------------------: |
+|  `+`   |              Addition               |
+|  `-`   |            Soustraction             |
+|  `*`   |           Multiplication            |
+|  `**`  |              Puissance              |
+|  `/`   |              Division               |
+|  `//`  | Quotient de la division euclidienne |
+|  `%`   |  Reste de la division euclidienne   |
+
+
+
+
+## Opérateurs sur les chaines de caractères
+| Python |   Français    |    Exemple     | Résultat  |
+| :----: | :-----------: | :------------: | :-------: |
+|  `+`   | Concaténation | "Bon" + "jour" | "Bonjour" |
+
+
 
 
 
@@ -90,24 +100,17 @@ En Python il n'existe pas d'opérateur __logique XOR__, il est possible de simul
 
 
 
-## Particularité pour les chaines de caractères
-- `+`
-- `*`
 
 
 ## Opérateurs de comparaison 
-- `<` 
-- `>`
-- `<=` 
-- `>=`
-- `==`
-- `!=`
-
-
-
-
-
-
+| Python |     Français      |  Exemple   | Résultat |
+| :----: | :---------------: | :--------: | :------: |
+|  `<`   | Inférieur(strict) |  `4 < 3`   | `False`  |
+|  `>`   | Supérieur(strict) |  `4 > 3`   |  `True`  |
+|  `<=`  | Inférieur ou égal |  `7 <= 7`  |  `True`  |
+|  `>=`  | Supérieur ou égal | `7 >= 11`  | `False`  |
+|  `==`  |       Égaux       | `4 == 2*2` |  `True`  |
+|  `!=`  |     Différent     | `3*3 != 9` | `False`  |
 
 
 
@@ -118,16 +121,4 @@ En Python il n'existe pas d'opérateur __logique XOR__, il est possible de simul
 - `int(a)` : permet de convertir a en type _int_  
 - `float(a)` : permet de convertir a en type _float_  
 - `str(a)` : permet de convertir a en type _str_   
-
-Exemple : 
-
-_On souhaite écrire un programme qui demande le nombre de pommes que possède un utilisateur, pour lui en donner 2 supplémentaires. On affiche à la fin un message qui donne le nouveau nombre de pommes que possède notre utilisateur._  
-
-```Python
-nb_pomme_en_str = input("Combien de pommes possédez-vous ?")
-nb_pomme = int(nb_pomme_en_str)
-nouveau_nb_pomme = nb_pomme + 2
-nouveau_nb_pomme_en_str = str(nouveau_nb_pomme)
-print("Maintenant vous avez " + nouveau_nb_pomme_en_str + " pommes !")
-```
 

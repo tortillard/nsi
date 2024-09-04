@@ -52,6 +52,24 @@ Le calcul effectué pour
 Écrit ce programme.
 
 
+## Opérateurs booléens et comparaisons
 
-### 7.  
+### 7.
+Écris un programme qui demande à l'utilisateur d'entrer un nombre. Si le nombre est positif, le programme doit afficher `False`, sinon il doit afficher `True`. 
+
+
+### 8.
+Écris un programme qui demande à l'utilisateur d'entrer deux nombres. Le programme doit afficher `True` si le premier nombre est positif et le deuxième nombre inférieur ou égal à 0, sinon il doit afficher `False`
+
+### 9.
+Écris un programme qui demande à l'utilisateur d'entrer trois nombres. Le programme doit afficher `True` si :
+  - Le premier nombre est positif ou
+  - Le deuxième nombre est négatif __et__ le troisième nombre est nul 
+Sinon, le programme doit afficher `False`.
+
+
+
+
+## Conditions 
+### .
 Écrivez un programme qui demande à un utilisateur de rentrer son age et qui affiche `Vous êtes majeur` si l'âge entrée est supérieur ou égal à 18 ans ou `Vous êtes mineur` sinon. 
