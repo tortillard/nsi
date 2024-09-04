@@ -1,13 +1,13 @@
 # Programme simple    
  
-## Fonctions utile 
+## Fonctions utiles 
 
 Certaines de ces fonctions sont utiles pour les exercices suivants. Utilisez les quand cela est __nécessaire__.
 
-> __Lorsqu'il est écrit 'afficher' dans une consigne on utilise la fonction `print(contenu_a_afficher)`"__  
+> __Lorsqu'il est écrit 'afficher' dans une consigne on utilise la fonction `print(contenu_a_afficher)`__  
 
 > __Fonctions `int(donnee)` et `str(donnee)`__. 
-> Ces fonctions permettent de convertir __le type__ de la donnée prises en entrée. 
+> Ces fonctions permettent de convertir __le type__ de la donnée prise en entrée. 
 > Ainsi `int(donnee)` convertit `donnee` en `int` de même `str(donnee)` convertit `donnee` en `str`. 
 
 > __Fonction `resultat = input(texte)`__ 
@@ -20,37 +20,31 @@ Certaines de ces fonctions sont utiles pour les exercices suivants. Utilisez les
 ## Opérateurs arithmétique 
 
 ### 1.  
-Écrit un programme qui stocke la valeur `4` dans une variable `a`, la valeur `-7` dans une variable `b` et qui additionne le contenu de `a` et `b` dans une variable `c`. Enfin affiche le résultat.  
+Écris un programme qui stocke la valeur `4` dans une variable `a`, la valeur `-7` dans une variable `b` et qui additionne le contenu de `a` et `b` dans une variable `c`. Enfin, affiche le résultat.  
 
 
 ### 2. 
-Écrit un programme qui stocke la valeur `4` dans une variable `a` ajoute à cette variable la valeur `-7`, multiplie `a` par `-3`, puis retire `1` enfin divise par `2` le résultat et affichez le. 
+Écris un programme qui stocke la valeur `4` dans une variable `a` ajoute à cette variable la valeur `-7`, multiplie `a` par `-3`, puis retire `1` enfin, divise par `2` le résultat et affichez le. 
 
 ### 3.  
-Écrit un programme qui stocke la valeur `2` dans une variable `a` et la valeur è `7` dans la variable `b`. Puis écrivez les instructions nécessaire pour permuter les valeurs de `a` et `b`. 
+Écris un programme qui stocke la valeur `2` dans une variable `a` et la valeur è `7` dans la variable `b`. Puis écrivez les instructions nécessaire pour permuter les valeurs de `a` et `b`. 
 
 ### 4.  
-Écrit un programme qui calcul le quotient et le reste de la division euclidienne de `10` par `3`. Et qui affiche `La division de 10 par 3 à pour quotient 3 et pour reste 1`. 
+Écris un programme qui calcule le quotient et le reste de la division euclidienne de `10` par `3`. Et qui affiche `La division de 10 par 3 a pour quotient 3 et pour reste 1`. 
 
 ### 4. suite
 Modifie le programme précédent en stockant la valeur `10` dans une variable `numerateur`, la valeur `3` dans une variable `denominateur`.
 Stocke dans les variables `quotient` et `reste` le résultat de la division euclidienne de `numerateur` par `denominateur`.
-Enfin affiche la phrase suivante `La division de (numerateur) par (denominateur) à pour quotient (quotient) et pour reste (reste)`.  
+Enfin, affiche la phrase suivante `La division de (numerateur) par (denominateur) à pour quotient (quotient) et pour reste (reste)`.  
 On utilisera uniquement le nom des variables pour affichez la phrase. 
 
 
 ### 5.
-Écrit un programme qui stocke dans une variable `nom` votre nom, dans une variable `prenom` votre prénom et affiche la phrase suivante `Bonjour je m'appelle (prenom) (nom)` 
+Écris un programme qui stocke dans une variable `nom` votre nom, dans une variable `prenom` votre prénom et affiche la phrase suivante `Bonjour je m'appelle (prenom) (nom)` 
 
 
 ### 6.  
-La *'Salsepareille'* est l'aliment préféré des Schtroumpfs.   
-Le Schtroumpf gourmand aimerait savoir quel sera son nouveau poids si il mange une certaine quantité de Salsepareille pendant plusieurs jours.   
-Il vous solicite pour écrire un programme qui lui demande son poids(en gramme), combien de Salsepareille il compte manger et pendant combien de jour.  
- afin de connaitre son nouveau poids à la fin de la journée. 
-Le calcul effectué pour 
-Écrit ce programme.
-
+Après avoir cherchez sur internet comment passer d'une température en degré Celsius en degré Farenheit, écris un programme qui demande à l'utilisateur d'entrer une température en degrés Celsius et affichez la température correspondante en degrés Fahrenheit.
 
 ## Opérateurs booléens et comparaisons
 
