@@ -46,7 +46,7 @@ En remplaçant `(quotient)` et `(reste)` par les valeurs des variables `quotient
 
 
 ### 7.  
-Après avoir cherchez sur internet comment passer d'une température en degré Celsius en degré Farenheit, écris un programme qui demande à l'utilisateur d'entrer une température en degrés Celsius et affichez la température correspondante en degrés Fahrenheit.
+Après avoir cherchez sur internet comment passer d'une température en degré Celsius en degré Farenheit, écris un programme qui demande à l'utilisateur d'entrer une température en degrés Celsius et affichez la phrase suivante `(temperature_en_celsius) degré Celsius équivaut à (temperature_en_farenheit) degré Farenheit`.
 
 ## Opérateurs booléens et comparaisons
 
