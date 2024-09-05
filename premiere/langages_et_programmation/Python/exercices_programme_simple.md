@@ -29,33 +29,35 @@ Certaines de ces fonctions sont utiles pour les exercices suivants. Utilisez les
 ### 3.  
 Écris un programme qui stocke la valeur `2` dans une variable `a` et la valeur è `7` dans la variable `b`. Puis écrivez les instructions nécessaire pour permuter les valeurs de `a` et `b`. 
 
-### 4.  
-Écris un programme qui calcule le quotient et le reste de la division euclidienne de `10` par `3`. Et qui affiche `La division de 10 par 3 a pour quotient 3 et pour reste 1`. 
-
-### 4. suite
-Modifie le programme précédent en stockant la valeur `10` dans une variable `numerateur`, la valeur `3` dans une variable `denominateur`.
-Stocke dans les variables `quotient` et `reste` le résultat de la division euclidienne de `numerateur` par `denominateur`.
-Enfin, affiche la phrase suivante `La division de (numerateur) par (denominateur) à pour quotient (quotient) et pour reste (reste)`.  
-On utilisera uniquement le nom des variables pour affichez la phrase. 
-
-
-### 5.
+### 4.
 Écris un programme qui stocke dans une variable `nom` votre nom, dans une variable `prenom` votre prénom et affiche la phrase suivante `Bonjour je m'appelle (prenom) (nom)` 
 
 
-### 6.  
+### 5.  
+Écris un programme qui stocke votre age dans une variable `age` et qui affiche la phrase suivante.
+`Vous avez (age) ans`. En remplaçant `(age)` par la valeur de la variable `age`.  
+
+### 6
+Écris un programme qui stocke la valeur `10` dans une variable `numerateur`, la valeur `3` dans une variable `denominateur`.  
+Stocke dans la variable `quotient` le quotient de la division euclidienne de `numerateur` par `denominateur`et dans la variable `reste` le reste.  
+Enfin, affiche la phrase suivante `La division de (numerateur) par (denominateur) à pour quotient (quotient) et pour reste (reste)`.  
+En remplaçant `(quotient)` et `(reste)` par les valeurs des variables `quotient` et `reste`.
+
+
+
+### 7.  
 Après avoir cherchez sur internet comment passer d'une température en degré Celsius en degré Farenheit, écris un programme qui demande à l'utilisateur d'entrer une température en degrés Celsius et affichez la température correspondante en degrés Fahrenheit.
 
 ## Opérateurs booléens et comparaisons
 
-### 7.
+### 8.
 Écris un programme qui demande à l'utilisateur d'entrer un nombre. Si le nombre est positif, le programme doit afficher `False`, sinon il doit afficher `True`. 
 
 
-### 8.
+### 9.
 Écris un programme qui demande à l'utilisateur d'entrer deux nombres. Le programme doit afficher `True` si le premier nombre est positif et le deuxième nombre inférieur ou égal à 0, sinon il doit afficher `False`
 
-### 9.
+### 10.
 Écris un programme qui demande à l'utilisateur d'entrer trois nombres. Le programme doit afficher `True` si :
   - Le premier nombre est positif ou
   - Le deuxième nombre est négatif __et__ le troisième nombre est nul 
