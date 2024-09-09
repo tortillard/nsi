@@ -43,29 +43,74 @@ Stocke dans la variable `quotient` le quotient de la division euclidienne de `nu
 Enfin, affiche la phrase suivante `La division de (numerateur) par (denominateur) à pour quotient (quotient) et pour reste (reste)`.  
 En remplaçant `(quotient)` et `(reste)` par les valeurs des variables `quotient` et `reste`.
 
+### 7. 
+Réecrivez en Python les expressions arithmétiques suivantes :
+  - $(a - b)^2$
+  - $(a^2 + 2ab + b^2)$
+  - $\frac{a+c}{c+d}$
+  - $\frac{3}{c+4}$
 
 
-### 7.  
-Après avoir cherchez sur internet comment passer d'une température en degré Celsius en degré Farenheit, écris un programme qui demande à l'utilisateur d'entrer une température en degrés Celsius et affichez la phrase suivante `(temperature_en_celsius) degré Celsius équivaut à (temperature_en_farenheit) degré Farenheit`.
+### 8.  
+Après avoir cherchez sur internet comment passer d'une température en degré Celsius en degré Farenheit, écris un programme qui demande à l'utilisateur d'entrer une température en degrés Celsius, faites le calcul nécessaire pour la convertir en Farenheit et affichez la phrase suivante `(temperature_en_celsius) degré Celsius équivaut à (temperature_en_farenheit) degré Farenheit`.  
 
-## Opérateurs booléens et comparaisons
+nb : voir dans la section __Fonctions utiles__  pour l'utilisation de la fonction `input()` qui permet de demander à un utilisateur de saisir un résultat.  
 
-### 8.
+
+
+
+## Comparaisons et booléens  
+
+### 9.
 Écris un programme qui demande à l'utilisateur d'entrer un nombre. Si le nombre est positif, le programme doit afficher `False`, sinon il doit afficher `True`. 
 
 
-### 9.
+### 10.
 Écris un programme qui demande à l'utilisateur d'entrer deux nombres. Le programme doit afficher `True` si le premier nombre est positif et le deuxième nombre inférieur ou égal à 0, sinon il doit afficher `False`
 
-### 10.
+
+
+### 11.
+Écris un programme qui demande à l’utilisateur de saisir un nombre et utilisez l’opérateur modulo (%) pour vérifier sa parité(c'est à dire si un nombre est pair ou non). Renvoi `True` s'il est pair `False` sinon.
+
+
+### 12.
+Créez deux variables booléennes, `a` et `b`, qui prennent respectivement les valeurs `True` et `False`.  
+Affichez le résultat :  
+  - L'opérateur `not` sur la variable `a`  
+  - Les opérateur `and` et `or` sur les variables `a` et `b`  
+
+
+
+### 13.
 Écris un programme qui demande à l'utilisateur d'entrer trois nombres. Le programme doit afficher `True` si :
-  - Le premier nombre est positif ou
+  - Le premier nombre est positif __ou__
   - Le deuxième nombre est négatif __et__ le troisième nombre est nul 
 Sinon, le programme doit afficher `False`.
 
 
 
 
+
 ## Conditions 
-### .
+
+
+### 14.
 Écrivez un programme qui demande à un utilisateur de rentrer son age et qui affiche `Vous êtes majeur` si l'âge entrée est supérieur ou égal à 18 ans ou `Vous êtes mineur` sinon. 
+
+### 15.
+Demandez à l'utilisateur de saisir un nombre, puis affichez s'il est positif, négatif ou égal à zéro.  
+
+
+## 16  
+Demandez à l'utilisateur de saisir deux nombres, puis comparez-les et affichez si le premier est plus grand, plus petit ou égal au second.
+
+
+### 17.  
+Choisissez un nombre secret dans votre programme (par exemple 7), puis demandez à l'utilisateur de saisir un nombre. Indiquez si le nombre saisi est plus petit, plus grand ou égal au nombre secret.
+
+
+## Boucles  
+
+#### 18. 
+Affichez ligne par ligne tout les nombres entiers compris entre 0 et 100 inclus. 
