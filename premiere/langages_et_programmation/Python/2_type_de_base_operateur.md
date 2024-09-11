@@ -96,17 +96,17 @@ En Python, il n'existe pas d'opérateur __logique XOR__ mais il est possible de 
 Il existe également des opérateurs de comparaisons en Python.   
 Tout les opérateurs de comparaisons renvoient un booléen(`True` ou `False`).  
 
-| Python |     Français      |  Exemple   | Résultat |
-| :----: | :---------------: | :--------: | :------: |
-|  `<`   | Inférieur(strict) |  `4 < 3`   | `False`  |
-|  `>`   | Supérieur(strict) |  `4 > 3`   |  `True`  |
-|  `<=`  | Inférieur ou égal |  `7 <= 7`  |  `True`  |
-|  `>=`  | Supérieur ou égal | `7 >= 11`  | `False`  |
-|  `==`  |       Égaux       | `4 == 2*2` |  `True`  |
-|  `!=`  |     Différent     | `3*3 != 9` | `False`  |
+| Python |     Français      |  Exemple             | Résultat |
+| :----: | :---------------: | :--------:           | :------: |
+|  `<`   | Inférieur(strict) |  `4 < 3`             | `False`  |
+|  `>`   | Supérieur(strict) |  `4 > 3`             |  `True`  |
+|  `<=`  | Inférieur ou égal |  `"adam" <= "zoe"`   |  `True`  |
+|  `>=`  | Supérieur ou égal | `7 >= 11`            | `False`  |
+|  `==`  |       Égaux       | `4 == 2*2`           |  `True`  |
+|  `!=`  |     Différent     | `"Hello" != 9`       | `True`   |
 
 > [!TIP]
-> On peut traduire en français une instruction avec un opérateur booléen sous forme de question. 
+> On peut traduire en français une instruction avec un opérateur de comparaison sous forme de question. 
 > Par exemple, pour tester l'égalité entre une variable `a` et `b` :
 >   - En Python `a == b`
 >   - En français `Est-ce que a est égal à b ?` 

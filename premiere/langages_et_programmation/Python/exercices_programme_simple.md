@@ -41,14 +41,15 @@ Certaines de ces fonctions sont utiles pour les exercices suivants. Utilisez les
 Écris un programme qui stocke la valeur `10` dans une variable `numerateur`, la valeur `3` dans une variable `denominateur`.  
 Stocke dans la variable `quotient` le quotient de la division euclidienne de `numerateur` par `denominateur`et dans la variable `reste` le reste.  
 Enfin, affiche la phrase suivante `La division de (numerateur) par (denominateur) à pour quotient (quotient) et pour reste (reste)`.  
-En remplaçant `(quotient)` et `(reste)` par les valeurs des variables `quotient` et `reste`.
+En remplaçant les mots entre parenthèses par les variable associées.  
+
 
 ### 7. 
-Réecrivez en Python les expressions arithmétiques suivantes en attribuant au préalable les valeurs `-3` et `-9` aux variables `a` et `b`:  
-  - $(a - b)^2$
-  - $(a^2 + 2ab + b^2)$
-  - $\frac{a+c}{c+d}$
-  - $\frac{3}{c+4}$
+Réecrivez en Python les expressions arithmétiques suivantes en attribuant au préalable les valeurs `-3`, `-9` et `11` aux variables `a`, `b`, `c` et `d` puis affichez le résultat:  
+  1. $(a - b)^2$
+  2. $(a^2 + 2ab + b^2)$
+  3. $\frac{a+c}{c+d}$
+  4. $\frac{3}{c+4}$
 
 
 ### 8.  
@@ -62,16 +63,16 @@ nb : voir dans la section __Fonctions utiles__  pour l'utilisation de la fonctio
 ## Comparaisons et booléens  
 
 ### 9.
-Écris un programme qui demande à l'utilisateur d'entrer un nombre. Si le nombre est positif, le programme doit afficher `False`, sinon il doit afficher `True`. 
+Écris un programme qui demande à l'utilisateur d'entrer un nombre. Si le nombre est positif strictement, le programme doit afficher `False`, sinon il doit afficher `True`. 
 
 
 ### 10.
-Écris un programme qui demande à l'utilisateur d'entrer deux nombres. Le programme doit afficher `True` si le premier nombre est positif et le deuxième nombre inférieur ou égal à 0, sinon il doit afficher `False`
+Écris un programme qui demande à l'utilisateur d'entrer deux nombres. Le programme doit afficher `True` si le premier nombre est strictement positif et le deuxième nombre inférieur ou égal à 0, sinon il doit afficher `False`
 
 
 
 ### 11.
-Écris un programme qui demande à l’utilisateur de saisir un nombre et utilisez l’opérateur modulo (%) pour vérifier sa parité(c'est à dire si un nombre est pair ou non). Renvoi `True` s'il est pair `False` sinon.
+Écris un programme qui demande à l’utilisateur de saisir un nombre et utilisez l’opérateur modulo (%) pour vérifier sa parité(c'est à dire si un nombre est pair ou non) on affichera `True` si le nombre est pair et `False` sinon.
 
 
 ### 12.
@@ -88,19 +89,24 @@ Affichez le résultat :
   - Le deuxième nombre est négatif __et__ le troisième nombre est nul 
 Sinon, le programme doit afficher `False`.
 
+### 14.  
+Écris un programme qui demande à l'utilisateur d'entrer trois nombres. Le programme doit afficher `True` si :  
+  - La condition suivante est fausse "le premier nombre est supérieur à 5 et le deuxième nombre est inférieur à 7" __ou__  
+  - Le  troisième nombre est égal à 3  
+
 
 
 ## Conditions 
 
 
-### 14.
+### 15.
 Écrivez un programme qui demande à un utilisateur de rentrer son age et qui affiche `Vous êtes majeur` si l'âge entrée est supérieur ou égal à 18 ans ou `Vous êtes mineur` sinon. 
 
-### 15.
+### 16.
 Demandez à l'utilisateur de saisir un nombre, puis affichez s'il est positif, négatif ou égal à zéro.  
 
 
-## 16  
+## 17.    
 Demandez à l'utilisateur de saisir deux nombres, puis comparez-les et affichez si le premier est plus grand, plus petit ou égal au second.
 
 
