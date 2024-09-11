@@ -90,8 +90,6 @@ Sinon, le programme doit afficher `False`.
 
 
 
-
-
 ## Conditions 
 
 
@@ -110,7 +108,3 @@ Demandez à l'utilisateur de saisir deux nombres, puis comparez-les et affichez 
 Choisissez un nombre secret dans votre programme (par exemple 7), puis demandez à l'utilisateur de saisir un nombre. Indiquez si le nombre saisi est plus petit, plus grand ou égal au nombre secret.
 
 
-## Boucles  
-
-#### 18. 
-Affichez ligne par ligne tout les nombres entiers compris entre 0 et 100 inclus. 
