@@ -110,7 +110,7 @@ Demandez à l'utilisateur de saisir un nombre, puis affichez s'il est positif, n
 Demandez à l'utilisateur de saisir deux nombres, puis comparez-les et affichez si le premier est plus grand, plus petit ou égal au second.
 
 
-### 17.  
+### 18.  
 Choisissez un nombre secret dans votre programme (par exemple 7), puis demandez à l'utilisateur de saisir un nombre. Indiquez si le nombre saisi est plus petit, plus grand ou égal au nombre secret.
 
 
