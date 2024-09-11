@@ -44,7 +44,7 @@ Enfin, affiche la phrase suivante `La division de (numerateur) par (denominateur
 En remplaçant `(quotient)` et `(reste)` par les valeurs des variables `quotient` et `reste`.
 
 ### 7. 
-Réecrivez en Python les expressions arithmétiques suivantes :
+Réecrivez en Python les expressions arithmétiques suivantes en attribuant au préalable les valeurs `-3` et `-9` aux variables `a` et `b`:  
   - $(a - b)^2$
   - $(a^2 + 2ab + b^2)$
   - $\frac{a+c}{c+d}$
