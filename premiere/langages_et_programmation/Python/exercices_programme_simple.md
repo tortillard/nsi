@@ -100,17 +100,25 @@ Sinon, le programme doit afficher `False`.
 
 
 ### 15.
-Écrivez un programme qui demande à un utilisateur de rentrer son age et qui affiche `Vous êtes majeur` si l'âge entrée est supérieur ou égal à 18 ans ou `Vous êtes mineur` sinon. 
+__Écrivez une fonction__ qui demande à un utilisateur de rentrer son age et qui __renvoie__ `Vous êtes majeur` si l'âge entrée est supérieur ou égal à 18 ans ou `Vous êtes mineur` sinon. 
 
-### 16.
-Demandez à l'utilisateur de saisir un nombre, puis affichez s'il est positif, négatif ou égal à zéro.  
+### 16.  
+__Écrivez une fonction__ qui demande à l'utilisateur de saisir un nombre, et qui __renvoie__ `Positif`, `Négatif` ou `Nul` selon le nombre entré.  
 
 
 ## 17.    
-Demandez à l'utilisateur de saisir deux nombres, puis comparez-les et affichez si le premier est plus grand, plus petit ou égal au second.
+Demandez à l'utilisateur de saisir deux nombres, puis comparez-les et __renvoyer__ `plus grand`, `plus petit` ou `égal` si le premier est plus grand, plus petit ou égal au second.
 
 
 ### 18.  
-Choisissez un nombre secret dans votre programme (par exemple 7), puis demandez à l'utilisateur de saisir un nombre. Indiquez si le nombre saisi est plus petit, plus grand ou égal au nombre secret.
+__Écrivez une fonction__ dans laquelle se cache un nombre secret (par exemple 7), puis demandez à l'utilisateur de saisir un nombre. Indiquez si le nombre saisi est plus petit, plus grand ou égal au nombre secret.  
+
+## 19.  Jeu du Molky V1  
+__Écrivez une fonction__ qui demande d'abord à l'utilisateur le score précédent et le nombre de points marqués à ce tour, calcule la somme de ces deux valeurs, puis choisit une alternative parmi trois en fonction de la valeur de cette somme.  
+Si le score de 51 est atteint la victoire est annoncée, sinon, si ce score n'est pas dépassé alors le nouveau score est la somme calculée, et sinon enfin, c'est-à-dire si le score de 51 est dépassé, alors le nouveau score est de 25.  
+
+## 20.  Jeu du Molky V2  
+  
+
 
 
