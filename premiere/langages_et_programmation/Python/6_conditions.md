@@ -156,4 +156,4 @@ else:
     print("Pas au collège")
 ```  
 
-- [!WARNING] Il n'est pas possible d'utiliser `elif` ou `else` avant d'avoir utilisé au moins une condition avec un `if` auparavant
+> - [!WARNING] Il n'est pas possible d'utiliser `elif` ou `else` avant d'avoir utilisé au moins une condition avec un `if` auparavant
