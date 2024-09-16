@@ -113,11 +113,30 @@ Demandez à l'utilisateur de saisir deux nombres, puis comparez-les et __renvoye
 ### 18.  
 __Écrivez une fonction__ dans laquelle se cache un nombre secret (par exemple 7), puis demandez à l'utilisateur de saisir un nombre. Indiquez si le nombre saisi est plus petit, plus grand ou égal au nombre secret.  
 
-## 19.  Jeu du Molky V1  
+## 19.  Jeu du Molky   
 __Écrivez une fonction__ qui demande d'abord à l'utilisateur le score précédent et le nombre de points marqués à ce tour, calcule la somme de ces deux valeurs, puis choisit une alternative parmi trois en fonction de la valeur de cette somme.  
 Si le score de 51 est atteint la victoire est annoncée, sinon, si ce score n'est pas dépassé alors le nouveau score est la somme calculée, et sinon enfin, c'est-à-dire si le score de 51 est dépassé, alors le nouveau score est de 25.  
 
-## 20.  Jeu du Molky V2  
+## 20.  Bowling V1  
+Au Bowling on a deux chances pour faire tomber un total de dix quilles.   
+Écrivez une fonction qui demande le nombre de quilles renversées avec chacune des deux boules et renvoie `X` si toutes les quilles sont tombées à la première boule, `/` si toutes les quilles sont tombées(à la deuxième boule) et sinon le nombre de quilles renversées.   
+
+## 21.  Bowling V2  
+Reprendre l'exercice précédent en ne demandant les informations de la deuxième boule que si elle a besoin d'être lancée.  
+
+## 22.  Bowling V3  
+Reprendre l'exercice précédent en renvoyant `!` si les scores saisis sont impossibles.  
+
+## 23. Polynôme du second degré  
+Écrivez une fonction qui prend 3 paramètres en entrée. `a`, `b` et `c` et qui résouds l'équation $ax²+bx+c = 0$
+
+## 24. Billard  
+On considère un billard dont les dimensions sont données par les variables `longueur` et `largeur`, avec une seule bille de coordonnées $(x, y)$ en supposant que le coin inférieur gauche a les coordonnées $(0,0)$ et le coin supérieur droit les coordonnées $(longueur, largeur)$.  
+Après application d'un vecteur de déplacement $(d_x, d_y)$ les nouvelles coordonnées de la bille sont $(x + d_x, y + d_y)$, si ce déplacement n'implique pas de transpercer une paroi de billard.  
+Sinon, la bille effectue un rebond parfait sur chacune des parois rencontrées : la nouvelle direction est symétrique de l'ancienne par rapport à la paroi sur laquelle la bille rebondit, et la distance restant à parcourir est inchangée.   
+
+Écrivez une fonction qui demande les coordonnées de labille et un vecteur de déplacement $(d_x, d_y)$, pour lequel on supposera $-longueur \leq d_x \leq longueur$ et $-largeur \leq d_y \leq largeur$, et qui renvoie les coordonnées de la bille à la fin du mouvement.  
+
   
 
 
