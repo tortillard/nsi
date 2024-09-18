@@ -31,8 +31,14 @@ Convertissez les nombres suivants de la base 2 à la base 10.
 ## Exercice 3  
 Convertissez les nombres suivants de la base 10 à la base 2.  
 
-1. 5
-2. 14
-3. 25
-4. 37
-5. 100
+1. 5  
+2. 14  
+3. 25  
+4. 37  
+5. 100  
+
+
+## Exercice 4
+1. Quel est le plus grand nombre que l'on puisse écrire sur 2 bits ? Sur 6 bits ? Sur 10 bits ? Sur n bits ?
+
+2. A partir d'un nombre `n` écrit en binaire, que suffit t-il de faire pour obtenir l'écriture de `n*2` ?  
