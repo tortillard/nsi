@@ -72,9 +72,11 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 
 
 ## Exercice 8  
-1. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une addition avec des nombres en binaire ?  
-2. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une multiplication avec des nombres en binaire ?    
-3. Quel est le nombre de bits nécessaire pour écrire les 3 ? 11 ? N ?   
+
+1. Il est possible de déterminer si un nombre est pair ou non simplement en regardant sa représentation en binaire. Comment ?  
+2. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une addition avec des nombres en binaire ?    
+3. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une multiplication avec des nombres en binaire ?      
+4. Quel est le nombre de bits nécessaire pour écrire les 3 ? 11 ? N ?     
 
 
 
