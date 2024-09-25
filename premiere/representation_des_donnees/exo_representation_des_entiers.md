@@ -59,16 +59,16 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 
 1. $(1010)_2 + (11001)_2$    
 2. $(1101)_2 + (1101)_2$    
-3. $(18)_10 + (8)_10$    
-4. $(111)_10 + (7)_10$    
+3. $(18)_{10} + (8)_{10}$    
+4. $(111)_{10} + (7)_{10}$    
 
 ## Exercice 7  
 Écrire les multiplications suivantes en écrivant les nombres et le résultat en binaire.    
 
 1. $(110)_2 \times (11001)_2$    
 2. $(1111)_2 \times (11)_2$    
-3. $(43)_10 \times (8)_10$   
-4. $(87)_10 \times (29)_10$    
+3. $(43)_{10} \times (8)_{10}$   
+4. $(87)_{10} \times (29)_{10}$    
 
 
 ## Exercice 8  
@@ -76,7 +76,7 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 1. Il est possible de déterminer si un nombre est pair ou non simplement en regardant sa représentation en binaire. Comment ?  
 2. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une addition avec des nombres en binaire ?    
 3. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une multiplication avec des nombres en binaire ?      
-4. Quel est le nombre de bits nécessaire pour écrire les 3 ? 11 ? N ?     
+4. Quel est le nombre de bits nécessaire pour écrire les nombres 3 ? 11 ? N ?     
 
 
 
@@ -109,7 +109,6 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 2. 47   
 3. 157    
 4. 9534  
-5. 38211  
 
 ## Exercice 12    
 Écrire les nombres suivants en base 16    
@@ -117,7 +116,6 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 2. 47   
 3. 157    
 4. 9534    
-5. 38211  
    
 ## Exercice 13  
 
@@ -126,4 +124,3 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 2. 47   
 3. 157    
 4. 9534    
-5. 38211  
