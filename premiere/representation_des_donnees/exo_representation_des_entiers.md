@@ -10,7 +10,7 @@ __Tableau de la valeur des puissances de 2__
 |         |         |         |         |   4     |         |         |
 
 
-__Tableau de l'écriture binaire des nombres de 7 à 13
+__Tableau de l'écriture binaire des nombres de 7 à 13__
 | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:| 
 |    |    |    |    |    |    |    | 
@@ -59,7 +59,7 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 
 1. $(1010)_2 + (11001)_2$    
 2. $(1101)_2 + (1101)_2$    
-3. $(18)_{10} + (8)_{10}$    
+3. $(18)_{10}$ + $(8)_{10}$    
 4. $(111)_{10} + (7)_{10}$    
 
 ## Exercice 7  
