@@ -60,22 +60,22 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 1. $(1010)_2 + (11001)_2$    
 2. $(1101)_2 + (1101)_2$    
 3. $18_{10}$ + $(8)_{10}$    
-4. $(111)_{10} + (7)_{10}$    
+4. $(111)_{10}$ + $(7)_{10}$    
 
 ## Exercice 7  
 Écrire les multiplications suivantes en écrivant les nombres et le résultat en binaire.    
 
 1. $(110)_2 \times (11001)_2$    
 2. $(1111)_2 \times (11)_2$    
-3. $(43)_{10} \times (8)_{10}$   
-4. $(87)_{10} \times (29)_{10}$    
+3. $(43)_{10}$ \times $(8)_{10}$   
+4. $(87)_{10}$ \times $(29)_{10}$    
 
 
 ## Exercice 8  
 
 1. Il est possible de déterminer si un nombre est pair ou non simplement en regardant sa représentation en binaire. Comment ?  
-2. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une addition avec des nombres en binaire ?    
-3. Que pouvons nous dire du nombre de bits nécessaire à l'écriure d'une multiplication avec des nombres en binaire ?      
+2. Que pouvons nous dire du nombre de bits maximum nécessaire à l'écriure d'une addition avec des nombres écrits en binaire ?    
+3. Que pouvons nous dire du nombre de bits maximum nécessaire à l'écriure d'une multiplication avec des nombres écrits en binaire ?      
 4. Quel est le nombre de bits nécessaire pour écrire les nombres 3 ? 11 ? N ?     
 
 
