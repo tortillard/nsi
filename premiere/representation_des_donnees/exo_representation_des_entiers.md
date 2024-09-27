@@ -67,8 +67,8 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 
 1. $(110)_2 \times (11001)_2$    
 2. $(1111)_2 \times (11)_2$    
-3. $(43)_{10}$ \times $(8)_{10}$   
-4. $(87)_{10}$ \times $(29)_{10}$    
+3. $43_{10}$ \times $8_{10}$   
+4. $87_{10}$ \times $29_{10}$    
 
 
 ## Exercice 8  
