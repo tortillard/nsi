@@ -124,3 +124,11 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 2. 47   
 3. 157    
 4. 9534    
+
+
+## Exo 14  
+Écrire les nombres suivants en base 10(décimale)  
+
+1. $(111)_2$    
+2. $(234)_8$  
+3. $C7_{16}$  
