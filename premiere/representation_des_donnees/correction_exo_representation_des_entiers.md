@@ -42,7 +42,7 @@ Convertissez les nombres suivants de la base 10 à la base 2.
 > Exemple : Le plus grand nombre que l'on puisse écrire sur 10 bits vaut $2^{10}-1 = 1024 - 1 = 1023$  
 
 
-2. A partir d'un nombre `n` écrit en binaire, que suffit t-il de faire pour obtenir l'écriture de `n*2` ?  
+2. A partir d'un nombre `n` écrit en binaire, que suffit t-il de faire pour l'écriture de `n*2` ?  
 > Il suffit de rajouter un `0` à l'écriture en binaire 
 
 
