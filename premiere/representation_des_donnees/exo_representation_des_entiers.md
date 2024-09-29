@@ -59,8 +59,8 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 
 1. $(1010)_2 + (11001)_2$    
 2. $(1101)_2 + (1101)_2$    
-3. $18_{10}$ + $(8)_{10}$    
-4. $111_{10}$ + $(7)_{10}$    
+3. $18_{10}$ + $8_{10}$    
+4. $111_{10}$ + $7_{10}$    
 
 ## Exercice 7  
 Écrire les multiplications suivantes en écrivant les nombres et le résultat en binaire.    
