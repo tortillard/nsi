@@ -10,7 +10,8 @@ Dans cet exercice, on utilise un codage en complément à 2 sur 4 bits.
 
 1. Quels sont les nombres minimum et maximum que l’on peut représenter ?  
 
-2. Compléter le tableau :  
+2. Compléter le tableau :    
+   
 | Décimale | Complément à 2 |
 | :------: | :------------: |
 |    -8    |                |
