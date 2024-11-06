@@ -32,6 +32,15 @@ Dans cet exercice, on utilise un codage en complément à 2 sur 4 bits.
 
 
 
+## Exercice 4  
+Posez et verifiez chaque calculs en représentant les nombres négatifs en complément à 2.  
+
+1. 34+(-27)
+2. 75+(-43)
+3. 60+(-100)
+4. 127+(-128)
+
+
 # Programmation Python  
 
 ## Remarques sur les chaines de caractères    
@@ -39,15 +48,14 @@ Dans cet exercice, on utilise un codage en complément à 2 sur 4 bits.
 
 2. On peut également récupérer _des morceaux_ d'une chaine de caractères en mettant entre crochets les indices de début et de fin(-1) du morceau souhaité. Par exemple `mot[2:4]` va renvoyer `"nj"` car on à récupérer le morceau de la chaine de caractère commencant à l'indice 2 et se terminant à l'indice 4-1 c'est à dire 3.  
 
-## Exercice 4  
+## Exercice 5  
 écrivez une fonction qui prend un nombre écrit en binaire et qui renvoi sa valeur en décimale.
 Voici la signature de la fonction `convertit_en_decimale(n_binaire : str) -> int`.  
 
 `convertit_en_decimale("1011")` doit donner `11`
 
 
-
-## Exercice 5  
+## Exercice 6  
 écrivez une fonction qui prend un nombre écrit en binaire avec une représentation en bit de signe et qui renvoi sa valeur en décimale.
 Voici la signature de la fonction `convertit_en_decimale_bit_de_signe(n_binaire : str) -> int`.  
 
@@ -55,7 +63,7 @@ Voici la signature de la fonction `convertit_en_decimale_bit_de_signe(n_binaire 
 
 
 
-## Exercice 6  
+## Exercice 7  
 Il existe une technique qui permet de représenter les nombres négatifs en complément à 2 plus rapidement.  
 Premièrement, on écrit le nombre en binaire sans s'occuper du signe.  
 Deuxièmement, on regarde dans l'écriture binaire où se situe le dernier 1 (le 1 le plus à droite).  
