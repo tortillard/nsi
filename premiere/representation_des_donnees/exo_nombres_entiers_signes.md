@@ -33,7 +33,7 @@ Dans cet exercice, on utilise un codage en complément à 2 sur 4 bits.
 
 
 ## Exercice 4  
-Posez et verifiez chaque calculs en représentant les nombres négatifs en complément à 2.  
+Posez et verifiez chaque calculs en représentant les nombres négatifs en complément à 2 sur 1 octet.  
 
 1. 34+(-27)
 2. 75+(-43)
