@@ -27,7 +27,7 @@ Dans cet exercice, on utilise un codage en complément à 2 sur 4 bits.
 
 1. Donnez la représentation en complément à 2 sur 1 octet de 0 et -128
 2. Donnez la représentation en décimale des nombres `0000 1000` et `1000 1000` écrit en complément à 2.  
-3. Donnez la représentation en décimale des nombres 96 et 48 sur 1 octet. Faites l'addition entre ces deux nombres. Vous obtenez un résultat écrit en complément à 2.  
+3. Donnez la représentation en complément à 2 des nombres 96 et 48 sur 1 octet. Faites l'addition entre ces deux nombres. Vous obtenez un résultat écrit en complément à 2.  
 4. Donnez la représentation en décimale du résultat obtenu à la question 3. Que remarquez-vous ? 
 
 
