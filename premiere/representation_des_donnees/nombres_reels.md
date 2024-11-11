@@ -6,8 +6,7 @@ La partie entère qui se situe avant la virgule et la partie fractionnaire qui s
 Par exemple le nombre `11,011` à pour partie entière `11` et pour partie fractionnaire `011`.  
 
 ### Lire un nombre à virgule fixe  
-Il est possible d'écrire des nombres à virgule en binaire.  
-La représentation à virgule fixe est la plus simpliste.  
+La représentation à virgule fixe est une méthode pour représenter les nombres à virgule en binaire. 
 
 Voici un nombre écrit en binaire représenté en virgule fixe.    
 `1011, 101`.    
