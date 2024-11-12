@@ -22,9 +22,8 @@ $11.625$
 ### écrire un nombre à virgule fixe  
 
 Pour écrire un nombre à virgule fixe il y à 2 étapes.   
-1. La première consiste à écrire la partie entière du nombre. Pour se faire on utilise la méthode des  divisions successives.   
+1. La première consiste à écrire la partie entière du nombre. Pour se faire on utilise la méthode des divisions successives.   
 2. La deuxième consite à effectuer des multiplications successives sur la partie fractionnaire.    
-Pour la partie fractionnaire on effectue des multiplications successives en prenant uniquement la partie fractionnaire.      
 Voici les étapes à effectuer.    
 On récupère la partie fractionnaire.    
 On la multiplie par 2.   
@@ -33,7 +32,6 @@ Le nombre obtenu possède :
     - une partie fractionnaire qu'il faut à nouveau multiplier par 2    
 
 On réitère l'opération jusqu'à ce que la partie fractionnaire soit 0 ou que l'on tombe sur une cycle d'opérations.    
-
 
 
 Exemple avec `10,375` :
@@ -47,3 +45,10 @@ Partie fractionnaire :
 On à donc pour la partie fractionaire `011`.  
 
 Ainsi la représentation en virgule fixe de `10,375` est `1010,011`
+
+
+### à faire  
+1. Le nombre `101, 1011` est écrit en virgule fixe donnez sa valeur en décimale.    
+2. Donnez la représentation en virgule fixe du nombre `3,40625`.  
+3. Donnez la représentation en virgule fixe du nombre `3,11`. Combien de chiffre après la virgule est-il raisonnable de représenter ? 
+4. Reprenez le nombre obtenu écrit en virgule fixe à la question précédente et calculez sa valeur, en vous servant de Python comme calculatrice. Quel résultat obtenez vous ? 
