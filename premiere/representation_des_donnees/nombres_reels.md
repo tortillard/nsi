@@ -47,7 +47,7 @@ On à donc pour la partie fractionaire `011`.
 Ainsi la représentation en virgule fixe de `10,375` est `1010,011`
 
 
-### à faire  
+### exo à faire  
 1. Le nombre `101, 1011` est écrit en virgule fixe donnez sa valeur en décimale.    
 2. Donnez la représentation en virgule fixe du nombre `3,40625`.  
 3. Donnez la représentation en virgule fixe du nombre `3,11`. Combien de chiffre après la virgule est-il raisonnable de représenter ? 

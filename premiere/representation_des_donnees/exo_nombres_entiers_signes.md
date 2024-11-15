@@ -70,15 +70,15 @@ Deuxièmement, on regarde dans l'écriture binaire où se situe le dernier 1 (le
 Enfin on réecrit le nombre en inversant tout les bits avant le dernier 1.  
 
 Exemple : 
-Si on utilise la méthode habituel pour calculer `-52`. 
-On représente `52` en binaire ce qui donne `110100`.  
-On inverse chaque bit ce qui donne `001011`. 
-Enfin on ajoute 1 ce qui donne `001100`.  
+Si on utilise la méthode habituel pour calculer `-52` sur 7 bits. 
+On représente `52` en binaire ce qui donne `0110100`.  
+On inverse chaque bit ce qui donne `1001011`. 
+Enfin on ajoute 1 ce qui donne `1001100`.  
 
 Vérifions si notre technique donne le même résultat.
-Premièrement, on écrit le nombre en binaire sans s'occuper du signe `110100`
-Deuxièmement, on regarde où se situe le dernier 1. Ici il se situe à l'indice 3 (on commence à compter à partir de 0). Afin de distinguer on réecrit le nombre avec un espace marquant la position du dernier 1. Ce qui nous donne `110 100`
-Enfin on réecrit le nombre en inversant tout les bits avant le 1 qui se situe à l'indice 3.  On obtient donc `001 100`.  
+Premièrement, on écrit le nombre en binaire sans s'occuper du signe `0110100`
+Deuxièmement, on regarde où se situe le dernier 1. Ici il se situe à l'indice 4 (on commence à compter à partir de 0). Afin de distinguer on réecrit le nombre avec un espace marquant la position du dernier 1. Ce qui nous donne `0110 100`
+Enfin on réecrit le nombre en inversant tout les bits avant le 1 qui se situe à l'indice 3.  On obtient donc `1001 100`.  
 C'est bien le résultat obtenu auparavant.  
 
 1. écrivez une fonction qui prend en paramètre un bit sous forme de chaine de caractère et qui renvoie l'inverse de ce bit sous forme de chaine de caractère. La signature de la fonction est la suivante `inverse(b : str) -> str`.
