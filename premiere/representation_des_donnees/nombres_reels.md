@@ -47,8 +47,76 @@ On à donc pour la partie fractionaire `011`.
 Ainsi la représentation en virgule fixe de `10,375` est `1010,011`
 
 
-### exo à faire  
-1. Le nombre `101, 1011` est écrit en virgule fixe donnez sa valeur en décimale.    
-2. Donnez la représentation en virgule fixe du nombre `3,40625`.  
-3. Donnez la représentation en virgule fixe du nombre `3,11`. Combien de chiffre après la virgule est-il raisonnable de représenter ? 
-4. Reprenez le nombre obtenu écrit en virgule fixe à la question précédente et calculez sa valeur, en vous servant de Python comme calculatrice. Quel résultat obtenez vous ? 
+
+
+
+## Représentation IEEE - 754  
+
+### écrire un nombre en représentation IEEE - 754  
+
+Pour représenter un nombre en utilisant la norme IEEE-754, il faut suivre plusieurs étapes. Nous utiliserons le format simple précision (32 bits) pour représenter nos nombres.      
+
+Le but est de représenter notre nombre sur 32 bits dont :  
+    - s : le signe est sur 1 bit   
+    - e : l'exposant biaisé est sur 8 bits  
+    - M : la mantisse sur 23 bits  
+
+Voici les étapes pour trouver s,e et M.  
+
+
+### Étapes pour représenter un nombre en IEEE-754
+
+#### Déterminer le signe (s)
+
+- **Signe (1 bit)** :   
+  - Si le nombre est positif, le bit de signe est `0`.  
+  - Si le nombre est négatif, le bit de signe est `1`.  
+
+#### converion en binaire du nombre en méthode de virgule fixe   
+Convertir le nombre en binaire  
+
+- **Partie entière** : Convertissez la partie entière du nombre en binaire avec la méthode des divisions successives.  
+- **Partie fractionnaire** : Convertissez la partie fractionnaire en binaire avec la méthode des multiplications successives.  
+
+**Exemple** : Pour le nombre 6,25  
+- Partie entière : 6 en binaire est `110`.  
+- Partie fractionnaire : 0.25 en binaire est `0,01` (0,25 * 2 = 0,5 → 0, puis 0,5 * 2 = 1,0 → 1).  
+
+Donc, 6,25 en binaire est `110,01`.  
+
+La mantisse et l'exposant s'obtiennent en normalisant notre nombre écrit en binaire.    
+Normaliser un nombre signifi l'écrire sous la forme `1, ....`.    
+Dans notre exemple 6,25 se note `110,01`.   
+
+Lorsque l'on normalise ce nombre cela nous donne `1,1001`.   
+On peut dire que 6,25 = 1,__1001__ * 2^__2__.    
+
+###  Déterminer la mantisse (m)
+
+La mantisse correspond aux nombres après la virgule auquel il faut ajouter des 0 superflux pour correspondre aux nombres de bit de la représentation.     
+On doit avoir une représentation sur 23 bits au total.  
+Comme on à que 4 bits après la virgule il faut rajouter 19 fois le bit `0`.    
+Ainsi m vaut `10010000000000000000000`.  
+  
+
+
+###  Déterminer l'exposant biaisé (e)
+L'exposant biaisé correspond au nombre de décalage de la virgule qu'il à fallut pour normaliser notre nombre auquel il faut ajouter le biais de 127.      
+
+Dans notre cas on à eu un exposant de `2` auquel il faut ajouter le biais de `127` ce qui donne `129`.    
+Convertissons 129 en binaire : 129 en binaire est `10000001`.
+Ainsi e vaut `10000001`
+
+
+### Assembler le tout  
+
+Maintenant, nous avons tous les composants pour assembler le nombre en format IEEE-754 :
+
+- **Signe(s)** : `0`    
+- **Exposant(e)** : `10000001`    
+- **Mantisse(M)** : `10010000000000000000000`    
+
+En combinant ces trois parties, nous obtenons : `0 10000001 10010000000000000000000`  
+
+
+
