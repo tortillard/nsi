@@ -35,9 +35,14 @@ Effectuez les opérations suivantes en utilisant une représentation à virgule 
 
 # Exercices de programmation 
 ### Exercice 5 
+
 1. Programmez une fonction qui permet de récuperer la partie entière d'un nombre à virgule. Voici la signature de la fonction `recup_partie_entiere(nombre_a_virgule : float) -> int`.
 
 L'appel de `recup_partie_entiere(3.5)` doit renvoyer `3`
+
+Astuce : La fonction `floor` permet de récupérer la partie entière d'un nombre.  
+Exemple : `floor(4.37)` donne `4`. Avant d'utiliser cette fonction, il faut importer la fonction `floor` du module `math` avec la ligne suivante `from math import floor`.
+
 
 2. Programmez une fonction qui permet de récupérer la partie fractionnaire d'un nombre à virgule à partir de sa partie entière. Voici la signature de la fonction `recup_partie_fractionnaire(nombre_a_virgule : float, partie_entiere : int) -> float`.  
 
