@@ -19,8 +19,8 @@
 13. (NON A ET B) OU (C ET NON D)    
 14. NON ((A ET B) OU (C ET D))    
 
-1. Aller sur le site _https://circuitverse.org/simulator_.  
+- Aller sur le site _https://circuitverse.org/simulator_.  
 Pour chaque expression booléenne précédente dessiner le schéma associée avec les portes logiques.   
-2. Dresser la table de vérité des expressions booléennes   
-3. Vérifier que votre table de vérité correspond au schéma associée  
+- Dresser la table de vérité des expressions booléennes   
+- Vérifier que votre table de vérité correspond au schéma associée  
 
