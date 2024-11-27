@@ -82,3 +82,10 @@ L'appel de `decimale_vers_virgule_fixe("11,110000")` doit renvoyer `19.1875`.
 
 Astuce : La méthode `chaine.find(c)` permet d'obtenir l'indice du caractère `c` dans `chaine`. Par exemple `"Bientot Noël !".find("n")` va renvoyer `3`.  
 
+
+# Représentation IEEE-754  
+
+Calculez la représentation IEE-754 en simple précision(sur 32 bits), des nombres suivants :
+- 45.4  
+- -4.76  
+
