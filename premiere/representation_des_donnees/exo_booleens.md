@@ -19,3 +19,6 @@ Pour chaque expression booléenne précédente dessiner le schéma associée ave
 - Dresser la table de vérité des expressions booléennes   
 - Vérifier que votre table de vérité correspond au schéma associée  
 
+
+## Exercice 2 
+Allez sur Atrium, dans l'onglet enseignement cliquez sur Capytale et entrez le code de l'activité suivante : `e968-4842066`. 
