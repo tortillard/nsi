@@ -19,10 +19,10 @@ __Table de vérité__ :
 
 |   A   |   B   | A AND B |
 | :---: | :---: | :-----: |
-| Vrai  | Vrai  |  Vrai   |
-| Vrai  | Faux  |  Faux   |
-| Faux  | Vrai  |  Faux   |
 | Faux  | Faux  |  Faux   |
+| Faux  | Vrai  |  Faux   |
+| Vrai  | Faux  |  Faux   |
+| Vrai  | Vrai  |  Vrai   |
 
 __Utilisation__ : Utilisé dans des conditions où plusieurs critères doivent être remplis. Par exemple, dans un programme, on peut vérifier si *un utilisateur a les droits d'accès __et__ si son compte est actif.*  
 
@@ -35,10 +35,10 @@ __Table de vérité__:
 
 |   A   |   B   | A OR B |
 | :---: | :---: | :----: |
-| Vrai  | Vrai  |  Vrai  |
-| Vrai  | Faux  |  Vrai  |
-| Faux  | Vrai  |  Vrai  |
 | Faux  | Faux  |  Faux  |
+| Faux  | Vrai  |  Vrai  |
+| Vrai  | Faux  |  Vrai  |
+| Vrai  | Vrai  |  Vrai  |
 
 __Utilisation__ : Utilisé pour vérifier si au moins une condition est remplie. Par exemple, dans un système de sécurité, un accès peut être accordé *si l'utilisateur a __soit__ un mot de passe correct, __soit__ une empreinte digitale valide, __soit__ les deux.*
 
@@ -50,8 +50,8 @@ __Table de vérité__:
 
 |   A   | NOT A |
 | :---: | :---: |
-| Vrai  | Faux  |
 | Faux  | Vrai  |
+| Vrai  | Faux  |
 
 __Utilisation__ : Utilisé pour inverser une condition. Par exemple, dans un programme, on peut vérifier si *un utilisateur __n'est pas__ connecté avant de lui permettre d'accéder à une page de connexion.*
 
@@ -64,10 +64,10 @@ __Table de vérité :__
 
 |   A   |   B   | A XOR B |
 | :---: | :---: | :-----: |
-| Vrai  | Vrai  |  Faux   |
-| Vrai  | Faux  |  Vrai   |
-| Faux  | Vrai  |  Vrai   |
 | Faux  | Faux  |  Faux   |
+| Faux  | Vrai  |  Vrai   |
+| Vrao  | Faux  |  Vrai   |
+| Vrai  | Vrai  |  Faux   |
 
 __Utilisation__ : Utilisé dans des situations où une seule condition doit être vraie. Par exemple, *dans un jeu, un joueur peut gagner si __un seul des deux critères__ est rempli.*
 
