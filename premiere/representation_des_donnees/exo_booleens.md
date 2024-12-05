@@ -21,4 +21,10 @@ Pour chaque expression booléenne précédente dessiner le schéma associée ave
 
 
 ## Exercice 2 
-Allez sur Atrium, dans l'onglet enseignement cliquez sur Capytale et entrez le code de l'activité suivante : `e968-4842066`. 
+Allez sur Atrium, dans l'onglet enseignement cliquez sur Capytale et entrez le code de l'activité suivante : `e968-4842066`. (exo 1 seulement)  
+
+## Exercice 3 
+Allez sur Atrium, dans l'onglet enseignement cliquez sur Capytale et entrez le code de l'activité suivante : `b373-4797922`.
+
+
+
