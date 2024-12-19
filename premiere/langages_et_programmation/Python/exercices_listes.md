@@ -26,7 +26,11 @@ Créez deux listes et concaténez-les pour en former une nouvelle liste, puis af
 
 
 ## Exercice 5  
-Ecrivez une fonction qui prend en paramètre une liste de nombres, et qui renvoi une nouvelle liste contenant uniquement les nombres pairs.  
+Ecrivez une fonction qui prend en paramètre une liste de nombres, et qui renvoi une nouvelle liste contenant uniquement les nombres pairs.
+
+## Exercice 6  
+Ecrivez une fonction qui prend en paramètre une liste de notes(jusqu'à 20), et qui renvoi la moyenne des notes.
+
 
 
 
