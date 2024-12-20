@@ -31,8 +31,8 @@ Ecrivez une fonction qui prend en paramètre une liste de nombres, et qui renvoi
 ## Exercice 6  
 Ecrivez une fonction qui prend en paramètre une liste de notes(jusqu'à 20), et qui renvoi la moyenne des notes.
 
-
-
+## Exercice 7 
+Ecrivez une fonction qui prend en paramètre une liste de bits, représentant un nombreécrit en binaire et donnez sa représentation en décimale.  
 
 # Exercices sur les listes de listes  
 
@@ -56,7 +56,7 @@ Votre programme doit afficher toutes les notes en dessous de 10(exclus) de la li
 ## Exercice 3    
 
 Reprenez la liste `classe` de l'exercice précédent.    
-Créez un programme qui renvoie la liste contenant la moyenne des notes pour chaque élève.  
+Créez un programme qui renvoi la liste contenant la moyenne des notes pour chaque élève.  
 
 
 ## Exercice 4 - Activité Morpion  
