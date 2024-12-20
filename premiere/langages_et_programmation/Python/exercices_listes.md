@@ -1,7 +1,7 @@
 # Exercices sur les listes  
 
 ## Exercice 1 - Prise en main  
-1. Créez une liste contenant les cinq premiers nombres entiers (0 à 4) et affichez-la.
+1. Créez une liste contenant des nombres entiers de votre choix et affichez-la.
 2. À partir de la liste créée à l'exercice 1, affichez le premier et le dernier élément.
 3. Modifiez le troisième élément de la liste pour qu'il soit égal à 10, puis affichez la liste mise à jour.
 4. Ajoutez le nombre 5 à la fin de la liste et affichez la liste.
