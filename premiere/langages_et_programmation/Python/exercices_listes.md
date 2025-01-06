@@ -21,7 +21,7 @@ Ecrivez une fonction qui prend en paramètre une liste de nombres, et qui renvoi
 ## Exercice 4  
 Créez deux listes et concaténez-les pour en former une nouvelle liste, puis affichez la liste résultante.
 
-> [!TIP] Il est possible de concaténer 2 listes à  l'aide du symbole `+`
+> [!TIP] Il est possible de concaténer 2 listes à  l'aide du symbole `+`  
 > Par exemple `[1,2,3] + [4,5,6] = [1,2,3,4,5,6]`  
 
 
