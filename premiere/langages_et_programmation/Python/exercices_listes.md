@@ -1,4 +1,4 @@
-# Exercices sur les listes  
+# Partie 1 -Exercices sur les listes  
 
 ## Exercice 1 - Prise en main  
 1. Créez une liste contenant des nombres entiers de votre choix et affichez-la.
@@ -34,9 +34,26 @@ Ecrivez une fonction qui prend en paramètre une liste de nombres, et qui renvoi
 Ecrivez une fonction qui prend en paramètre une liste de notes(jusqu'à 20), et qui renvoi la moyenne des notes.
 
 ## Exercice 7 
-Ecrivez une fonction qui prend en paramètre une liste de bits, représentant un nombreécrit en binaire et donnez sa représentation en décimale.  
+Ecrivez une fonction qui prend en paramètre une liste de bits, représentant un nombre écrit en binaire et donnez sa représentation en décimale.  
 
-# Exercices sur les listes de listes  
+## Exercice 8 
+Ecrivez une fonction qui prend en paramètre une liste de nombre et qui renvoie le nombre maximum de cette liste
+
+## Exercice 9  
+Ecrivez une fonction qui prend en paramètre une liste de nombre `l` et un nombre `n` et qui renvoi le nombre de fois ou `n` est dans `l`. Si `n` n'est pas présent dans `l` on renverra `-1`.  
+
+## Exercice 10 
+Ecrivez une fonction qui prend en paramètre une liste de chaine de caractères et qui renvoie une nouvelle liste contenant les chaines de caractères ayant un nombre de voyelles pairs. 
+
+## Exercice 11 
+Écrivez une fonction qui prend en paramètre une liste de chaînes de caractères et qui renvoie une nouvelle liste contenant les chaînes de caractères ayant une consonne à chaque indice impair de cette chaîne.
+
+Exemple :
+    - Le mot "aliments" sera dans la liste finale car "l", "m", "n" et "s" sont des consonnes.
+    - Le mot "alimentation" ne sera pas dans la liste finale car les lettres aux indices impairs sont "l", "m", "n", "a", "i", "n", __or__ "a" et "i" sont des voyelles."  
+
+
+# Partie 2 -Exercices sur les listes de listes  
 
 ## Exercice 1  - Prise en main 
 
@@ -61,7 +78,15 @@ Reprenez la liste `classe` de l'exercice précédent.
 Créez un programme qui renvoi la liste contenant la moyenne des notes pour chaque élève.  
 
 
-## Exercice 4 - Activité Morpion  
+
+## Exercice 4  
+Vous avez créez une fonction qui récupère le minimum d'une liste (voir __exercice 8__ de la __Partie 1__).
+Créez une nouvelle fonction qui prend en paramètre une liste de liste de nombre, et qui renvoie la liste constitué de 2 éléments. Le premier étant le nombre minimum parmis toutes les sous-listes, le deuxième étant l'indice de la sous liste qui contient ce nombre. 
+__Votre fonction devra faire appel à la fonction de l'exercice 8.__
+
+
+
+## Activité Morpion  
 
 On souhaite représenter le jeux du [Morpion](https://fr.wikipedia.org/wiki/Morpion_(jeu)).    
 On considère que la grille est de taille $3 \times 3$.   
@@ -72,5 +97,13 @@ La partie est terminé si :
     - 3 symboles sont alignés(verticalement, horizonralement ou diagonalement)    
     - Toutes les cases contiennent un `O` ou un `X`      
 
-1. Créez une fonction `est_termine` qui prend en entrée une grille de morpion et qui renvoi `True` si la partie est terminée et `False` sinon.    
-2. Créez une fonction `morpion` qui lance un jeu du morpion entre 2 joueurs et qui affiche le vainqueur. (indice : la partie continue _tant qu'_elle n'est pas finit)  
+1. Créez une fonction `est_termine` qui prend en paramètre une grille de morpion et qui renvoi `True` si la partie est terminée et `False` sinon.      
+
+2. Créez une fonction `place_symbole` qui prend en paramètre :  
+   - une grille de morpion  
+   - une abscisse  
+   - une ordonnée  
+   - et un symbole sous la forme d'un caractère   
+Et qui renvoi la grille avec le symbole placé aux bonnes coordonnées.  
+
+3. Créez une fonction `morpion` qui lance un jeu du morpion entre 2 joueurs et qui affiche le vainqueur. (indice : la partie continue __tant qu'__\elle n'est pas finit)  
