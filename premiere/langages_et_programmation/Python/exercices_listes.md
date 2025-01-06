@@ -107,3 +107,4 @@ La partie est terminé si :
 Et qui renvoi la grille avec le symbole placé aux bonnes coordonnées.  
 
 3. Créez une fonction `morpion` qui lance un jeu du morpion entre 2 joueurs et qui affiche le vainqueur. (indice : la partie continue __tant qu'__\elle n'est pas finit)  
+
