@@ -80,8 +80,8 @@ Créez un programme qui renvoi la liste contenant la moyenne des notes pour chaq
 
 
 ## Exercice 4  
-Vous avez créez une fonction qui récupère le minimum d'une liste (voir __exercice 8__ de la __Partie 1__).
-Créez une nouvelle fonction qui prend en paramètre une liste de liste de nombre, et qui renvoie la liste constitué de 2 éléments. Le premier étant le nombre minimum parmis toutes les sous-listes, le deuxième étant l'indice de la sous liste qui contient ce nombre. 
+Vous avez créez une fonction qui récupère le maximum d'une liste (voir __exercice 8__ de la __Partie 1__).
+Créez une nouvelle fonction qui prend en paramètre une liste de liste de nombre, et qui renvoie la liste constitué de 2 éléments. Le premier étant le nombre maximum parmis toutes les sous-listes, le deuxième étant l'indice de la sous liste qui contient ce nombre. 
 __Votre fonction devra faire appel à la fonction de l'exercice 8.__
 
 
