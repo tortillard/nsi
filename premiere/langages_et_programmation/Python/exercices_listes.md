@@ -40,7 +40,7 @@ Ecrivez une fonction qui prend en paramètre une liste de bits, représentant un
 Ecrivez une fonction qui prend en paramètre une liste de nombre et qui renvoie le nombre maximum de cette liste
 
 ## Exercice 9  
-Ecrivez une fonction qui prend en paramètre une liste de nombre `l` et un nombre `n` et qui renvoi le nombre de fois ou `n` est dans `l`. Si `n` n'est pas présent dans `l` on renverra `-1`.  
+Ecrivez une fonction qui prend en paramètre une liste de nombre `li` et un nombre `nb` et qui renvoi le nombre de fois ou `nb` est dans `li`. Si `nb` n'est pas présent dans `li` on renverra `0`.  
 
 ## Exercice 10 
 Ecrivez une fonction qui prend en paramètre une liste de chaine de caractères et qui renvoie une nouvelle liste contenant les chaines de caractères ayant un nombre de voyelles pairs. 
