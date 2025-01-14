@@ -16,13 +16,13 @@ Dans ce dossier créez les 3 fichiers suivants:
 
 ## Déroulé des séances  
  
-Le __projet__ s'étale sur plusieurs séances __en classe__ mais également pendant le __temps personnel__.    
+Le __projet__ s'étale sur plusieurs séances __en classe__ mais également pendant le __temps personnel__.      
 
-Dans les 2 cas, voici comment chaque séance doit se dérouler  :
-    - Ouvrez le fichier `cahier_de_bord_...` et inscrivez la date et l'heure de la séance, par exemple __"14/01 à 9h37"__ 
-    - Dans une partie nommez __"Objectifs"__ nottez vos objectifs pour la séance.    
-    - __Travaillez__ sur votre projet  
-    - Reprenez votre cahier de bord, dans une partie nommez __"Accomplissement"__ notez le temps de travail effectué ainsi que les objectifs réalisés, les problèmes rencontrés __/!\ POUR CHAQUE MEMBRE DU GROUPE /!\\__.  
+Dans les 2 cas, voici comment chaque séance doit se dérouler  :  
+    - Ouvrez le fichier `cahier_de_bord_...` et inscrivez la date et l'heure de la séance, par exemple __"14/01 à 9h37"__   
+    - Dans une partie nommez __"Objectifs"__ nottez vos objectifs pour la séance.      
+    - __Travaillez__ sur votre projet    
+    - Reprenez votre cahier de bord, dans une partie nommez __"Accomplissement"__ notez le temps de travail effectué ainsi que les objectifs réalisés, les problèmes rencontrés __/!\ POUR CHAQUE MEMBRE DU GROUPE /!\\__.    
   
 
 ## Évaluation  
