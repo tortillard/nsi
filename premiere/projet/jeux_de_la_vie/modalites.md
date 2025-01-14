@@ -65,7 +65,8 @@ Cette note concerne :
 
 ### Sanction sur la note   
 
-> [!WARNING] __Cette liste est évidemment non exhaustive.__  
+> [!WARNING] 
+> __Cette liste est évidemment non exhaustive.__  
 
 - La note du projet est divisé par 2 si :   
   - Le cahier de bord à été modifié rétroactivement    
