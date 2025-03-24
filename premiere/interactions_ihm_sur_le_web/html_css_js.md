@@ -117,6 +117,163 @@ Une liste __non exhaustive__ des propriétés CSS est disponible ![ici](../../..
 
 ### Généralités 
 
-### Syntaxe  
+Le langage __JavaScript__ est un langage de programmation qui permet de se concentrer sur le __dynamisme et l'interaction__ de notre page web.
 
-### Code  
+En plus des langages __HTML et CSS__, on ajoute le langage __JavaScript__ sur nos pages web.
+
+C'est grâce au code JS que, lorsque l'on clique sur un bouton sur une page web(par exemple), il se passe quelque chose.
+    - Exemples basiques : un message qui s'affiche, une image apparaît, le texte change de couleur.  
+    - Exemples un peu plus techniques : animations, communication avec le serveur, validation de __formulaires__ .  
+
+
+### Syntaxe de base  
+La syntaxe du code javascript est "relativement" similaire à celle de Python.  
+
+> [!WARNING]
+> Il faut mettre un point-virgule `;` à chaque fin de ligne !    
+ 
+
+
+#### Les variables  
+
+Pour déclarer une variable, on doit la précéder d'un mot-clé. Il en existe trois : `var`, `const` et `let`. Vous pouvez vous renseigner sur les différences entre ces trois mots-clés ; dans notre cas, nous utiliserons majoritairement `let` (sauf mention explicite).
+
+Les exemples sont constitués d'un code en Python et de son équivalent en JavaScript.
+
+```Python
+a = 3
+```
+
+```Javascript
+let a = 3;
+```
+
+#### Les fonctions, conditions, boucles    
+
+Les fonctions, les conditions et les boucles utilisent des *blocs*, contrairement à Python qui utilise une indentation. Les blocs sont délimités par des accolades `{ }`.  
+
+```Python
+def maximum(a, b):
+    if a < b:
+        return b
+    else:
+        return a
+
+def compte_jusqua(nb):
+    for i in range(nb):
+        print(i)
+
+```
+
+```Javascript
+function maximum(a, b){
+    if (a < b){
+        return b;
+    }
+    else{
+        return a;
+    }
+}
+
+function compte_jusqua(nb){
+
+    for (let i = 0; i < nb; i++) {
+        console.log(i);
+    }
+}
+
+```
+
+#### Les Arrays (Tableaux)  
+
+Il existe une structure de données nommée `Array` en JavaScript. Cette structure permet de regrouper plusieurs données de différents types et d'accéder aux éléments par leur index. Les tableaux sont fondamentalement bien différents des __listes en Python__, mais en première NSI, on peut se permettre de simplifier mentalement utilisant les 2 types de la même manière.
+
+```Python
+fruits = ["Pomme", "Poire", "Peche"]
+premier_fruit = fruits[0]
+
+```
+
+```Javascript
+let fruits = ["Pomme", "Poire", "Peche"];
+let premier_fruit = fruits[0];
+```
+
+### Les évènements  
+
+Jusqu'à maintenant Javascript ne nous apporte rien de plus que Python.   
+La première nouveauté avec ce langage c'est qu'il est possible de récupérer les éléments dans __l'arbre DOM__ de notre page web.   
+
+#### L'arbre DOM  
+
+__L'arbre DOM__ (Document Object Model) est une représentation structurée d'un document HTML. Il permet d'interagir avec le contenu, la structure et le style d'une page web. 
+
+Voici un exemple de code HTML et __l'abre DOM__ qui lui est associée.    
+
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon Document</title>
+    </head>
+    <body>
+        <h1>Titre Principal</h1>
+        <p>Ceci est un paragraphe.</p>
+    </body>
+</html>
+```  
+
+![arbre dom exemple](img/arbre_dom.png)
+
+#### Récupérer un élément de l'arbre DOM  
+
+Il est possible d'identifier un élément de l'arbre DOM en lui ajoutant dans une balise l'attribut `id`.  
+Par exemple :  
+
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon Document</title>  
+    </head>  
+    <body>  
+        <h1>Titre Principal</h1>  
+        <p>Ceci est un paragraphe.</p>  
+        <button id="premier_bouton">Appuyer ici</button>  
+    </body>  
+</html>  
+```  
+
+En Javascript on peut ensuite récupérer un élément par son id. Pour cela, on fait appel à l'objet `document` qui représente notre page web et à la méthode qui lui est associée `getElementById()`. Cette méthode prend en paramètre un identifiant.
+Par exemple, pour récupérer la balise `<button>` ayant pour identifiant `"premier_bouton"` on écrit le code suivant :  
+
+```javascript
+const chapitre_un = document.getElementById("premier_bouton");  
+```  
+
+
+
+
+#### Association d'évènement   
+
+Enfin, maintenant que nous avons accès à notre élément(ici notre bouton), il est possible de lui associer un __évènement__.  
+Il existe toute une liste __d'évènements__ possible à associer (passage de souris sur un élément, touche du clavier enfoncé, ...) nous allons associer l'évènement de _clique_ sur notre bouton.  
+
+Pour cela, il faut faire appel à la méthode `addEventListener()` de notre élément qui prend 2 paramètres. 
+    - __l'évènement__ qu'on souhaite associer
+    - __le nom__ de la fonction à exécuter lors de l'évènement  
+  
+On écrit donc le code suivant. 
+
+
+```javascript
+chapitre_un.addEventListener("click", afficheMessage);
+```
+
+Voici ce que peut contenir le code de la fonction afficheMessage(par exemple)
+
+```javascript
+function afficheMessage(){
+    alert("Bonjour tout le monde !");
+}
+```
