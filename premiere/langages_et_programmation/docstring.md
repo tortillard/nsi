@@ -13,11 +13,10 @@ __Documentation__ : Elle fournit des __informations__ sur ce que fait la fonctio
 
 __Accessibilité__ : Les docstrings peuvent être consultées à l'aide de la fonction __`help()`__ en Python, ce qui permet d'accéder à la documentation directement dans l'interpréteur Python.
 
-__Meilleures pratiques__ : L'utilisation de docstrings est considérée comme une bonne pratique de programmation, car elle améliore __la lisibilité__ et la maintenabilité du code.
+__Meilleures pratiques__ : L'utilisation de docstrings est considérée comme une bonne pratique de programmation, car elle améliore __la lisibilité__ et la maintenabilité du code.  
 
 
 ## Comment écrire une docstring ?
-
 Il existe plusieurs formats pour écrire une docstring. Parmi eux on compte, `Javadoc`, `reST`(pour reStructuredText), `NumPy/SciPy` mais le format le plus utilisé est celui de `Google`. C'est ce format que nous allons utiliser. 
 
 Voici comment se présente le __format Google pour écrire une docstring__ dans une fonction Python. 
@@ -39,7 +38,9 @@ def ma_fonction(param1, param2):
     pass  
 ```  
 
-## Exemple de docstring
+
+## Exemple de docstring  
+
 
 ```python
 
