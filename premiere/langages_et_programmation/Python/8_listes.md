@@ -4,7 +4,8 @@
 Le programme de 1re NSI parle de manipulation de __tableaux__ en Python et non de __listes__. Cependant, les __tableaux__ ne sont pas implémentés (nativement) dans Python. Autrement dit, nous allons manipuler des objets de type `list` pour parler de __tableaux__. De manière générale, nous dirons qu'en 1re NSI, les terminologies __tableau__ et __liste__ sont les mêmes.  
 
 ## Générales  
-Les listes sont des __structure de données__ linéaires.    
+> [!TIP]
+> Les listes sont des __structure de données__ __linéaires__.    
 
 > [!IMPORTANT]
 > Une __structure de donnée__ est un objet informatique permettant d'organiser et stocker plusieurs donnée.    
