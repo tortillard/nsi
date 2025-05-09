@@ -8,9 +8,11 @@
 5. Utilisez la fonction `len()` pour afficher le nombre d'items dans le dictionnaire `dico_fruits`.
 6. Parcourez le dictionnaire `dico_fruits` et affichez chaque nom de fruit.
 7. Parcourez le dictionnaire `dico_fruits` et affichez chaque prix des fruits.
-8. Avec un parcours, affichez `Le prix de la (fruit) est de (prix)` pour chaque fruit de `dico_fruits`.  
+8. Avec un parcours, affichez `Le prix de la (fruit) est de (prix)` pour chaque fruit de `dico_fruits`.    
+   
 
-## Exercice 2  
+ 
+## Exercice 2 
 Créez un dictionnaire nommé `dico_notes` qui contient les noms de trois étudiants comme clés et leurs notes respectives comme valeurs. Par exemple : `{"Alice": 15, "Bob": 12, "Charlie": 18}`.   
 Ensuite, calculez et affichez la moyenne des notes.  
 
@@ -154,3 +156,7 @@ __Attention__ : Il est possible que des pokémons de `l_d1` soit présent dans `
     - 7. La liste des noms des pokémons et de leur génération trié par l'ordre alphabétique de leurs noms.  
     - 8. La liste des noms et types des pokémons de la génération 1 de type Psy et de la géneration 7 de type Glace.  
     
+
+## Activité Capytale - Manipulation de données CSV  
+
+Code : __fe52-6550033__
