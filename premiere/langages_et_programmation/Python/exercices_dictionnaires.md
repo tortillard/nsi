@@ -111,7 +111,7 @@ Par exemple, on renvoi un pokémon _si son `"type"` est `"Plante"`_.
 8. En vous inspirant de la question précédente, écrivez une fonction `selectionne_par_attributs(li_dico_pokemon, dico_attributs)`. Avec `dico_attributs` qui est un dictionnaire où les clés sont des attributs et les valeurs sont les valeurs que les attributs des pokémons doivent satisfaire pour être renvoyé dans la liste.     
 Voici ce que devrait renvoyer `selectionne_par_attributs(li_dico_pokemon, dico_attributs)`, si:
 - `li_dico_pokemon` vaut la même valeur que précédemment  
-- `dico_attributs` vaut `{"n" : 1}`. 
+- `dico_attributs` vaut `{"n" : "1"}`. 
 ```Python
 [{'n': '1', 'pokemon': 'Bulbizarre', 'type': 'Plante', 'type2': 'Poison', 'sous_evolution': '', 'evolution': 'Herbizarre', 'mega_evolution': '', 'forme_normale': '', 'region': 'Kanto', 'generation': '1'}]
 ```  
