@@ -130,7 +130,7 @@ Il faut donc indiquer à la fonction `sorted` comment comparer 2 dictionnaires.
 > Sans rentrer dans les détails il faut lui attribuer(entre autre) la valeur d'une `lambda` fonction.    
 > Prenons la liste de dictionnaire `magasin = [{"nom" : "Pomme" , "prix" : 4.2 , "place": 70}, {"nom" : "Verre", "prix" : 2.1, "place": 375},{"nom" : "ecran", "prix" : 98.7, "place": 120}]`.      
 > Il est évidemment impossible d'écrire `sorted(magasin)`.    
-> Par contre si l'on souhaite trier notre liste notre liste dans l'ordre croissant des prix il suffit d'écrire : `sorted(magasin, key = lambda article : article["prix"])`
+> Par contre si l'on souhaite trier notre liste dans l'ordre croissant des prix il suffit d'écrire : `sorted(magasin, key = lambda article : article["prix"])`
 
 9. Tester le code précédent  
 10. Modifier le code précédent pour que les articles soit trié en fonction de `"place"`
