@@ -5,8 +5,8 @@ En informatique on peut être amené à résoudre différents type de problèmes
 Parmi eux ils existent des problèmes d'optimisation combinatoire.   
 
 Pour simplifier nous dirons que A est un problème d'optimisation combinatoire si :  
-    - il existe plusieurs solutions qui permet de résoudre A.  
-    - Parmis ces solutions, on en cherche une qui fasse partie des meilleurs.  
+- il existe plusieurs solutions qui permet de résoudre A.  
+- Parmis ces solutions, on en cherche une qui fasse partie des meilleurs.  
 
 ## Exemple 
 Le problème du __rendu de monnaie__ est un problème d'optimisation combinatoire.  
@@ -38,5 +38,17 @@ Ce schéma représente un bois dans laquelle il y a des chemins(les arêtes) et 
 Question :
 Quel parcours doit effectuer un écureuil à travers le bois pour récupérer le plus de noisettes sur son passage ? 
 
-## Exemples 
+## Exercice 
 
+Écrire une fonction rendre_monnaie(c, pieces) qui rend une liste des pièces obtenues avec l'algorithme glouton pour rendre la valeur `c` avec des pièces dans la liste `pieces`.
+Par exemple, `rendre_monnaie(6, [1, 2, 4])` doit renvoyer `[4, 2]` et `rendre_monnaie(5, [1, 3, 7])` doit renvoyer `[3, 1, 1]`.
+On pourra s'inspirer du code suivant :
+
+```Python
+def rendre_monnaie(c, pieces):
+    pieces.sort(key=lambda x: -x) # tri par ordre décroissant
+    rendu = [] # liste des pièces utilisées par l'algo. glouton
+    for ...: # parcours de la liste pieces
+        ... # à compléter
+    return rendu
+```
