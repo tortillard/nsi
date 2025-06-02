@@ -29,3 +29,12 @@ On peut donc tirer profit de cette information afin de trouver plus rapidement l
 - _On cherche dans la partie de notre liste triée le milieu, ici c'est __5__. On le compare avec le 4._    
 - _Comme 4 < __5__  on réitère l'opération sur la partie __2,3__. Ici le milieu est __3__._     
 - _Le nombre __3__ se trouve à l'indice 1 il faut donc insérer le nombre 4 entre l'indice 1 et 2_.    
+
+
+> [!NOTE]  
+> Programmez le __tri insertion__ en utilisant la recherche dichotomique.      
+> Il serait judicieux de coder 4 fonctions pour ce tri.    
+> - Une fonction __`echange(l,i,j)`__  qui ne renvoie rien et échange les nombres aux indices `i` et `j` dans `l`   
+> - Une fonction __`trouve_ind_dicho(l,ind_element_a_inserer)`__ qui renvoie l'indice ou doit être insérer le nombre qui se situe à `ind_element_a_inserer` en utilisant la dichotomie.  
+> - Une fonction __`insere_dicho(l,ind_element_a_deplacer)`__  qui ne renvoie rien et insere dans `l` le nombre qui se situe à `ind_element_a_deplacer` en faisant appel à la fonction précédente.  
+> - Une fonction __`tri_insertion(l)`__ qui renvoie la liste l triée grâce à la méthode du tri par insertion.   
