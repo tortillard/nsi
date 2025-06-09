@@ -25,13 +25,13 @@ La __distance__ est un élément central de l'algorithme KNN.
 Il existe plusieurs manière de calculer une distance.  
 
 Généralement on utilise la __distance Euclidienne__(figure (b)) dont la formule est :  
-- $dist\_euclidienne(d_1, d_2) = \sqrt{(x_1 - x_2)²+(y_1 - y_2)²}$    
+- $euclidienne(d_1, d_2) = \sqrt{(x_1 - x_2)²+(y_1 - y_2)²}$    
 
 Il existe également la _distance de Manhattan_(figure (a)) :
-- $dist\_manhattan(d_1, d_2) = |(x_1 - x_2)|+|(y_1 - y_2)|$    
+- $manhattan(d_1, d_2) = |(x_1 - x_2)|+|(y_1 - y_2)|$    
 
 Ou encore la distance de Chebyshev (figure(c)) : 
-- $dist\_manhattan(d_1, d_2) = max(|(x_1 - x_2)|,|(y_1 - y_2)|)$    
+- $chebyshev(d_1, d_2) = max(|(x_1 - x_2)|,|(y_1 - y_2)|)$    
 
 Voici des schémas qui illustre la façon dont les distances sont calculées.  
 
