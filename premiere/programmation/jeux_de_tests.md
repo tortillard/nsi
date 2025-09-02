@@ -30,11 +30,10 @@ Plus généralement, l'écriture d'un test se fait de la manière suivante  :
 Voici le pseudo code d'un programme qui compte les voyelles
 
 ```Pseudo
-VOYELLES = ["A", "E", "I", "O", "U", "Y"]
 FONCTION compte_voyelles(chaine_a_tester):
     res = 0
     POUR lettre DANS chaine_a_tester :
-        SI lettre DANS VOYELLES : 
+        SI lettre est une VOYELLE : 
             res = res + 1  
     RENVOI res
 ```
@@ -70,7 +69,7 @@ __Exemple__
 ```Python
 import doctest
 
-VOYELLES = ["A", "E", "I", "O", "U", "Y"]
+
 def compte_voyelles(chaine_a_tester):
     """
     Compte le nombre de voyelles en majuscule de chaine_a_tester
@@ -90,7 +89,7 @@ def compte_voyelles(chaine_a_tester):
     """
     res = 0
     for lettre in chaine_a_tester:
-        if lettre in VOYELLES:
+        if (lettre == "A") or (lettre == "E") or (lettre ==  "I") or (lettre == "O") or (lettre == "U") or (lettre ==  "Y"):
             res = res + 1
     return res
 
@@ -98,3 +97,4 @@ print(doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE))
 ```
 
 Copier puis coller le code précédent et exécuter le pour interpréter le résultat fourni par le module doctest.
+
