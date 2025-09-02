@@ -4,6 +4,8 @@
 
 ## Projets  
 
+[Liste des projets](Projets)
+
 ## Chapitres  
 
 ### Programmation et algorithmiques   
