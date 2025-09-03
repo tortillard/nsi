@@ -10,11 +10,11 @@
 
 ### Programmation et algorithmiques   
 - __Python__  
-    - [Initiation - Types de base et opérateur](1_Programmation_et_algorithmiques/langage_Python/Initiation_Type_de_base_et_operateur/)   
-    - [Variables](1_Programmation_et_algorithmiques/langage_Python/Variables)  
-    - [Fonctions](1_Programmation_et_algorithmiques/langage_Python/Fonctions)  
-    - [Conditions](1_Programmation_et_algorithmiques/langage_Python/Conditions)   
-    - [Boucles](1_Programmation_et_algorithmiques/langage_Python/Boucles)   
+    - [Initiation - Types de base et opérateur](1_Programmation_et_algorithmiques/1_langage_Python/Initiation_Type_de_base_et_operateur/)   
+    - [Variables](1_Programmation_et_algorithmiques/1_langage_Python/Variables)  
+    - [Fonctions](1_Programmation_et_algorithmiques/1_langage_Python/Fonctions)  
+    - [Conditions](1_Programmation_et_algorithmiques/1_langage_Python/Conditions)   
+    - [Boucles](1_Programmation_et_algorithmiques/1_langage_Python/Boucles)   
 - __Langages et programmation__  
     - Utilisation de bibliothèque   
     - Documentation d'une fonction (docstring)   
