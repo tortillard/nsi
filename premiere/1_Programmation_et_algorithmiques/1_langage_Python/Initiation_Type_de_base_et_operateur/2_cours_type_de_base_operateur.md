@@ -10,6 +10,10 @@
 | Chaines de caractères |  String  |  `str`  | `"Hello"` ou `'@kwm78E-$'` |
 |        Booléen        | Boolean  | `bool`  |     `True` ou `False`      |
 
+> [!TIP]  
+> Pour vérifier les types en Python il est possible d'utiliser la fonction `type()`    
+> Par exemple `type(4)` renvoi `<class 'int'>`  
+
 
 
 ## Opérateurs arithmétiques
