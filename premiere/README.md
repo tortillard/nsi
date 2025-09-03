@@ -10,8 +10,7 @@
 
 ### Programmation et algorithmiques   
 - __Python__  
-    - [Initiation](1_Programmation_et_algorithmiques/langage_Python/Initiation/)   
-    - [Type de base et opérateur](1_Programmation_et_algorithmiques/langage_Python/Type_de_base_et_operateur)  
+    - [Initiation - Types de base et opérateur](1_Programmation_et_algorithmiques/langage_Python/Initiation_Type_de_base_et_operateur/)   
     - [Variables](1_Programmation_et_algorithmiques/langage_Python/Variables)  
     - [Fonctions](1_Programmation_et_algorithmiques/langage_Python/Fonctions)  
     - [Conditions](1_Programmation_et_algorithmiques/langage_Python/Conditions)   

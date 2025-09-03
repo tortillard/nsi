@@ -1,7 +1,7 @@
 # Type de base et opérateurs
 
 
-## Rappel : les types de base  
+## Les types de base  
 
 |       Français        | Anglais  | Python  |    Exemples de valeurs     |
 | :-------------------: | :------: | :-----: | :------------------------: |
@@ -10,7 +10,7 @@
 | Chaines de caractères |  String  |  `str`  | `"Hello"` ou `'@kwm78E-$'` |
 |        Booléen        | Boolean  | `bool`  |     `True` ou `False`      |
 
-> Il existe d'autres types qui seront vus plus tard en NSI. 
+
 
 ## Opérateurs arithmétiques
 Ces opérateurs s'utilisent avec des `int` et des `float`  
@@ -28,13 +28,25 @@ Ces opérateurs s'utilisent avec des `int` et des `float`
 
 
 ## Opérateur sur les chaînes de caractères
-| Python |   Français    |    Exemple     | Résultat  |
-| :----: | :-----------: | :------------: | :-------: |
-|  `+`   | Concaténation | "Bon" + "jour" | "Bonjour" |
+| Python |   Français    |     Exemple      |   Résultat    |
+| :----: | :-----------: | :--------------: | :-----------: |
+|  `+`   | Concaténation | `"Bon" + "jour"` |  `"Bonjour"`  |
+|  `*`   |  Répétition   |   `"Bon" * 3`    | `"BonBonBon"` |
+
 
 
 
 ## Opérateurs booléens  
+
+|             Python             |  Français   |              Exemple              | Résultat |
+| :----------------------------: | :---------: | :-------------------------------: | :------: |
+|             `not`              |     Non     |            `not False`            |  `True`  |
+|             `and`              |     Et      |         `True and False`          | `False`  |
+|              `or`              |     Ou      |          `True or True`           |  `True`  |
+| Opérateur logique non existant | Ou exclusif | `True xor True` exemple théorique | `False`  |
+
+
+<!--
 
 ### Opérateur NOT 
 
@@ -88,22 +100,21 @@ L'opérateur __XOR(OU Exclusif)__ est un opérateur _binaire_(qui agit sur deux 
 En Python, il n'existe pas d'opérateur __logique XOR__ mais il est possible de simuler son fonctionnement à partir d'opérateur déjà connus.
 
 
-
-
+--> 
 
 ## Opérateurs de comparaison     
 
 Il existe également des opérateurs de comparaisons en Python.   
 Tout les opérateurs de comparaisons renvoient un booléen(`True` ou `False`).  
 
-| Python |     Français      |  Exemple             | Résultat |
-| :----: | :---------------: | :--------:           | :------: |
-|  `<`   | Inférieur(strict) |  `4 < 3`             | `False`  |
-|  `>`   | Supérieur(strict) |  `4 > 3`             |  `True`  |
-|  `<=`  | Inférieur ou égal |  `"adam" <= "zoe"`   |  `True`  |
-|  `>=`  | Supérieur ou égal | `7 >= 11`            | `False`  |
-|  `==`  |       Égaux       | `4 == 2*2`           |  `True`  |
-|  `!=`  |     Différent     | `"Hello" != 9`       | `True`   |
+| Python |     Français      |      Exemple      | Résultat |
+| :----: | :---------------: | :---------------: | :------: |
+|  `<`   | Inférieur(strict) |      `4 < 3`      | `False`  |
+|  `>`   | Supérieur(strict) |      `4 > 3`      |  `True`  |
+|  `<=`  | Inférieur ou égal | `"adam" <= "zoe"` |  `True`  |
+|  `>=`  | Supérieur ou égal |     `7 >= 11`     | `False`  |
+|  `==`  |       Égaux       |    `4 == 2*2`     |  `True`  |
+|  `!=`  |     Différent     |  `"Hello" != 9`   |  `True`  |
 
 > [!TIP]
 > On peut traduire en français une instruction avec un opérateur de comparaison sous forme de question. 
