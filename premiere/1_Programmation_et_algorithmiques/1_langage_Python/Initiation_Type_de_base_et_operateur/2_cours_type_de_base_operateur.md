@@ -49,6 +49,8 @@ Ces opérateurs s'utilisent avec des `int` et des `float`
 |              `or`              |     Ou      |          `True or True`           |  `True`  |
 | Opérateur logique non existant | Ou exclusif | `True xor True` exemple théorique | `False`  |
 
+> [!TIP]
+> Le cours sur les booléens est disponible ici 
 
 <!--
 
