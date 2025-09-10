@@ -31,3 +31,6 @@ Par exemple :
 - `bidouille("ok")` doit renvoyer `"okokok"`  
 
 
+## Exercice 5  
+Écrivez sur une seule ligne le code qui permet de répeter 7 fois une chaine de caractère renvoyée par la fonction `bidouille`.
+
