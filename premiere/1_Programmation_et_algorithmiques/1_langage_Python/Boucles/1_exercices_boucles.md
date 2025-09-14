@@ -1,4 +1,4 @@
-## Boucles  
+# Exercices sur les boucles non bornée 
 
-#### 1. 
+## Exercice 1 
 Affichez ligne par ligne tout les nombres entiers compris entre 0 et 100 inclus. 

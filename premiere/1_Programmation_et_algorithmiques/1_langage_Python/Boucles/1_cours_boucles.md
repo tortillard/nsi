@@ -31,7 +31,9 @@ Ce code permet d'afficher 10 fois la phrase `"Bonjour tout le monde !"`.
 __Remarque__ : Un code qui contient une boucle non bornée peut boucler à l'infini si la condition d'arrêt n'est jamais satisfaite. Il faut donc bien faire attention lorsque l'on programme ! 
 
 Voici un exemple de programme avec une boucle qui ne s'arrête jamais. 
-> [!WARNING] Il n'est pas conseillé de tester ce programme si vous n'avez pas sauvegarder au préalable le code déjà écrit.  
+
+> [!WARNING]
+> Il n'est pas conseillé de tester ce programme si vous n'avez pas sauvegarder au préalable le code déjà écrit.  
 
 
 ```Python  
@@ -44,8 +46,8 @@ while True:
 ## Boucles bornées   
 
 > [!TIP] 
-> __La boucle bornée__ permet de répéter des instructions un nombre de fois prédéfini.      
-> On l'utilise quand on sait le nombre de fois que l'on veut répéter notre code.    
+> __La boucle bornée__ permet de répéter des instructions un nombre de fois __prédéfini__.      
+> On l'utilise quand on __sait le nombre de fois que l'on veut répéter__ notre code.    
 
 En Python, on définit une boucle bornée :  
 - par le mot clé `for`  
