@@ -76,7 +76,7 @@ Ecrire une fonction `triangle_hauteur` qui prend un entier `n` en paramètre et 
 > # On peut également ajouter un message en paramètre de la fonction input 
 > age = input("Quel est votre age ?")
 > ```
-> ⚠️ ATTENTION ⚠️ peu importe le résultat saisie par l'utilisateur, `input` renverra TOUJOURS une chaine de caractères ! 
+> ⚠️ ATTENTION ⚠️ peu importe le résultat saisi par l'utilisateur, `input` renverra TOUJOURS une chaine de caractères ! 
 
 
 > [!TIP]  
