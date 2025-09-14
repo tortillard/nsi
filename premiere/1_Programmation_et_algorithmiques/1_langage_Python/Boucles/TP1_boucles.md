@@ -68,7 +68,7 @@ Ecrire une fonction `triangle_hauteur` qui prend un entier `n` en paramètre et 
 
 ## Aide pour le TP
 
-> [!TIP] Fonction `input`  
+> [!TIP] 
 > La fonction `input` permet à l'utilisateur de saisir une valeur. Il est possible de récupérer cette valeur dans une variable pour l'utiliser plus tard.  
 > Exemple 
 > ```Python
@@ -79,7 +79,7 @@ Ecrire une fonction `triangle_hauteur` qui prend un entier `n` en paramètre et 
 > ⚠️ ATTENTION ⚠️ peu importe le résultat saisie par l'utilisateur, `input` renverra TOUJOURS une chaine de caractères ! 
 
 
-> [!TIP] Fonction `str`
+> [!TIP]  
 > La fonction `str` permet de convertir un type en chaine de caractère. Cela est utile notamment pour concaténer des caractères avec des nombres.  
 > Par exemple : 
 > ```Python
