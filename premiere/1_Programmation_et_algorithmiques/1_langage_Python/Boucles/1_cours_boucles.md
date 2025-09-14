@@ -65,6 +65,7 @@ for i in range(10):
 ```
 Ce code permet d'afficher 10 fois la phrase `"Bonjour tout le monde !"`.  
 
+> [!NOTE]
 > La fonction `range(n)` renvoie un itérateur constitué des nombres allant de `0` à `n-1`.   
 > Autrement dit, l'instruction `for i in range(10):` peut se traduire par `"Pour i allant de 0 à 9 effectue les instructions suivantes"`.  
 
