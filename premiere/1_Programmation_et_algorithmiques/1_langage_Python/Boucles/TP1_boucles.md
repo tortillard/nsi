@@ -92,7 +92,7 @@ Ecrire une fonction `triangle_hauteur` qui prend un entier `n` en paramètre et 
 > ```
 
 > [!TIP]  
-> De la même manière que la fonction `str` il existe la fonction `int` qui permet de convertit un objet sous forme d'entier.  
+> De la même manière que la fonction `str` il existe la fonction `int` qui permet de convertir un objet sous forme d'entier.  
 > Par exemple : 
 > ```Python
 > mot = "16"

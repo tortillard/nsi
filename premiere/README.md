@@ -16,9 +16,11 @@
     - [Conditions](1_Programmation_et_algorithmiques/1_langage_Python/Conditions)   
     - [Boucles](1_Programmation_et_algorithmiques/1_langage_Python/Boucles)   
 - __Langages et programmation__  
-    - Utilisation de bibliothèque   
-    - Documentation d'une fonction (docstring)   
-    - Jeux de tests  
+    - [Pseudo - code](1_Programmation_et_algorithmiques/2_langages_et_programmation/Pseudo_code/)
+    - [Utilisation de bibliothèque](1_Programmation_et_algorithmiques/2_langages_et_programmation/Utilisation_de_bibliotheque/)
+    - [Documentation d'une fonction (docstring)](1_Programmation_et_algorithmiques/2_langages_et_programmation/Documentation_d_une_fonction/)   
+    - [Jeux de tests](1_Programmation_et_algorithmiques/2_langages_et_programmation/Jeux_de_tests/)  
+    - [Complexite](1_Programmation_et_algorithmiques/2_langages_et_programmation/Complexite/)
 - __Types construits__    
     - Tuples (p-uplets)
     - Tableaux   
