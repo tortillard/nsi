@@ -4,11 +4,11 @@ Le but de ce TP est d'écrire une fonction `info_nombre` prenant aucun paramètr
 - la somme des entiers allant jusqu'à `n`  
 - la table de multiplication de `n`  
 - la factorielle de `n`  
-- un triagnle sous forme d'étoile de hauteur `n`  
+- un triangle sous forme d'étoile de hauteur `n`  
 
 Voici un exemple du résultat attendu pour `n = 5` 
 
-```Python
+```
 Saisissez un nombre : 5
 
 La somme des entiers de 5 est 15
@@ -55,13 +55,13 @@ Ecrire une fonction `factorielle` qui prend un entier `n` en paramètre et qui r
 
 ## Triangle  
 Nous allons ici renvoyer un triangle dessiné sous forme de chaine de caractère.  
-Ce triangle est dessiné à l'aide du caractère `"*"`. 
+Ce triangle est dessiné à l'aide du caractère `*`. 
 Il se construit en plusieurs _étages_ :
-- à l'étage 1 il y a `"*"` 
-- en dessous, à l'étage 2 il y a `"**"` 
-- en dessous, à l'étage 3 il y a `"***"` 
+- à l'étage 1 il y a `*` 
+- en dessous, à l'étage 2 il y a `**` 
+- en dessous, à l'étage 3 il y a `***` 
 - ...
-- en dessous, à l'étage 3 il y a `"*"` repété `n` fois.  
+- en dessous, à l'étage `n` il y a `*` repété `n` fois.  
  
 Ecrire une fonction `triangle_hauteur` qui prend un entier `n` en paramètre et qui renvoie le triangle comme expliqué ci-dessus.  
 
@@ -89,5 +89,13 @@ Ecrire une fonction `triangle_hauteur` qui prend un entier `n` en paramètre et 
 >
 > # L'exemple ci dessous fonctionne
 > print("J'ai " + str(age) + "ans et l'année prochaine j'aurais " + str(age + 1) + " ans")
+> ```
+
+> [!TIP]  
+> De la même manière que la fonction `str` il existe la fonction `int` qui permet de convertit un objet sous forme d'entier.  
+> Par exemple : 
+> ```Python
+> mot = "16"
+> nombre = int(mot)
 > ```
 
