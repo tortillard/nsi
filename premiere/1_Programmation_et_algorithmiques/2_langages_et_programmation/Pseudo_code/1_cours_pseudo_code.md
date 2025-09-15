@@ -113,7 +113,7 @@ FONCTION additionne_borne(a, b)
         resultat = resultat + i
     FIN POUR
 
-    RETOURNER resultat 
+    RETOURNER resultat ****
 
 FIN FONCTION
 ```
