@@ -17,9 +17,9 @@ Il faut donc __importer__ le fichier `equipes.py` dans le fichier `tournoi_de_fo
 
 - Dans le cas évoqué ci-dessus on peut imaginer que le programmeur est l'auteur des 2 programmes. Il __faut placer dans le même dossier les 2 programmes__ afin que l'un puisse importer l'autre
 - De manière générale les bibliothèques que nous allons utiliser ne sont pas écrites par nos soins, elles sont soit disponible sur internet. Des sites comme [PyPI](https://pypi.org/) permettent d'explorer les bibliothèques Python mise en ligne par la communauté qu'il est possible de récupérer.  
-- Enfin, certaines bibliothèques sont déjà présentes sur nos machines puisqu'elles ont été installés lors de l'installation de l'éditeur Python.  
+- Enfin, certaines bibliothèques sont déjà présentes sur nos machines puisqu'elles ont été installés lors de l'installation de votre IDE(Pycharm, Thonny, ...) Python.  
 
-## Mot clé import en Python
+## Le mot clé `import` en Python
 
 Pour importer une bibliothèque dans un programme en Python, on utilise le mot clé `import`.  
 Ce mot peut être utilisé de 2 manières différentes.  
