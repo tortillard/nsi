@@ -23,7 +23,8 @@ Il faut donc __importer__ le fichier `equipes.py` dans le fichier `tournoi_de_fo
 
 Pour importer une bibliothèque dans un programme en Python, on utilise le mot clé `import`.  
 Ce mot peut être utilisé de 2 manières différentes.  
-- `from nom_bibliotheque import nom_fonction` : Une fois cette ligne écrite il est possible de faire appel à `nom_fonction`. Il est possible de remplacer `nom_fonction` par `*` afin de pouvoir faire appel à toutes les fonctions de `nom_bibliotheque`
+- `from nom_bibliotheque import nom_fonction` : Une fois cette ligne écrite il est possible de faire appel à `nom_fonction` dans notre programme. 
+Par ailleurs on peut remplacer `nom_fonction` par `*` afin de pouvoir faire appel à toutes les fonctions de `nom_bibliotheque`
 - `import nom_bibliotheque` : Une fois cette ligne écrite il est également possible de faire appel à toutes les fonctions mais chaque appel devra être précédée du nom de la bibliothèque. Voici un exemple d'utilisation `nom_bibliotheque.nom_fonction`
 
 ## Exemples d'utilisation  
