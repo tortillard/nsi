@@ -26,9 +26,9 @@
     - [Listes Python(Tableaux dynamique)](1_Programmation_et_algorithmiques/3_types_construits/Listes_python_tableaux_dynamique/)  
     - [Dictionnaires](1_Programmation_et_algorithmiques/3_types_construits/Dictionnaires)    
 - __Traitement de données en tables__     
-    - Indexation, recherche, tri et fusion de tables  
+    - [Indexation, recherche, tri et fusion de tables](1_Programmation_et_algorithmiques/4_traitement_de_donnees_en_tables)  
 - __Algorithmique__      
-    - [Parcours de tableau]()     
+    - [Parcours de tableau](1_Programmation_et_algorithmiques/5_algorithmique/Parcours_de_tableau)     
     - [Recherche dichotomique](1_Programmation_et_algorithmiques/5_algorithmique/Recherche_dichotomique)       
     - [Algorithme de Tri(Sélection, Insertion)](1_Programmation_et_algorithmiques/5_algorithmique/Algorithme_de_tris/)   
     - [Algorithmes gloutons](1_Programmation_et_algorithmiques/5_algorithmique/Algorithme_glouton/)  
