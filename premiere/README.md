@@ -22,18 +22,17 @@
     - [Jeux de tests](1_Programmation_et_algorithmiques/2_langages_et_programmation/Jeux_de_tests/)  
     - [Complexite](1_Programmation_et_algorithmiques/2_langages_et_programmation/Complexite/)
 - __Types construits__    
-    - Tuples (p-uplets)
-    - Tableaux   
-    - Dictionnaires  
+    - [Tuples (p-uplets)](1_Programmation_et_algorithmiques/3_types_construits/Tuples/)  
+    - [Listes Python(Tableaux dynamique)](1_Programmation_et_algorithmiques/3_types_construits/Listes_python_tableaux_dynamique/)  
+    - [Dictionnaires](1_Programmation_et_algorithmiques/3_types_construits/Dictionnaires)    
 - __Traitement de données en tables__     
     - Indexation, recherche, tri et fusion de tables  
 - __Algorithmique__      
-    - Parcours de tableau   
-    - Recherche dichotomique     
-    - Tri par séléction   
-    - Tri par insertion   
-    - Algorithmes gloutons   
-    - Algorithme des k plus proches voisins    
+    - [Parcours de tableau]()     
+    - [Recherche dichotomique](1_Programmation_et_algorithmiques/5_algorithmique/Recherche_dichotomique)       
+    - [Algorithme de Tri(Sélection, Insertion)](1_Programmation_et_algorithmiques/5_algorithmique/Algorithme_de_tris/)   
+    - [Algorithmes gloutons](1_Programmation_et_algorithmiques/5_algorithmique/Algorithme_glouton/)  
+    - [Algorithme des k plus proches voisins(KNN)](1_Programmation_et_algorithmiques/5_algorithmique/KNN/)    
         
 
 ### [Représentation des données : types et valeur de base](2_Representation_des_donnees)      
