@@ -2,7 +2,7 @@
 
 ## Utilité  
 ### Définition  
-La norme IEEE 829-1998 définiti les tests (informatique) comme suit :
+La norme IEEE 829-1998 définit les tests (informatique) comme suit :
 
 > _"Un test est un ensemble de cas à tester (état de l'objet à tester  avant exécution du test,_ 
 > _actions ou données en entrée, valeurs ou observations attendues, et état de l'objet après exécution),_
@@ -14,7 +14,7 @@ La norme IEEE 829-1998 définiti les tests (informatique) comme suit :
 - L'objectif principal des _tests_ en informatique est de s'assurer que le programme écrit est __correct__.  
 Cela permet d'identifier les problèmes à corriger ou d'améliorer le code déjà écrit.  
 
-- Le __[programmation par pair](https://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me)__(pair programming) ou la _revue de code_(code review) sont des pratiques courrantes dans le monde du travail en informatique. Dans ces situations les jeux de tests ont un rôle important pour l'avancer dans le travail.  
+- La __[programmation par pair](https://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me)__(pair programming) ou la _revue de code_(code review) sont des pratiques courrantes dans le monde du travail en informatique. Dans ces situations les jeux de tests ont un rôle important pour l'avancer dans le travail.  
 
 - L'apparition des jeux de tests à donné naissance à une nouvelle façon de programmer __[le développement piloté par les tests](https://fr.wikipedia.org/wiki/Test_driven_development)__ (TDD pour Test-Driven Developpement). Le but de cette méthode consiste à écrire les tests avant d'écrire le code. Cela peut paraitre contre intuitif mais cette méthode permet d'éviter un bon nombre d'erreur. 
 
@@ -23,7 +23,8 @@ Cela permet d'identifier les problèmes à corriger ou d'améliorer le code déj
 De manière précise, il existe différentes façon d'écrire un test selon le langage de programmation utilisés, la suite du cours montre un exemple en Python.    
 Plus généralement, l'écriture d'un test se fait de la manière suivante  :  
   - écriture des entrées à tester   
-  - appel des fonctions(ou du code) à tester sur les entrées ET __vérification du résultat attendu__   
+  - appel des fonctions(ou du code) à tester sur les entrées 
+  - __vérification du résultat attendu__   
 
 ### Exemple  
 
@@ -42,8 +43,8 @@ Voici l'écriture d'un test pour la fonction compte_voyelles
 
 ```Pseudo
 mot_a_tester = "BONJOUR"
-res = compte_voyelles(mot_a_tester) == 3
-AFFICHE(res)
+res = compte_voyelles(mot_a_tester) 
+AFFICHE(res == 3)
 ```
 
 ## Qualité et Quantité 

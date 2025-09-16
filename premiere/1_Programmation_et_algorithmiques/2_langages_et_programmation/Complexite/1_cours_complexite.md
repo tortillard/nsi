@@ -9,8 +9,8 @@
 
 ## Complexité en temps  
 Il existe 2 grands types de complexité. 
-- __La complexité en temps__ : En "combien" de temps notre algorithme va s'exécuter.
-- La complexité en espace : Combien d'espace mémoire notre algorithme à besoin pour s'exécuter.  
+- __La complexité en temps__ : "Combien" de temps notre algorithme va s'exécuter.
+- La complexité en espace : "Combien" d'espace mémoire notre algorithme à besoin pour s'exécuter.  
 
 En spécialité NSI, nous allons nous intéresser à la __complexité en temps__.
 
@@ -19,10 +19,11 @@ En spécialité NSI, nous allons nous intéresser à la __complexité en temps__
 
 Pour calculer la complexité d'un algorithme il faut choisir ce que l'on compte dans celui ci.  
 Plusieurs choix soffrent à nous.  
-Compter les opérations arithmétiques (`+`, `*`, `-`, `/` , `//`, etc...) aurait pu être une solution, mais cela est peu représentatif au niveau du coût.  
+Compter les opérations arithmétiques (`+`, `*`, `-`, `/` , `//`, etc...) aurait pu être une solution, mais cela est peu représentatif car elles sont peu coûteuse.   
 
-Les opérations les plus coûteuses dans un alorithme sont __les comparaisons__ (`<`, `>=`, `==`, ...).  
-Ainsi pour définir la complexité d'un algorithme il suffit de compter le nombre de comparaison qu'il effectue en fonction de __LA TAILLE DES DONNEES EN ENTREE__.  
+Les opérations les plus coûteuses dans un alorithme sont __les comparaisons__ (`<`, `>=`, `==`, ...).   
+
+Ainsi, pour définir la complexité d'un algorithme il suffit de compter le nombre de comparaison qu'il effectue en fonction de __LA TAILLE DES DONNEES EN ENTREE__.  
 
 
 ### Exemple  
