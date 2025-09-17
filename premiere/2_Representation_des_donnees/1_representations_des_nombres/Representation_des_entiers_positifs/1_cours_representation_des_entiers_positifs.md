@@ -1,4 +1,4 @@
-# Représentation des nombres entiers dans une machine  
+# Représentation des nombres entiers positifs dans une machine  
 
 
 ## Introduction  
