@@ -45,3 +45,6 @@ def from_csv_to_li_dico(nom_de_fichier_csv):
     return res
 
 ```
+
+> [!WARNING] 
+> Le fichier csv doit être placé au même endroit que le fichier Python 
