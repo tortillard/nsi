@@ -12,11 +12,21 @@ Une table correspond à une grande __liste__ de d'objets représentés général
 
 ## Fichiers CSV
 Il existe certains logiciel qui permettent de manipuler des tables, c'est ce qu'on appel des tableurs(LibreOffice Calc, ...).  
-Une table peut être écrit dans différents formats. Un format de table simple d'utilisation et bien connu est le format __CSV__.  
-Le format __CSV__ pour (_"Comma Separate Value"_ ou en français _"valeurs séparées par des virgules"_) définit les objets d'une table.   
-On choisit d'abord un caractère spécial (généralement `,` ou `;`) qui permettra de séparés les différentes valeurs de nos objets.  
-On écrit sur la première ligne le nom des __descripteurs__ séparés par le caractère spécial, puis on passe une ligne.  
-On écrit ensuite ligne par ligne les objets en attribuant une valeur aux descripteurs de la première ligne. Chaque valeur est séparés par le caractère spécial.  
+Une table peut être écrit dans différents formats. Un format de fichier simple d'utilisation et bien connu pour les tables est le format __CSV__.  
+
+
+> [!IMPORTANT]
+> L'extension `.csv` signifie `comma separate value` en français `valeur séparé par des virgule`.
+
+> [!IMPORTANT]
+> Les fichiers `.csv` sont généralement constituée comme suit :   
+> - La première ligne définit les __attributs__ de nos données  
+> - Le reste des lignes constituent l'ensemble de nos données   
+>   - Une ligne représente une donnée, appelée également un __enregistrement__   
+>   - Chaque __enregistrement__ possède des __valeurs__ associées aux __attributs__ et séparés par des virgules(ou point-virgules, ...)
+
+> [!TIP]
+> Vous pouvez ouvrir un fichier `.csv` avec un éditeur de texte(bloc-notes par exemple) pour voir à quoi ressemble votre fichier. 
 
 ![Exemple csv](img/exemple_csv.png)  
 
