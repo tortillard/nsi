@@ -36,7 +36,7 @@ Voici un exemple de code permettant de manipuler les fichiers CSV.
 ```Python
 from csv import *
 
-def from_csv_to_li_dico(nom_de_fichier_csv):
+def from_csv_to_li_dico(nom_de_fichier_csv : str) -> list[dict] :
     res = []
     with open(nom_de_fichier_csv) as file: # on ouvre le fichier csv. Dans la suite du code, ce fichier sera nommé 'file'
         dict_reader = DictReader(file) # on créer un objet DictReader qui lit le fichier csv où chaque ligne est un dictionnaire
@@ -47,4 +47,4 @@ def from_csv_to_li_dico(nom_de_fichier_csv):
 ```
 
 > [!WARNING] 
-> Le fichier csv doit être placé au même endroit que le fichier Python 
+> Le fichier csv doit être placé au même endroit que le fichier Python pour que le code s'exécute correctement
