@@ -122,3 +122,13 @@ class Voiture:
             "il" + chaine_hybride + "et est disponible dans les couleurs " + chaine_couleur
 ```
 
+> [!TIP] Création de l'objet   
+> Une fois que la classe est écrite il est possible de créer des instances de cette classe ainsi que d'appeler les méthodes sur cet objet. On appele les méthodes en notant le nom de l'objet suivi d'un point.  
+> ```
+> v1 = Voiture("BipbipCar")
+> v1.get_nom_model()
+> v1.set_annee_fabrication(2014)
+> ...
+> ```
+
+
