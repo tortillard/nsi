@@ -9,12 +9,11 @@
 ## Chapitres  
 
 ### [Structure de données](1_Structure_de_donnees/)   
-- __Programmation orienté objet(POO)__
-  - [Généralités]()  
-  - [Listes, Piles et Files]()  
-  - [Graphe]()  
-  - [Arbre]()  
-
+- __Programmation orienté objet(POO)__  
+  - [Généralités](1_Structure_de_donnees/1_Generalites/1_cours_poo.md)  
+  - [Listes, Piles et Files](1_Structure_de_donnees/2_Listes_Piles_Files/)  
+  - [Arbre](1_Structure_de_donnees/3_Arbres/1_cours_arbres.md)  
+  - [Graphe](1_Structure_de_donnees/4_Graphes/1_cours.md)  
 
 ### [Base de données](2_Base_de_donnees/)   
 - __Base de données__ 

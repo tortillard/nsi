@@ -18,7 +18,7 @@ Donner pour ce graphe:
 Donner pour ce graphe:
 1. Le nombre de sommets  
 2. Le degré sortant du sommet 8  
-3. Le degré entrant du sommet 5
+3. Le degré entrant du sommet 5  
 4. Les chemins allant de 1 à 5   
 5. Un cycle commencant par le sommet 3  
 6. Représenter ce graphe sous forme de listes d'adjacences  
