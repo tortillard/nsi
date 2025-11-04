@@ -130,5 +130,6 @@ Voilà comment s'organise un combat entre 2 personnages.
 - Le second joueur fait pareil   
 - On distribue aléatoirement un objet aux deux joueurs   
 - On affiche un détails des points(attaque, defense, vie) de chaque personnage  
+- Si le combat n'est pas terminé on recommence 
 - Lorsque le combat est terminé on affiche le nom du vainqueur !
 
