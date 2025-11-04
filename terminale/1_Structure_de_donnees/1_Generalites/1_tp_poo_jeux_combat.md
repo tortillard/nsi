@@ -105,8 +105,8 @@ Pour cela nous allons utiliser la bibliothèque `random` qui contient une foncti
 
 Cette méthode diminue la vie du `perso_defendant` en lui infligeant un nombre de __dégats__. 
 Les dégats d'une attaque sont le __maximum__ entre : 
-  - $\text{attaque\_perso\_attaquant} - \text{defense\_perso\_defendant}$
-  - 10
+  - `attaque_perso_attaquant - defense_perso_defendant`
+  - `10`
 
 Ce calcul signifie : _"Même si un personnage a une très faible attaque et/ou son adversaire a une très grosse défense, un coup infligera 10 points au minimum"_
 
