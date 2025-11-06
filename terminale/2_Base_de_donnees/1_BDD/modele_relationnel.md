@@ -56,12 +56,16 @@ Bibliothèque = {
 > __Ici, l'attribut _ISBN_ est une clé étrangère de la table _Emprunte_ faisant référence à la clé primaire de la table _Bibliothèque_ .__
 
 > [!NOTE] Schéma relationnel
-> 
+> __Un schéma relationnel__ est la structure d'une base de données. 
+> Il inclus toutes les relations entre les tables, les attributs, les clés primaires et étrangères.  
+> Par exemple le schéma relationnel de notre base de données composé des 2 tables _Bibliothèque_ et _Emprunte_ est le suivant  
+> ![schéma relationnel de l'exemple](img/schema_relationnel_bibliotheque.png)  
+> Voici l'exemple du schéma relationnel d'une autre base de données    
+> ![schéma relationnel d'une base de données extrait 25-NSIJ2G11](img/schema_relationnel.png)
 
 
-- clef primaire
-- clef étrangère
-   
+
+
 
 ## Contraintes d’intégrité 
 (domaine, relation et
