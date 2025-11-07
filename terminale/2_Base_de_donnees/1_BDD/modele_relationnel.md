@@ -64,9 +64,23 @@ Bibliothèque = {
 > ![schéma relationnel d'une base de données extrait 25-NSIJ2G11](img/schema_relationnel.png)
 
 
+## Contraintes d’intégrité  
+
+Les __contraintes d’intégrité__ sont des règles que l'on appliques à une base de données pour garantir la validité des données.  
+Il existe plusieurs contraintes d'intégrités mais les principales sont les suivantes : 
+
+> [!INFO] Contrainte de __domaine__    
+> Définit les valeurs possibles qu'un attribut peut prendre. Par exemple un attribut _Année_ dans une table de livres doit contenir des nombres entiers. Si une année à pour valeur une chaine de caractère alors la contrainte de domaine ne sera pas satisfaite.  
+
+> [!INFO] Contrainte de __relation__    
+> Ici on parle de contrainte __d'UNE relation__ (ou d'une table) .    
+> Cette contrainte impose des règles sur les attributs d'une même table, qui peuveut être logiques, ...
+> En classe de terminale, nous nous concentrons sur __l'unicité__ des enregistrements dans une table.  
+> Une façon de garantir que chaque enregistrement soit unique est de définir une clé primaire dans notre table. 
 
 
+> [!INFO] Contrainte de __référence__    
+> Assure que les valeurs d’une clé étrangère dans une table correspondent aux valeurs d’une clé primaire dans une autre table. Cela établit un lien entre les deux tables.  
+Par exemple, la table _Emprunts_ contient une clé étrangère _ISBN_, elle correspond à la clé primaire _ISBN_ de _Bibliothèque_ ce qui satisfait la contrainte de référence.   
 
-## Contraintes d’intégrité 
-(domaine, relation et
-référence).
+
