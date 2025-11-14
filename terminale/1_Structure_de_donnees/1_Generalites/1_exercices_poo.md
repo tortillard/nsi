@@ -121,3 +121,5 @@ Lors de l'appel de cette méthode une partie se lance.
 - Commençant par demander au premier joueur les coordonnées qu'il choisit. 
 - Place le symbole si la case est disponible
 - etc...
+
+N'oubliez pas d'afficher les informations nécessaire aux joueurs. (état de la grille, vainqueur du match ou égalité ?, etc...)
