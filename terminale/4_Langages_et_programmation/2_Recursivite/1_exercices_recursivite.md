@@ -27,5 +27,45 @@ On rappel qu'il est possible de récupérer des 'tranches'(slices) d'une liste a
 `somme_liste([3,9,2,11])` doit renvoyer `25`.
 
 ## Exercice 4  
+On cherche à écrire une fonction récursive `fibo(n)`, qui renvoi le résultat de la suite de fibonacci au rang `n`.  
 
+Voici comment est définie la suite de Fibonacci : 
+- Si n = 0 ou 1 on renvoie n 
+- Sinon F(n) = F(n-1) + F(n-2)
+
+Voici les premiers termes de la suite de Fibonacci :
+|   n   | fibo(n) |
+| :---: | :-----: |
+|   0   |    0    |
+|   1   |    1    |
+|   2   |    1    |
+|   3   |    2    |
+|   4   |    3    |
+|   5   |    5    |
+|   6   |    8    |
+
+ 
+## Exercice 5  
+Écrire une fonction récursive `retourne(chaine)` qui renvoie le retournement d'une chaine de caractères.  
+Par exemple, `retourne("Salut")` renvoi `"tulaS"`
+
+## Exercice 6  
+Compléter la fonction récursive ci-dessous. 
+
+```Python
+def est_pair(n):
+    """
+    Renvoie True si n est pair, False sinon
+    CU: n >= 0
+    Exemple :
+    >>> est_pair(1)
+    False
+    >>> est_pair(6)
+    True
+
+    """
+    assert n >= 0 ,'n doit être positif ou nul'
+    ...
+
+```
 
