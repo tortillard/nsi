@@ -1,6 +1,75 @@
 # Exercices POO
 
-## Exercice Morpion 
+## Exercicce - Base secrète   
+
+### 1. 
+Créer une classe `BaseSecrete`. Le constructeur prend en paramètre `t` et `coordonnees`.  
+`t` est un entier représentant la taille de la base secrète et `coordonnees` est un tuple d'entier.  
+
+### 2.    
+Une base secrète possède 4 attributs :  
+- `taille` : équivaut à `t`  
+- `x` : La coordonnée x équivaut au premier nombre de `coordonnees`  
+- `y` : La coordonnée y équivaut au second nombre de `coordonnees`      
+- `objets` : Une liste d'objets présent dans la maison  
+
+Ajoutez les attriburs à `BaseSecrete`
+
+### 3.
+Ecrire la méthode `ajouter_objets(self, nom_objet)` qui permet d'ajouter un objet nommé `nom_objet` aux `objets` de la base secrète.  
+
+### 4.  
+Ecrire la méthode `retirer_objets(self, nom_objet)` qui permet de retirer l'objet `nom_objet` aux `objets` de la base secrète.  
+
+### 5.  
+Ecrire la méthode `infos_base(self)` qui renvoi une chaine de caractère contenant les informations de la base secrète.  
+Voici un exemple de renvoi : 
+```
+La base est de taille 1 est se trouve aux cordonnées x : 23 et y : 37.
+Voici la liste des objets dans la base : Canape, TV, Lit, Table
+```
+
+## Exercice - Un robot et des boites   
+
+Dans ce exercice, nous allons créer une classe représentant un robot capable de porter des boîtes. 
+Le robot possède une capacité maximale de poids qu'il peut transporter. 
+
+### 1  
+Créer une classe `Boite`. Le constructeur prend en paramètre `nom` et `charge`. 
+
+### 2.  
+Une boite possède 2 attributs : 
+- `etiquette` : équivalente au `nom` renseigné lors de la création de la boite
+- `poids` : équivalent à la `charge` renseigné lors de la création de la boite
+
+Ajoutez les attributs à la classe `Boite` 
+
+### 3.  
+Créer 2 méthodes 
+- `get_etiquette()` qui permet de renvoyer la valeur de l'attribut `etiquette`  
+- `get_poids()` qui permet de renvoyer la valeur de l'attribut `poids`  
+
+### 4.  
+Créer une boite nommé `"colisA"` avec une charge de `37`, puis faites appels aux méthodes écrites à la question 3 sur cette boite pour vérifier votre travail.  
+
+### 5. 
+Créer une classe `Robot`. Le constructeur prend en paramètre `charge_maximum` qui permet d'initialiser la charge maximale que peut supporter le robot.  
+
+### 6.  
+Un robot possède 3 attributs :  
+- `capacite_maximale` : équivalente à la `charge_maximum` du robot    
+- `poids_total` : la somme des poids des boites portées par le robot (initialisé à 0)      
+- `boites` : la liste des boites portées par le robot (initialisé à une liste vide )   
+
+### 7. 
+... 
+
+
+
+
+
+
+## Exercice - Morpion 
 Le but de cet exercice est de programmer le jeu du Morpion. 
 Pour ce faire créer un dossier `Morpion`.
 Puis créer dans ce dossier le fichier `Grille.py` et `Jeu.py`
