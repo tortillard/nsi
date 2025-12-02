@@ -42,7 +42,8 @@ Exemples :
 - `possede_espace("Parfum")` renvoi `False`.   
 
 
-## Exercice 4  
+## Exercice 4   
+
 Écrire une fonction `pair_impair` qui prend en paramètre une chaine de caractère composé uniquement de chiffres nomée `str_chiffres`.  
 Cette fonction parcours la chaine de caractère un par un et :  
 - affiche `pair !` quand le caractère parcouru est un chiffre pair   
