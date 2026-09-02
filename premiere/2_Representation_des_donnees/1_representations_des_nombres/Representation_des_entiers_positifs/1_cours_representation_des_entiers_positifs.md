@@ -15,7 +15,7 @@ Au début de l'informatique, il a évidemment fallut s'attaquer à la représent
 
 ## Représentation des nombres de manière générale  
 
-![trois](img/nombres_entiers/trois.drawio.png)  
+![trois](../img/nombres_entiers/trois.drawio.png)  
 
 Cette image nous montre le nombre 3 représenté dans la langue française, en nombre latin, en base décimal et enfin en sinogrammes mandarin. 
 
@@ -46,7 +46,7 @@ Voyons les particularités de la base 2.
 
     Par exemple le nombre $37$ peut se décomposer de la manière suivante    
     $1 \times 32 + 0 \times 16 + 0 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1$  
-    $1 \times 2⁵ + 0 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2⁰$  
+    $1 \times 2⁵ + 0 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2⁰ $  
 
     De la même manière que pour la base 10, on récupère le chiffre qui sert de facteur devant chaque puissance de 2(ici 1, 0, 0, 1, 0 et 1) puis on les écrits les uns à la suite des autres. On obtient ainsi `100101`.    
 
@@ -62,7 +62,7 @@ Prenons par exemple le nombre écrit en binaire suivant `10101`. Nous voulons sa
 
 Il suffit de décomposer sous forme de puissance de 2 ce nombre.   
 On a donc :    
-    $1 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2⁰$    
+    $1 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2⁰ $    
     $1 \times 16 + 0 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1$    
     $16 + 4 + 1$  
     $21$   
