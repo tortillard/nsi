@@ -32,7 +32,7 @@ Voyons les particularités de la base 10.
 
     Par exemple le nombre $4623$ peut se décomposer de la manière suivante  
     $4 \times 1000 + 6 \times 100 + 2 \times 10 + 3 \times 1$    
-    $4 \times 10³ + 6 \times 10² + 2 \times 10¹ + 3 \times 10⁰$    
+    $4 \times 10³ + 6 \times 10² + 2 \times 10¹ + 3 \times 10^0$    
 
 On récupère le chiffre qui sert de facteur devant chaque puissance de 10(ici 4, 6, 2 et 3) puis on les écrits les uns à la suite des autres. On obtient ainsi `4623`.    
 
@@ -46,7 +46,7 @@ Voyons les particularités de la base 2.
 
     Par exemple le nombre $37$ peut se décomposer de la manière suivante    
     $1 \times 32 + 0 \times 16 + 0 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1$  
-    $1 \times 2⁵ + 0 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2⁰ $  
+    $1 \times 2⁵ + 0 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2^0$  
 
     De la même manière que pour la base 10, on récupère le chiffre qui sert de facteur devant chaque puissance de 2(ici 1, 0, 0, 1, 0 et 1) puis on les écrits les uns à la suite des autres. On obtient ainsi `100101`.    
 
@@ -62,7 +62,7 @@ Prenons par exemple le nombre écrit en binaire suivant `10101`. Nous voulons sa
 
 Il suffit de décomposer sous forme de puissance de 2 ce nombre.   
 On a donc :    
-    $1 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2⁰ $    
+    $1 \times 2⁴ + 0 \times 2³ + 1 \times 2² + 0 \times 2¹ + 1 \times 2^0$    
     $1 \times 16 + 0 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1$    
     $16 + 4 + 1$  
     $21$   
@@ -82,7 +82,7 @@ Voici la méthode :
 - Le nombre en binaire apparaît alors : il suffit de prendre tous les restes de bas en haut.  
 
 Voici l'application de la méthode afin de trouver l'écriture binaire du nombre `42` :  
-![division successive](img/nombres_entiers/division_successive.png)  
+![division successive](../img/nombres_entiers/division_successive.png)  
 
 Ainsi le nombre `42` s'écrit en binaire `101010`.  
 
