@@ -1,4 +1,4 @@
-![Jeux de cartes](img/jeux_de_cartes.png)  
+![Jeux de cartes](img/nombres_entiers/jeux_de_cartes.png)  
 
 ## Exercices  
 
