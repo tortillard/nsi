@@ -37,9 +37,9 @@
 
 ### [Représentation des données : types et valeur de base](2_Representation_des_donnees)      
 - [Représentation des nombres](2_Representation_des_donnees/1_representations_des_nombres)
-    - [Représentation des entiers positifs](2_Representation_des_donnees/1_representations_des_nombres/1_cours_representation_des_entiers_positifs.md)    
-    - [Représentation des entiers relatifs](2_Representation_des_donnees/1_representations_des_nombres/2_cours_representations_des_entiers_relatifs.md)    
-    - [Représentation des réels](2_Representation_des_donnees/1_representations_des_nombres/3_cours_representation_des_reels.md)    
+    - [Représentation des entiers positifs](2_Representation_des_donnees/1_representations_des_nombres/Representation_des_entiers_positifs/)    
+    - [Représentation des entiers relatifs](2_Representation_des_donnees/1_representations_des_nombres/Representation_des_entiers_relatifs/)    
+    - [Représentation des réels](2_Representation_des_donnees/1_representations_des_nombres/Representation_des_reels/)    
 - [Valeurs booléennes](2_Representation_des_donnees/2_valeurs_booleennes)    
     - Opérateurs et expressions booléens, circuits logique   
 - [Représentation d'un texte en machine](2_Representation_des_donnees/3_representation_d_un_texte_en_machine) 

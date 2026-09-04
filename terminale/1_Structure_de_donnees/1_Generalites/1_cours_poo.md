@@ -3,18 +3,28 @@
 ## Généralités  
 Un paradigme de programmation est une __façon(philosophie, manière d'aborder, ...)__ de programmer.    
 Lorsqu'un problème doit être résolu informatiquement on choisit un paradigme de programmation __adéquat__ pour le résoudre.  
-Parmis ces paradigmes, on retrouve la __Programmation Orienté Objet(POO)__,  impérative, fonctionnelle, etc...
-Les types `int`, `float`, `bool`, etc... sont déjà présents dans Python initialement, la POO nous permet de définir nos propres types.  
+Parmis ces paradigmes, on retrouve la __Programmation Orienté Objet(POO)__,  impérative, fonctionnelle, etc...  
+__Les types `int`, `float`, `bool`, etc... sont déjà présents dans Python initialement, la POO nous permet de définir nos propres types.__  
 
 ## Vocabulaire  
 En POO, on écrit des __classes__ pour définir des nouveaux types. 
-Chaque __instance__ d'une __classe__ permet de créer un __objet__.   
-On peut faire l'analogie avec un __model de voiture__(classe), qui permet de créer une __voiture__(objet).  
-Évidemment, il est possible de créer plusieurs __voiture__ à partir d'un __model__.  
+Une fois la classe écrite on peut créer des __instances__ de cette classe.  
+Chaque __instance__ correspond à un __objet__.   
+On peut faire l'analogie avec une __recette de cookies__(classe), qui permet de créer des __cookies__(objet).  
+Évidemment, il est possible de créer plusieurs __cookies__(objets) à partir d'une __recette de cookies__(classe).  
 
 On définit dans la __classe__ des __attributs__ et des __méthodes__.  
-- Les __attributs__ d'une classe sont les caractéristiques communes de chaque objet.  
-- Les __méthodes__ d'une classe sont les fonctions qu'il est possible d'appliquer à nos objets.  
+> [!TIP] Les attributs 
+> Les __attributs__ d'une classe sont des variables communes aux objets que l'on souhaite définir.
+>  - par exemple : Une recette de cookie peut avoir un attribut `nb_cookies` qui stocke le nombre de cookies que la recette à permis de faire
+
+> [!TIP] Les méthodes 
+> Les __méthodes__ d'une classe sont les "fonctions" qu'il est possible d'appliquer à nos objets.  
+>  - par exemple : Une recette de cookie peut avoir une méthode `enfourne` permettant de faire cuire nos cookies. 
+> 
+> ⚠️ ATTENTION ⚠️ 
+>  1. Le terme "fonction" est à bannir pour parler des __méthodes__ d'une classe.
+>  2. On fait appel à une méthode avec un `.` comme dans 
 
 ## En Python  
 Exemple : On souhaite écrire une classe `Voiture`.   
@@ -56,7 +66,7 @@ class Voiture:
 
 > [!TIP] Les méthodes
 > On complète l'écriture de notre classe en écrivant des __méthodes__.  
-> Les méthodes sont les fonctions que seul notre objet peut appeler.  
+> Les méthodes sont les "fonctions" que seul notre objet peut appeler.  
 > On peut classer en 3 catégories les méthodes.  
 > - Les _accesseurs_('getters') : Ces méthodes ont pour unique but de renvoyer la valeur d'un attribut  
 > - Les _modificateurs_('setters') : Ces méthodes ont pour unique but de modifier la valeur d'un attribut  
