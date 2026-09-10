@@ -73,10 +73,10 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 
 ## Exercice 8  
 
-1. Il est possible de déterminer si un nombre est pair ou non simplement en regardant sa représentation en binaire. Comment ?  
-2. Que pouvons nous dire du nombre de bits maximum nécessaire à l'écriure d'une addition avec des nombres écrits en binaire ?    
-3. Que pouvons nous dire du nombre de bits maximum nécessaire à l'écriure d'une multiplication avec des nombres écrits en binaire ?      
-4. Quel est le nombre de bits nécessaire pour écrire les nombres 3 ? 11 ? N ?     
+1. Il est possible de déterminer si un nombre est pair ou non simplement en regardant sa représentation en binaire. Comment ?   
+2. On réalise l'addition `a + b = c` avec `a,b` et `c` des nombres écrits en binaire. Combien de bits il faut au maximum pour écrire `c` ?   
+3. On réalise la multiplication `a * b = c` avec `a,b` et `c` des nombres écrits en binaire. Combien de bits il faut au maximum pour écrire `c` ?  
+
 
 
 
@@ -130,5 +130,6 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 Écrire les nombres suivants en base 10(décimale)  
 
 1. $(111)_2$    
-2. $(234)_8$  
-3. $C7_{16}$  
+2. $C7_{16}$  
+3. $24_{16}$  
+4. $3A_{16}$  
