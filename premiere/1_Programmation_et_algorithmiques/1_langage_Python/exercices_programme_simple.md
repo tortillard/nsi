@@ -4,13 +4,15 @@
 
 Certaines de ces fonctions sont utiles pour les exercices suivants. Utilisez les quand cela est __nécessaire__.  
 
-> [TIP]
+> [!TIP]
 > __Lorsqu'il est écrit 'afficher' dans une consigne on utilise la fonction `print(contenu_a_afficher)`__  
 
+> [!TIP]
 > __Fonctions `int(donnee)` et `str(donnee)`__. 
 > Ces fonctions permettent de convertir __le type__ de la donnée prise en entrée. 
 > Ainsi `int(donnee)` convertit `donnee` en `int` de même `str(donnee)` convertit `donnee` en `str`. 
 
+> [!TIP]
 > __Fonction `resultat = input(texte)`__ 
 > Cette fonction permet de récupérer un `resultat` entrée par un utilisateur. Il est possible d'ajouter du `texte` pour préciser ce que l'on souhaite attendre de l'utilisateur. 
 > Exemple : `age_sous_forme_de_chaine_de_caractere = input("Quel est votre âge ?")` 
