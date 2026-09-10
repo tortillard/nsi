@@ -2,8 +2,9 @@
  
 ## Fonctions utiles 
 
-Certaines de ces fonctions sont utiles pour les exercices suivants. Utilisez les quand cela est __nécessaire__.
+Certaines de ces fonctions sont utiles pour les exercices suivants. Utilisez les quand cela est __nécessaire__.  
 
+> [TIP]
 > __Lorsqu'il est écrit 'afficher' dans une consigne on utilise la fonction `print(contenu_a_afficher)`__  
 
 > __Fonctions `int(donnee)` et `str(donnee)`__. 
