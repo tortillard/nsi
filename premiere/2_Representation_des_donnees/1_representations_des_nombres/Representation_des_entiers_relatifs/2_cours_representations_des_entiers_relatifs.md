@@ -69,12 +69,12 @@ Une autre représentation des nombres entiers signés permet de régler ce probl
 Il y a certaines étapes à suivre afin de représenter un nombre en complément à 2.  
 Initialement on donne une taille sur laquelle on souhaite représenter nos nombres (8 bits, 16 bits, etc ...).    
 Ensuite 2 possibilités s'offrent à nous.  
-    - Soit on souhaite représenter un nombre positif :    
-      - Dans ce cas la, on le représenter en binaire comme d'habitude    
-    - Soit on souhaite représenter un nombre négatif :   
-      - Premièrement on prends la représentation positif de ce nombre   
-      - On inverse tout les bits, c'est à dire qu'on change les `0` en `1` et les `1` en `0`    
-      - Puis on ajoute 1 au résultat précédent  
+- Soit on souhaite représenter un nombre positif :    
+  - Dans ce cas la, on le représenter en binaire comme d'habitude    
+- Soit on souhaite représenter un nombre négatif :   
+  - Premièrement on prends la représentation positif de ce nombre   
+  - On inverse tout les bits, c'est à dire qu'on change les `0` en `1` et les `1` en `0`    
+  - Puis on ajoute 1 au résultat précédent  
 
 Exemple :  
 On souhaite représenter en binaire le nombre `-11` sur 5 bits en complément à 2.    
