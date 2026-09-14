@@ -77,6 +77,7 @@ Utilisez la méthode des divisions successives pour donner la représentation en
 2. On réalise l'addition `a + b = c` avec `a,b` et `c` des nombres écrits en binaire. Combien de bits il faut au maximum pour écrire `c` ?   
 3. On réalise la multiplication `a * b = c` avec `a,b` et `c` des nombres écrits en binaire. Combien de bits il faut au maximum pour écrire `c` ?  
 
+4. Quel est le nombre de bits nécessaire à l'écriture d'un entier en binaire ?
 
 
 
