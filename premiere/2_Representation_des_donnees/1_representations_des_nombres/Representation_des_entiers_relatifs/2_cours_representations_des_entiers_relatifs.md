@@ -70,29 +70,29 @@ Il y a certaines étapes à suivre afin de représenter un nombre en complément
 Initialement on donne une taille sur laquelle on souhaite représenter nos nombres (8 bits, 16 bits, etc ...).    
 Ensuite 2 possibilités s'offrent à nous.  
 - Soit on souhaite représenter un nombre positif :    
-  - Dans ce cas la, on le représenter en binaire comme d'habitude    
+  - Dans ce cas la, on le représente en binaire comme d'habitude    
 - Soit on souhaite représenter un nombre négatif :   
   - Premièrement on prends la représentation positif de ce nombre   
   - On inverse tout les bits, c'est à dire qu'on change les `0` en `1` et les `1` en `0`    
   - Puis on ajoute 1 au résultat précédent  
 
 Exemple :  
-On souhaite représenter en binaire le nombre `-11` sur 5 bits en complément à 2.    
+On souhaite représenter en binaire le nombre `-12` sur 5 bits en complément à 2.    
 
-- On représente le nombre `11` en binaire sur 5 bits cela nous donne `01011`    
-- On inverse chaque bit de cette représentation autrement dit on passe de `01011` à `10100`   
-- Enfin on ajoute 1 au résultat on passe donc de `10100` à `10101`  
+- On représente le nombre `12` en binaire sur 5 bits cela nous donne `01100`    
+- On inverse chaque bit de cette représentation autrement dit on passe de `01100` à `10011`   
+- Enfin on ajoute 1 au résultat on passe donc de `10011` à `10100`  
 
-La représentation de `-11` en binaire sur 5 bits en complément à 2 est `10101`.      
-Autrement dit, si on additionne `01011`(c'est à dire 11) et `10101`(c'est à dire -11) nous devrions obtenir 0.    
+La représentation de `-12` en binaire sur 5 bits en complément à 2 est `10100`.      
+Autrement dit, si on additionne `01100`(c'est à dire 12) et `10100`(c'est à dire -12) nous devrions obtenir 0.    
 Vérifions :  
 
 
 
 | Position des bits | bit pour réprésenter la retenue | 5ème bit | 4ème bit | 3ème bit | 2ème bit | 1er bit |
 | :---------------: | :-----------------------------: | :------: | :------: | :------: | :------: | :-----: |
-|                   |                                 |    0     |    1     |    0     |    1     |    1    |
-|         +         |                                 |    1     |    0     |    1     |    0     |    1    |
+|                   |                                 |    0     |    1     |    1     |    0     |    0    |
+|         +         |                                 |    1     |    0     |    1     |    0     |    0    |
 |         =         |                1                |    0     |    0     |    0     |    0     |    0    |
 
-On obtient bien 0 sur 5 bits lorsque l'on additionne la représentation de `11` et `-11`.  
+On obtient bien 0 sur 5 bits lorsque l'on additionne la représentation de `12` et `-12`.  
