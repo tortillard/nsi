@@ -1,8 +1,8 @@
 ## Exercice 1    
  
-1. En complément à deux, quel intervalle d’entiers relatifs peut-on représenter avec des mots de 8 bits ?   Combien de valeurs sont représentées ?    
- 
-2. Même question avec des mots de 32 bits et 64 bits.     
+1. Quelle est la valeur la __plus grande__ qu'il est possible de représenter en complément à 2 sur 8 bits ?   
+2. Même question avec la valeur la __plus petite__ ?  
+3. Qu'en est-il pour des nombres écrit en complément à 2 sur 2, 4 et __n__ bits ?       
 
 
 ## Exercice 2    
