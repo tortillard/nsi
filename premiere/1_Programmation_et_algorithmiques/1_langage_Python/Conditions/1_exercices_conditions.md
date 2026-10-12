@@ -40,6 +40,6 @@ Si cela n'est pas encore fait, modifiez votre fonction pour que lorsque la `note
 Dans votre fonction commencé par définir une variable nommée `mdp` en lui attribuant la valeur que vous souhaitez.  
 Votre fonction doit renvoyer `True` si `tentative` est égal à `mdp` et `False` sinon.    
 
-Bonus : Réecrire cette fonction sur une seule ligne.  
+Bonus : Réécrire cette fonction sur une seule ligne.  
 
 
