@@ -3,12 +3,12 @@
 
 ## Les types de base  
 
-|       Français        | Anglais  | Python  |    Exemples de valeurs     | Mutable(modifiable) |
-| :-------------------: | :------: | :-----: | :------------------------: | :-----------------: |
-|    Nombres entiers    | Integer  |  `int`  |        `4` ou `-7`         |Oui|
-|    Nombre décimaux    | Floating | `float` |      `9.3` ou `-11.0`      |Oui|
-| Chaines de caractères |  String  |  `str`  | `"Hello"` ou `'@kwm78E-$'` |Non|
-|        Booléen        | Boolean  | `bool`  |     `True` ou `False`      |Oui|
+|       Français        | Anglais  | Python  |    Exemples de valeurs     |
+| :-------------------: | :------: | :-----: | :------------------------: |
+|    Nombres entiers    | Integer  |  `int`  |        `4` ou `-7`         |
+|    Nombre décimaux    | Floating | `float` |      `9.3` ou `-11.0`      |
+| Chaines de caractères |  String  |  `str`  | `"Hello"` ou `'@kwm78E-$'` |
+|        Booléen        | Boolean  | `bool`  |     `True` ou `False`      |
 
 > [!TIP]  
 > Pour vérifier les types en Python il est possible d'utiliser la fonction `type()`    
