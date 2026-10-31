@@ -23,7 +23,7 @@ La table ASCII est très pratique pour représenter les __textes écrits en Angl
 En revanche, on remarque que les caractères accentuées ne peuvent pas être représentée. Il n'est donc pas possible d'écrire un texte en français.  
 
 
-## 2ème système d'encodage ISO-8859-1  
+## 2ème système d'encodage : ISO-8859-1   
 
 __L'Organisation Internationale de Normalisations(ou ISO en anglais)__ à défini une norme informatique afin de représenter plus de caractères que ne le permet la table ASCII.   
 La première partie de cette norme se nomme __ISO-8859-1__ également appelée __Latin 1__.
@@ -34,7 +34,7 @@ Voici la table __ISO-8859-1__
 
 ![iso 88591](img/iso88591.png)
 
-Chaque point de code est représenté sur 8 bits c'est à dire 1 octet.  
+Chaque code est représenté sur 8 bits c'est à dire 1 octet.  
 Dans la table ISO-8859-1 on a: 
 
 - __Les 128 caractères de la table ASCII__  
@@ -44,11 +44,27 @@ Dans la table ISO-8859-1 on a:
 ## Unicode : standard  
 
 L'ensemble de tout les caractères utilisés à travers chaque langages du monde à fait naître un standards informatique appelé __Unicode__.  
-Ce standard est développer par le consortium du même nom : __Consortium Unicode__.  
+Ce standard est développé par le consortium du même nom : __Consortium Unicode__.  
+__Unicode__ n'est __pas__ un système d'encodage, c'est un __standard__ qui à pour but d'attribuer un point de code à chaque caractère.  
+__Unicode__ à ensuite crée différent systèmes d'encodage dont le plus utilisé est l'__UTF-8__.  
+
+## 3ème système d'encodage : UTF-8 
+
+UTF-8 code chaque caractère sur 1,2,3 ou 4 octets.
+Au maximum on peut utiliser 32 bits ce qui donne $2^{32} \approx 4 \text{milliards}$.   
+Avec une telle représentation on est certain que l'ensemble des caractères utilisable dans le monde possède un code unique.  
+
+Les 128 premiers caractères d'UTF-8 sont ceux de la table ASCII qui tiennent sur 1 octet. Les caractères accentuée eux sont codés sur plusieurs octets.  
 
 
-Chaque caractère peut être codé sur 4 octets. C'est à dire qu'on utilise 32 bits et $2^{32} \approx 4 \text{milliards}$. 
-Avec une telle représentation on est certain que l'ensemble des caractères utilisable dans le monde peuvent posséder leur unique point de code.  
+
+> [!TIP]  
+> Remarque : __Des problèmes de conversion peuvent survenir entre 2 textes qui n'utilisent pas le même format d'encodage.__    
+> En utilisant l'__ISO-8859-1__, n'importe quel caractère possède un code représenté sur 1 octet.   
+> Ce n'est pas le cas pour l'__UTF-8__.    
+> Ainsi le caractère `ù` à pour code :  
+> - `F9` en `ISO-8859-1`   
+> - `C3 B9` en `UTF-8`  
 
 
 Le standard Unicode est constitué :
@@ -58,3 +74,8 @@ Le standard Unicode est constitué :
 
 Les différentes tables Unicode sont disponibles sur le site wikipédia juste [ici](https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode_(0000-0FFF))
 
+
+
+Note : Il existe également d'autre système d'encodage Unicode :
+- UTF-16 : code chaque caractère sur __2 octets minimum__. 
+- UTF-32 : code chaque caractère sur __4 octets__
