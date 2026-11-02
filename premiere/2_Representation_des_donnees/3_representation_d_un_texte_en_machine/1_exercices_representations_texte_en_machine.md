@@ -60,27 +60,29 @@ Nous allons, faire les étapes nécessaire pour __retrouver le code UTF-8__ du c
 Le message codé suivant vous parvient :  
 $63\space 61\space 66\space C3\space A9$   
 
-1. Vous supposez que ce message est codé en UTF-8.En vous servant des aides plus bas décoder et donner le message obtenu.   
-2. Faites la même chose avec le système d'encodage ISO-8859-1.  
-
+1. Vous supposez que ce message est codé en ISO-8859-1. En vous servant des aides plus bas décoder et donner le message obtenu.   
+2. Faites la même chose avec le système d'encodage UTF-8.  
 
 Aide : 
 
-Caractère | ISO-8859-1 | UTF-8
-----------|------------|------
-é         | E9         | C3 A9
-è         | E8         | C3 A8
-ê         | EA         | C3 AA
-à         | E0         | C3 A0
-ç         | E7         | C3 A7
-ù         | F9         | C3 B9
-€         | Non représentable | E2 82 AC
-c         | 63         | 63
-a         | 61         | 61
-f         | 66         | 66
-e         | 65         | 65
-h         | 68         | 68
-g         | 67         | 67
-z         | 7A         | 7A
-u         | 75         | 75
-n         | 6E         | 6E
+| Caractère |    ISO-8859-1     |  UTF-8   |
+| :-------: | :---------------: | :------: |
+|     é     |        E9         |  C3 A9   |
+|     è     |        E8         |  C3 A8   |
+|     ©     |        A9         |  C2 A9   |
+|     ê     |        EA         |  C3 AA   |
+|     à     |        E0         |  C3 A0   |
+|     ç     |        E7         |  C3 A7   |
+|     ù     |        F9         |  C3 B9   |
+|     €     | Non représentable | E2 82 AC |
+|     f     |        66         |    66    |
+|     c     |        63         |    63    |
+|     e     |        65         |    65    |
+|     h     |        68         |    68    |
+|     g     |        67         |    67    |
+|     z     |        7A         |    7A    |
+|     a     |        61         |    61    |
+|     u     |        75         |    75    |
+|     n     |        6E         |    6E    |
+|     Ã     |        C3         |  C3 83   |
+
