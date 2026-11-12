@@ -106,13 +106,13 @@ Les circuits logiques sont fondamentaux dans la conception des systèmes numéri
 
 Description des portes logiques Les portes logiques sont les éléments de base des circuits logiques. Voici les principales portes logiques :  
     - Porte ET : Produit une sortie vraie (1) uniquement si toutes les entrées sont vraies.  
-    ![porte and](img/portes_logiques/porte_and.png)  
+    ![porte and](portes_logiques/porte_and.png)  
     - Porte OU : Produit une sortie vraie si au moins une des entrées est vraie.  
-    ![porte or](img/portes_logiques/porte_or.png)  
+    ![porte or](portes_logiques/porte_or.png)  
     - Porte NON : Inverse l'état de l'entrée (0 devient 1 et vice versa).  
-    ![porte not](img/portes_logiques/porte_not.png)  
+    ![porte not](portes_logiques/porte_not.png)  
     - Porte XOR(Ou exclusif) : Produit une sortie vraie si un nombre impair d'entrées est vrai.  
-    ![porte xor](img/portes_logiques/porte_xor.png)  
+    ![porte xor](portes_logiques/porte_xor.png)  
 
 
 ### Circuit logique et expression booléenne  
@@ -122,13 +122,13 @@ On peut donc à partir d'un __circuit logique__ en déduire une __expression boo
 
 Par exemple, l'expression `(NON (A) ET B) OU C` peut être réalisée en utilisant :  
 - Une porte `NON` sur A. Pour donner `NON(A)`      
-![non a](img/portes_logiques/non_a.png)  
+![non a](portes_logiques/non_a.png)  
 
 - Une `ET` pour NON(A) et B. Pour donner `NON(A) ET B`    
-![non a et b](img/portes_logiques/non_a_et_b.png)  
+![non a et b](portes_logiques/non_a_et_b.png)  
 
 - Une porte `OU` sur (NON (A) ET B) et C. Pour donner `(NON(A) ET B) OU C`  
-![non a et b ou c](img/portes_logiques/non_a_et_b_ou_c.png)
+![non a et b ou c](portes_logiques/non_a_et_b_ou_c.png)
 
 
 
