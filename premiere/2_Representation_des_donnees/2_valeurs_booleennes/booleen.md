@@ -194,6 +194,51 @@ On repete l'opération pour les opérateurs binaire qui incluent 3 variables, pu
 |   1   |   0   |   0   |   0    |      0      |        0         |
 |   1   |   0   |   1   |   0    |      0      |        1         |
 |   1   |   1   |   0   |   0    |      0      |        0         |
-|   1   |   1   |   1   |   0    |      0      |        1         |  
+|   1   |   1   |   1   |   0    |      0      |        1         |
 
-Enfin la table de vérité permet de montrer pour quelles valeur de vérité de A, B et C l'expression booléenne `NON(A) ET B OU C` est vraie ou fausse. 
+La table de vérité permet de montrer pour quelles valeur de vérité de A, B et C l'expression booléenne `NON(A) ET B OU C` est vraie ou fausse. 
+Par exemple, en regardant la dernière colonne du tableau on peut voir que l'expression `NON(A) ET B OU C` est vraie lorsque 
+- (A est Faux) et (B est Faux) et (C est Vrai) (traduction de la première ligne)
+- (A est Faux) et (B est Vrai) et (C est Faux) (traduction de la deuxième ligne)
+- etc...
+
+
+## Les équations logiques 
+Enfin il est possible de définir des équations logiques à l'aide des tables de vérités.  
+Comme en mathématique une équation possède __le symbole égal__ et établi une relation de vérité entre :
+- une variable de __sortie__(ou une expression contenant des variables de sorties)
+- et les variables d'éntrées 
+
+Pour cela il suffit de prendre chaque ligne de la table de vérité pour lesquelles la valeur de sortie est 1.  
+Puis écrire un produit de variables avec l'opérateur `ET`:
+- On utilise la variable telle quelle si elle vaut 1.
+- On utilise l'opérateur NOT (ou une notation avec une barre) si elle vaut 0.
+ 
+Par exemple, on considère 3 variables d'entrée __A,B et C__ qui allume la variable de sortie  __S__ selon les valeurs de la table de vérité suivant :   
+
+|   A   |   B   |   C   |   S   |
+| :---: | :---: | :---: | :---: |
+|   0   |   0   |   0   |   0   |
+|   0   |   0   |   1   |   0   |
+|   0   |   1   |   0   |   1   |
+|   0   |   1   |   1   |   1   |
+|   1   |   0   |   0   |   0   |
+|   1   |   0   |   1   |   1   |
+|   1   |   1   |   0   |   1   |
+|   1   |   1   |   1   |   0   |
+
+
+Ainsi on peut dire que l'équation logique de S se note :  
+$S = (NON(A) \space ET \space B \space ET \space NON(C)) \newline OU \space (NON(A) \space ET \space B \space ET \space C) \newline OU \space (A \space ET \space NON(B) \space ET \space C)\newline OU \space (A \space ET \space B \space ET \space NON(C))$
+
+On remarque que les équations peuvent rapidement être longue il est donc d'usage de les simplifier.   
+Pour cela, il existe une méthode appelé les tableaux de _Karnaugh_ que nous ne développerons pas dans ce cours.  
+A la place nous allons simplement regarder plus précisément notre table de vérité.  
+En s'interessant uniquement aux lignes pour lesquels S vaut 1.    
+Il faut observer des __cohérences sur les valeurs des variables d'entrées__.    
+Par exemple,
+- Quand A est Faux et B est Vrai on remarque que S vaut 1
+- Enfin quand A est Vrai et (B xor C) est Vrai alors S vaut 1 également 
+
+Ainsi on peut simplifier en notant 
+$S = ((NON(A) \space ET \space B) \newline OU \space (A \space ET \space B \space XOR \space C))$
