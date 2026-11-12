@@ -21,10 +21,9 @@ Pour chaque expression booléenne précédente dessiner le schéma associée ave
 
 
 ## Exercice 2 
-Allez sur Atrium, dans l'onglet enseignement cliquez sur Capytale et entrez le code de l'activité suivante : `e968-4842066`. (exo 1 seulement)  
+Activité Capytale : additionneur binaire en cliquant sur [ce lien](https://capytale2.ac-paris.fr/web/c/0f77-12765067/hdf)
 
-## Exercice 3 
-Allez sur Atrium, dans l'onglet enseignement cliquez sur Capytale et entrez le code de l'activité suivante : `b373-4797922`.
+
 
 
 
