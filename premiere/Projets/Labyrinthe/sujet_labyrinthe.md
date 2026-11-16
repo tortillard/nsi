@@ -49,3 +49,30 @@ def afficher_labyrinthe(grille):
     """Affiche le labyrinthe dans la console."""
     pass
 ```
+
+## Partie 2 — Résoudre le labyrinthe
+
+Programmer un personnage qui cherche un __chemin__ entre le __départ__ et la __sortie__.
+
+Le programme doit :
+
+- partir de la case 2 ;
+- explorer les cases voisines accessibles(les cases voisines sont celles suivant les points cardinaux N,S,E,O) ;
+- éviter les murs et les cases déjà visitées ;
+- s’arrêter lorsqu’il trouve la sortie 3 ;
+- afficher le chemin trouvé en remplaçant ses cases par 4.
+
+> ![IMPORTANT] Q4
+> Compléter la fonction suivante qui renvoi le chemin trouvé par votre personnage
+```python
+def resoudre_labyrinthe(grille):
+    """Cherche un chemin et renvoie le chemin trouvé."""
+    pass
+```
+
+
+## Partie 3 — Graphique
+> ![IMPORTANT] Q5
+> Utiliser une bibliothèque graphique qui permet de représenter votre labyrinthe.
+> Utilisez un style de votre choix pour définir, le personnage(un animal ? un monstre ?), le point de départ (une porte ? un verrou ?), et toutes les autres cases du labyrinthe. 
+
