@@ -138,7 +138,7 @@ Par exemple, l'expression `(NON (A) ET B) OU C` peut être réalisée en utilisa
 Une __table de vérité__ est un outil qui permet de représenter toutes les combinaisons possibles des valeurs d'entrée d'une expression booléenne et les résultats correspondants.  
 Elle est utilisée pour analyser et comprendre le comportement d'une expression booléenne ou d'un circuit logique.  
 
-Dressons la table de vérité de l'expression `(NON (A) ET B) OU C`.  
+Dressons la table de vérité de l'équation `S = (NON (A) ET B) OU C`.  
 
 Pour dresser une table de vérité il faut tout d'abord dresser une colonne pour chaque variable de notre expression.    
 On remplit ces colonnes par des `0` et des `1` (ou `Faux` et `Vrai`), de telles sortes à ce que l'on puisse évaluer toutes les combinaisons possibles de valeur booléennes entre les variables.  
@@ -196,7 +196,7 @@ On repete l'opération pour les opérateurs binaire qui incluent 3 variables, pu
 |   1   |   1   |   0   |   0    |      0      |        0         |
 |   1   |   1   |   1   |   0    |      0      |        1         |
 
-La table de vérité permet de montrer pour quelles valeur de vérité de A, B et C l'expression booléenne `NON(A) ET B OU C` est vraie ou fausse. 
+La table de vérité permet de montrer pour quelles valeur de vérité de __A, B et C__ l'expression booléenne `NON(A) ET B OU C` est vraie ou fausse. 
 Par exemple, en regardant la dernière colonne du tableau on peut voir que l'expression `NON(A) ET B OU C` est vraie lorsque 
 - (A est Faux) et (B est Faux) et (C est Vrai) (traduction de la première ligne)
 - (A est Faux) et (B est Vrai) et (C est Faux) (traduction de la deuxième ligne)
