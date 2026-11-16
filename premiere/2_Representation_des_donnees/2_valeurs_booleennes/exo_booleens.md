@@ -21,6 +21,9 @@ Pour chaque expression booléenne précédente dessiner le schéma associée ave
 Activité Capytale : additionneur binaire en cliquant sur [ce lien](https://capytale2.ac-paris.fr/web/c/0f77-12765067/hdf)
 
 
+## Exercice 3 
+Activité Capytale : exercice de préparation au TP noté sur [ce lien](https://capytale2.ac-paris.fr/web/c/5b13-12860241/hdf)
+
 
 
 
