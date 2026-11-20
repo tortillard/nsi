@@ -25,5 +25,15 @@ Activité Capytale : additionneur binaire en cliquant sur [ce lien](https://capy
 Activité Capytale : exercice de préparation au TP noté sur [ce lien](https://capytale2.ac-paris.fr/web/c/5b13-12860241/hdf)
 
 
+## Exercice préparation 
 
+| A2 | A2 | s1 | s2 | b1 | b2 |
+|----|----|----|----|----|----|
+| 0  | 0  | 1  | 0  | 1  | 0  |
+| 0  | 1  | 0  | 1  | 0  | 0  |
+| 1  | 0  | 1  | 1  | 0  | 1  |
+| 1  | 1  | 0  | 1  | 0  | 1  |
+
+Q1 : équations logique 
+Q2 : circuit
 
